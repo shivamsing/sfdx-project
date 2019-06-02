@@ -1,6 +1,7 @@
 {
   "orgName": "DreamHouse Realty",
   "edition": "Developer",
+  "features": ["FieldService", "AuthorApex"],
   "settings": {
     "orgPreferenceSettings": {
       "s1EncryptedStoragePref2": false
