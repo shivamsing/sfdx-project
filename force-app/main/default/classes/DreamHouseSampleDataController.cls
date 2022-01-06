@@ -1,5 +1,5 @@
 global with sharing class DreamHouseSampleDataController {
-    //Test Changes
+    //Test Changes 1.0
     @RemoteAction
     global static void deleteAll() {
         DELETE [SELECT ID FROM property__c];    
