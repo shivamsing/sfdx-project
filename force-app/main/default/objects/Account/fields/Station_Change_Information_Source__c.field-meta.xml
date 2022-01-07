@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Station_Change_Information_Source__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter where the information about the change originated from.</inlineHelpText>
+    <label>Station Change - Information Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Broadcaster Outreach</fullName>
+                <default>false</default>
+                <label>Broadcaster Outreach</label>
+            </value>
+            <value>
+                <fullName>FCC Filing Monitor</fullName>
+                <default>false</default>
+                <label>FCC Filing Monitor</label>
+            </value>
+            <value>
+                <fullName>GA Team</fullName>
+                <default>false</default>
+                <label>GA Team</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

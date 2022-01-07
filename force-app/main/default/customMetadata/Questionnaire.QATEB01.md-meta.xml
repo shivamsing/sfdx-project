@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QATEB01</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Trenching, Excavation, and Boring</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QATEB01_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">811 (One Call) is required to be contacted, and the prescribed wait time completed, before digging activities commence. 811 will provide a ticket number to verify this process has been followed.
+If the crew is digging with-in 3ft of any underground utility markings they must confirm the exact location and depth of the utility by potholing. No machines may be used with-in 3ft of any marked utility.         CFR 1926.651(b)(2)</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QATEB01__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Does the crew have an active ticket for utility location services?</value>
+    </values>
+</CustomMetadata>

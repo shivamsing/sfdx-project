@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exception_Type</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED( Exception_Type__c )</errorConditionFormula>
+    <errorDisplayField>Exception_Type__c</errorDisplayField>
+    <errorMessage>The type of request cannot be changed once created. If the type of exception request for the site needs to change cancel this record and create a new request from the site record.</errorMessage>
+</ValidationRule>

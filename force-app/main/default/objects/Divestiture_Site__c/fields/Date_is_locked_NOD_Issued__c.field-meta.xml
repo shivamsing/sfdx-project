@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_is_locked_NOD_Issued__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(  ISBLANK(  Notice_of_Decom_NOD__c   ) , 
+FALSE,
+TRUE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checkbox that is checked once a the Notice of Decom has been issued for this site.</inlineHelpText>
+    <label>Date is locked (NOD Issued)</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QASD02</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Safety Documentation</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QASD02_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Substance-specific documentation that communicates physical, health and environmental hazards, safe handling, protection and first aid/medical treatment measures, is required hazardous chemicals or materials used for work activities. This requirement can include &quot;household&quot; chemicals if workplace exposure exceeds duration and frequency greater than normal consumer use. Digital access of SDS&apos;s is acceptable if every affected employee has access to the data without having to leave their work station. CFR 1910.1200 (g)</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QASD02__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Are SDS&apos;s (Safety Data Sheets) available on site for required hazardous substances?</value>
+    </values>
+</CustomMetadata>

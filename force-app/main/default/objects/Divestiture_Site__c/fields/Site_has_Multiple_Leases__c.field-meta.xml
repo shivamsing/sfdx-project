@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Site_has_Multiple_Leases__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>this field will be checked if the Divestiture Site has Multiple Leases Abstracts &gt; 1</description>
+    <externalId>false</externalId>
+    <label>Site has Multiple Leases</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

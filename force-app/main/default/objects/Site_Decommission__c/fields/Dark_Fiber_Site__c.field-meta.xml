@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dark_Fiber_Site__c</fullName>
+    <externalId>false</externalId>
+    <formula>Divestiture_Site__r.Dark_Fiber_Site__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Changed on the Divestiture Site Record.</inlineHelpText>
+    <label>Dark Fiber Site</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

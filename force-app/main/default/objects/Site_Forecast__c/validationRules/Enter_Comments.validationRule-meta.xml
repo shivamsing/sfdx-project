@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enter_Comments</fullName>
+    <active>true</active>
+    <description>Whenever, any of the three fields are updated, we are requested user to provide the reasons</description>
+    <errorConditionFormula>AND(!ISCHANGED(Comment_History__c),
+(OR(ISCHANGED(New_RF_Date__c ),
+ISCHANGED( Remove_RF_Forecast_List__c ),
+ISCHANGED( Forced_Removal__c ))))</errorConditionFormula>
+    <errorDisplayField>Enter_Comments__c</errorDisplayField>
+    <errorMessage>Please provide the Reason in Enter Comments</errorMessage>
+</ValidationRule>

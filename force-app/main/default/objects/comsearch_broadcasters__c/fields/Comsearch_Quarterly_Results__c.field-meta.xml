@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comsearch_Quarterly_Results__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>2nd Comsearch Quarterly Results</label>
+    <referenceTo>comsearch_results__c</referenceTo>
+    <relationshipLabel>Comsearch Broadcasters (2nd Comsearch Quarterly Results)</relationshipLabel>
+    <relationshipName>Comsearch_Broadcasters</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

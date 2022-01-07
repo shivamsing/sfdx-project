@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Authorized Climber</fullName>
+                <default>false</default>
+                <label>Authorized Climber</label>
+            </value>
+            <value>
+                <fullName>Basic Rigger</fullName>
+                <default>false</default>
+                <label>Basic Rigger</label>
+            </value>
+            <value>
+                <fullName>Competent Climber</fullName>
+                <default>false</default>
+                <label>Competent Climber</label>
+            </value>
+            <value>
+                <fullName>Competent Rigger</fullName>
+                <default>false</default>
+                <label>Competent Rigger</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Trainer - Competent Climber</fullName>
+                <default>false</default>
+                <label>Trainer - Competent Climber</label>
+            </value>
+            <value>
+                <fullName>Trainer - Competent Rigger</fullName>
+                <default>false</default>
+                <label>Trainer - Competent Rigger</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

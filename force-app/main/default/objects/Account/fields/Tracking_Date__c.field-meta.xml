@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tracking_Date__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(  NOT(ISBLANK( Actual_Date__c ))  ,  Actual_Date__c , 
+ IF( NOT( ISBLANK( Projected_Off_Air_Date__c ) ) ,  Projected_Off_Air_Date__c , 
+ IF( AND(NOT( ISBLANK(  Target_Date__c  )), Target_Date_Probability__c  &gt;= (8/10) ) ,   Target_Date__c  ,
+ IF( NOT( ISBLANK( Concurrent_Operations_End_Date__c ) ) ,Concurrent_Operations_End_Date__c ,
+ IF( NOT( ISBLANK( Phase_Completion_Date__c ) )  ,  Phase_Completion_Date__c , 
+Commencement_Date__c )))))</formula>
+    <inlineHelpText>Used for reporting,  the date when the station was off air or most likely to be off air. Logic is:
+1. Actual Off 600MHz Date
+2. Projected Off Air
+3. Agreement Date (prob at 80+)
+3. Concurrent Operations End 
+4.Phase Completion</inlineHelpText>
+    <label>Expected Off air Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

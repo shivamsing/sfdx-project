@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Concurrent_Ops_Actual_Off_Air</fullName>
+    <active>false</active>
+    <description>Concurrent Ops Deals should not have the Actual Off 600 MHz date entered until the station has moved to it&apos;s new channel. If the station has moved then change then remove the &quot;Agreement Type&quot; before entering the Actual Off 600 MHz date. - Deactivated 9/11</description>
+    <errorConditionFormula>CONTAINS( Agreement_Type__c   ,&quot;Concurrent&quot;) &amp;&amp;  Actual_Off_660_Date_Blank_Hidden__c   = False</errorConditionFormula>
+    <errorMessage>Concurrent Ops Deals should not have the Actual Off 600 MHz date entered until the station has moved to it&apos;s new channel. If the station has moved then change then remove the &quot;Agreement Type&quot; before entering the Actual Off 600 MHz date.</errorMessage>
+</ValidationRule>

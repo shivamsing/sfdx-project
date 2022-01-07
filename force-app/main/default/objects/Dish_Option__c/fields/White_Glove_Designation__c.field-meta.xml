@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>White_Glove_Designation__c</fullName>
+    <externalId>false</externalId>
+    <formula>Divestiture_Site__r.White_Glove__c</formula>
+    <inlineHelpText>Special Handling Required- Check this box to update and clearly identify across the Divest Program all records that require White Glove Escalation &amp; Handling.</inlineHelpText>
+    <label>White Glove Designation</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

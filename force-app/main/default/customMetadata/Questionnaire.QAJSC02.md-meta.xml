@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QAJSC02</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Job Site Conditions</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QAJSC02_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Required supplies for ANSI Z308.1 Class A First Aid Kits:                                                                                                              16 Adhesive Bandages, 1&quot; x3&quot;
+1 Adhesive Tape 2.5 yards
+10 Antibiotic Treatment Application
+1 Breathing Barrier 1 Burn Dressing, Gel Soaked, 4&quot; x 4&quot;
+10 Burn Treatment
+1 Cold Pack
+2 Eye Covering
+1 Eye Wash, 1 ounce
+1 First Aid Guide
+6 Hand Sanitizer
+2 Pair Exam Gloves
+1 Roller Bandage, 2&quot; x 4 yards
+1 Scissor
+2 Sterile Pad, 3&quot; x 3&quot;
+2 Trauma Pad, 5&quot; x 9&quot;
+1 Triangular Bandage, 40&quot; x 40&quot; x 56&quot;                               CFR 1910.266 (App A), ANSI Z308.1</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QAJSC02__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Does the First Aid kit present have all required items in sterile condition?</value>
+    </values>
+</CustomMetadata>

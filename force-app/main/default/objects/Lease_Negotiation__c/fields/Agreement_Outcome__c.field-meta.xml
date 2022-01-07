@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agreement_Outcome__c</fullName>
+    <externalId>false</externalId>
+    <label>Agreement Outcome</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agreement Executed</fullName>
+                <default>false</default>
+                <label>Agreement Executed</label>
+            </value>
+            <value>
+                <fullName>No Agreement Reached - prepare for Physical Deconstruction.</fullName>
+                <default>false</default>
+                <label>No Agreement Reached - prepare for Physical Deconstruction.</label>
+            </value>
+            <value>
+                <fullName>T-Mobile Ended Early - No Agreement Reached</fullName>
+                <default>false</default>
+                <label>T-Mobile Ended Early - No Agreement Reached</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

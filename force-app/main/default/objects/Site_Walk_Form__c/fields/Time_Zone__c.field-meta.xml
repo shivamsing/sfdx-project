@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_Zone__c</fullName>
+    <externalId>false</externalId>
+    <label>Time Zone</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pacific Standard Time - PST (GMT-8)</fullName>
+                <default>false</default>
+                <label>Pacific Standard Time - PST (GMT-8)</label>
+            </value>
+            <value>
+                <fullName>Pacific Daylight Time - PDT (GMT-7)</fullName>
+                <default>false</default>
+                <label>Pacific Daylight Time - PDT (GMT-7)</label>
+            </value>
+            <value>
+                <fullName>Mountain Standard Time - MST (GMT-7)</fullName>
+                <default>false</default>
+                <label>Mountain Standard Time - MST (GMT-7)</label>
+            </value>
+            <value>
+                <fullName>Mountain Daylight Time - MDT (GMT-6)</fullName>
+                <default>false</default>
+                <label>Mountain Daylight Time - MDT (GMT-6)</label>
+            </value>
+            <value>
+                <fullName>Central Standard Time - CST (GMT-6)</fullName>
+                <default>false</default>
+                <label>Central Standard Time - CST (GMT-6)</label>
+            </value>
+            <value>
+                <fullName>Central Daylight Time - CDT (GMT-5)</fullName>
+                <default>false</default>
+                <label>Central Daylight Time - CDT (GMT-5)</label>
+            </value>
+            <value>
+                <fullName>Eastern Standard Time - EST (GMT-5)</fullName>
+                <default>false</default>
+                <label>Eastern Standard Time - EST (GMT-5)</label>
+            </value>
+            <value>
+                <fullName>Eastern Daylight Time - EDT (GMT-4)</fullName>
+                <default>false</default>
+                <label>Eastern Daylight Time - EDT (GMT-4)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

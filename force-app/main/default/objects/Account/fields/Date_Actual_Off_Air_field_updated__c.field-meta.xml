@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Actual_Off_Air_field_updated__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to track the actual date the actual off air field was changed (to track if it was earlier than date updated). Reporting field.)</inlineHelpText>
+    <label>Date Actual Off Air field updated</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Date</type>
+</CustomField>

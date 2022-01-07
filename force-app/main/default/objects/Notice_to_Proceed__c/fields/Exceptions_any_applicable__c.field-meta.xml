@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exceptions_any_applicable__c</fullName>
+    <externalId>false</externalId>
+    <label>Exceptions (any applicable)</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Antenna Mounts</fullName>
+                <default>false</default>
+                <label>Antenna Mounts</label>
+            </value>
+            <value>
+                <fullName>Backup Power Harvest</fullName>
+                <default>false</default>
+                <label>Backup Power Harvest</label>
+            </value>
+            <value>
+                <fullName>Cabinet Harvest (back to NTM)</fullName>
+                <default>false</default>
+                <label>Cabinet Harvest (back to NTM)</label>
+            </value>
+            <value>
+                <fullName>Concrete Removal (implied if full deconstruction)</fullName>
+                <default>false</default>
+                <label>Concrete Removal (implied if full deconstruction)</label>
+            </value>
+            <value>
+                <fullName>Crane Lifts (if known)</fullName>
+                <default>false</default>
+                <label>Crane Lifts (if known)</label>
+            </value>
+            <value>
+                <fullName>Fuel Cell System</fullName>
+                <default>false</default>
+                <label>Fuel Cell System</label>
+            </value>
+            <value>
+                <fullName>Generator &amp; Fuel Storage Tank</fullName>
+                <default>false</default>
+                <label>Generator &amp; Fuel Storage Tank</label>
+            </value>
+            <value>
+                <fullName>Use of LL Contractors (e.g. Transmission towers, utility towers, ROW)</fullName>
+                <default>false</default>
+                <label>Use of LL Contractors (e.g. Transmission towers, utility towers, ROW)</label>
+            </value>
+            <value>
+                <fullName>Shelter Removal</fullName>
+                <default>false</default>
+                <label>Shelter Removal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

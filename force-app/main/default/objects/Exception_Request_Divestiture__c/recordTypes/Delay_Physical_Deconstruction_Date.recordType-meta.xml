@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delay_Physical_Deconstruction_Date</fullName>
+    <active>true</active>
+    <label>Delay Physical Deconstruction Date</label>
+    <picklistValues>
+        <picklist>Delay_Cause_Codes__c</picklist>
+        <values>
+            <fullName>Changes in traffic patterns</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nearby upgrade%2Fbuild delayed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Please Select</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sysem issues preventing scheduled RF shut down</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weather conditions</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Exception_Type__c</picklist>
+        <values>
+            <fullName>Change Site To Retain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delay Physical Deconstruction Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delay RF Shutdown Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MT_Good_Cause_Granted__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RF_Delay_Nearby_Upgrade__c</picklist>
+        <values>
+            <fullName>Construction delays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment delivery delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extensive structural modifications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Force Majeure delays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General contractor availability driven by industry changes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jurisdictional delays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leasing delays %28Landlord responsiveness%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-time delivery of backhaul</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Select Option</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site access issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utility delays</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Request_Decsion__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request Additional Justification</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Retain_Cause_Codes__c</picklist>
+        <values>
+            <fullName>Nearby Upgrade%2F Build Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Select Reason</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Traffic Pattern Changes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Retain_Nearby_Upgrade_Build_Cancelled__c</picklist>
+        <values>
+            <fullName>Force Majeure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jurisdictional denials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landlord agreement falls through</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site fails structural analysis</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stage__c</picklist>
+        <values>
+            <fullName>Closed%2FApproved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed%2FCancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Request</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Post Approval Steps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Returned to Requestor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

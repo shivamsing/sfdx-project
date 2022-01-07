@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PO_Type__c</fullName>
+    <description>Was previously PO Type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If your desired selection is not available populate exception field below</inlineHelpText>
+    <label>PO SubType</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>#57 Grey Stone load 1</fullName>
+                <default>false</default>
+                <label>#57 Grey Stone load 1</label>
+            </value>
+            <value>
+                <fullName>#57 Grey Stone load 2</fullName>
+                <default>false</default>
+                <label>#57 Grey Stone load 2</label>
+            </value>
+            <value>
+                <fullName>A&amp;E Design Services</fullName>
+                <default>false</default>
+                <label>A&amp;E Design Services</label>
+            </value>
+            <value>
+                <fullName>Antenna Mounting</fullName>
+                <default>false</default>
+                <label>Antenna Mounting</label>
+            </value>
+            <value>
+                <fullName>Antenna Sector Removal</fullName>
+                <default>false</default>
+                <label>Antenna Sector Removal</label>
+            </value>
+            <value>
+                <fullName>Antennas Only</fullName>
+                <default>false</default>
+                <label>Antennas Only</label>
+            </value>
+            <value>
+                <fullName>Asbestos Testing</fullName>
+                <default>false</default>
+                <label>Asbestos Testing</label>
+            </value>
+            <value>
+                <fullName>Backup Power Harvest</fullName>
+                <default>false</default>
+                <label>Backup Power Harvest</label>
+            </value>
+            <value>
+                <fullName>Bird Study</fullName>
+                <default>false</default>
+                <label>Bird Study</label>
+            </value>
+            <value>
+                <fullName>Cabinet Harvest</fullName>
+                <default>false</default>
+                <label>Cabinet Harvest</label>
+            </value>
+            <value>
+                <fullName>Cabinets and Antennas</fullName>
+                <default>false</default>
+                <label>Cabinets and Antennas</label>
+            </value>
+            <value>
+                <fullName>Cabinets Only</fullName>
+                <default>false</default>
+                <label>Cabinets Only</label>
+            </value>
+            <value>
+                <fullName>Card Harvest</fullName>
+                <default>false</default>
+                <label>Card Harvest</label>
+            </value>
+            <value>
+                <fullName>Concrete Removal</fullName>
+                <default>false</default>
+                <label>Concrete Removal</label>
+            </value>
+            <value>
+                <fullName>Control Descent</fullName>
+                <default>false</default>
+                <label>Control Descent</label>
+            </value>
+            <value>
+                <fullName>Crane Rental</fullName>
+                <default>false</default>
+                <label>Crane Rental</label>
+            </value>
+            <value>
+                <fullName>Dozer</fullName>
+                <default>false</default>
+                <label>Dozer</label>
+            </value>
+            <value>
+                <fullName>Dumpster</fullName>
+                <default>false</default>
+                <label>Dumpster</label>
+            </value>
+            <value>
+                <fullName>Electrical work</fullName>
+                <default>false</default>
+                <label>Electrical work</label>
+            </value>
+            <value>
+                <fullName>Escrow Deposit</fullName>
+                <default>false</default>
+                <label>Escrow Deposit</label>
+            </value>
+            <value>
+                <fullName>Excavator</fullName>
+                <default>false</default>
+                <label>Excavator</label>
+            </value>
+            <value>
+                <fullName>Excess Cabinet Removal</fullName>
+                <default>false</default>
+                <label>Excess Cabinet Removal</label>
+            </value>
+            <value>
+                <fullName>Excessive Cable tray runs</fullName>
+                <default>false</default>
+                <label>Excessive Cable tray runs</label>
+            </value>
+            <value>
+                <fullName>Excessive Site Restoration</fullName>
+                <default>false</default>
+                <label>Excessive Site Restoration</label>
+            </value>
+            <value>
+                <fullName>Extra large excavator</fullName>
+                <default>false</default>
+                <label>Extra large excavator</label>
+            </value>
+            <value>
+                <fullName>Freon Removal</fullName>
+                <default>false</default>
+                <label>Freon Removal</label>
+            </value>
+            <value>
+                <fullName>FRP Removal</fullName>
+                <default>false</default>
+                <label>FRP Removal</label>
+            </value>
+            <value>
+                <fullName>Fuel Cell System</fullName>
+                <default>false</default>
+                <label>Fuel Cell System</label>
+            </value>
+            <value>
+                <fullName>Full Deconstruction</fullName>
+                <default>false</default>
+                <label>Full Deconstruction</label>
+            </value>
+            <value>
+                <fullName>Full Deconstruction - Ground Only</fullName>
+                <default>false</default>
+                <label>Full Deconstruction - Ground Only</label>
+            </value>
+            <value>
+                <fullName>Generator and Fuel Tank Removal</fullName>
+                <default>false</default>
+                <label>Generator and Fuel Tank Removal</label>
+            </value>
+            <value>
+                <fullName>Ice Bridge Removal</fullName>
+                <default>false</default>
+                <label>Ice Bridge Removal</label>
+            </value>
+            <value>
+                <fullName>Inspection Fee</fullName>
+                <default>false</default>
+                <label>Inspection Fee</label>
+            </value>
+            <value>
+                <fullName>LL Management Fee/Application Fee</fullName>
+                <default>false</default>
+                <label>LL Management Fee/Application Fee</label>
+            </value>
+            <value>
+                <fullName>LL preferred GC Fee</fullName>
+                <default>false</default>
+                <label>LL preferred GC Fee</label>
+            </value>
+            <value>
+                <fullName>LL preferred GC PM Fee</fullName>
+                <default>false</default>
+                <label>LL preferred GC PM Fee</label>
+            </value>
+            <value>
+                <fullName>LL Supervision FEE issued to MLGW</fullName>
+                <default>false</default>
+                <label>LL Supervision FEE issued to MLGW</label>
+            </value>
+            <value>
+                <fullName>Man Basket</fullName>
+                <default>false</default>
+                <label>Man Basket</label>
+            </value>
+            <value>
+                <fullName>Masonry Work</fullName>
+                <default>false</default>
+                <label>Masonry Work</label>
+            </value>
+            <value>
+                <fullName>Other (populate exception below)</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Painting</fullName>
+                <default>false</default>
+                <label>Painting</label>
+            </value>
+            <value>
+                <fullName>Permit Application Fees over $500.00</fullName>
+                <default>false</default>
+                <label>Permit Application Fees over $500.00</label>
+            </value>
+            <value>
+                <fullName>Permit fee expeditor</fullName>
+                <default>false</default>
+                <label>Permit fee expeditor</label>
+            </value>
+            <value>
+                <fullName>Power Conductor Removal</fullName>
+                <default>false</default>
+                <label>Power Conductor Removal</label>
+            </value>
+            <value>
+                <fullName>PREVAILING WAGE DIFFERENTIAL</fullName>
+                <default>false</default>
+                <label>PREVAILING WAGE DIFFERENTIAL</label>
+            </value>
+            <value>
+                <fullName>Radios and Hazmat</fullName>
+                <default>false</default>
+                <label>Radios and Hazmat</label>
+            </value>
+            <value>
+                <fullName>Remobilization Fees</fullName>
+                <default>false</default>
+                <label>Remobilization Fees</label>
+            </value>
+            <value>
+                <fullName>Rigging</fullName>
+                <default>false</default>
+                <label>Rigging</label>
+            </value>
+            <value>
+                <fullName>Roof Restoration</fullName>
+                <default>false</default>
+                <label>Roof Restoration</label>
+            </value>
+            <value>
+                <fullName>Shelter Concrete Removal</fullName>
+                <default>false</default>
+                <label>Shelter Concrete Removal</label>
+            </value>
+            <value>
+                <fullName>Shelter Removal</fullName>
+                <default>false</default>
+                <label>Shelter Removal</label>
+            </value>
+            <value>
+                <fullName>Site Restoration</fullName>
+                <default>false</default>
+                <label>Site Restoration</label>
+            </value>
+            <value>
+                <fullName>Site Walk</fullName>
+                <default>false</default>
+                <label>Site Walk</label>
+            </value>
+            <value>
+                <fullName>Site Walk + COP</fullName>
+                <default>false</default>
+                <label>Site Walk + COP</label>
+            </value>
+            <value>
+                <fullName>Skid Steer</fullName>
+                <default>false</default>
+                <label>Skid Steer</label>
+            </value>
+            <value>
+                <fullName>Steel Removal</fullName>
+                <default>false</default>
+                <label>Steel Removal</label>
+            </value>
+            <value>
+                <fullName>Telehandler Reach Truck</fullName>
+                <default>false</default>
+                <label>Telehandler Reach Truck</label>
+            </value>
+            <value>
+                <fullName>Traffic Control</fullName>
+                <default>false</default>
+                <label>Traffic Control</label>
+            </value>
+            <value>
+                <fullName>Transmission and Utility Removal</fullName>
+                <default>false</default>
+                <label>Transmission and Utility Removal</label>
+            </value>
+            <value>
+                <fullName>Tree Removal</fullName>
+                <default>false</default>
+                <label>Tree Removal</label>
+            </value>
+            <value>
+                <fullName>Unscreened Fill Dirt</fullName>
+                <default>false</default>
+                <label>Unscreened Fill Dirt</label>
+            </value>
+            <value>
+                <fullName>Welding</fullName>
+                <default>false</default>
+                <label>Welding</label>
+            </value>
+            <value>
+                <fullName>Aggregate backfill (22 tons)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Aggregate backfill (22 tons)</label>
+            </value>
+            <value>
+                <fullName>Anten Mounting</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Anten Mounting</label>
+            </value>
+            <value>
+                <fullName>Anten Only</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Anten Only</label>
+            </value>
+            <value>
+                <fullName>Antenna Only</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Antenna Only</label>
+            </value>
+            <value>
+                <fullName>Antennas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Antennas</label>
+            </value>
+            <value>
+                <fullName>BP permit overage</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BP permit overage</label>
+            </value>
+            <value>
+                <fullName>Bobcat</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bobcat</label>
+            </value>
+            <value>
+                <fullName>Building Supervision fee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Building Supervision fee</label>
+            </value>
+            <value>
+                <fullName>Bulkhead Panel Replacement&amp;Soffit Repair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bulkhead Panel Replacement&amp;Soffit Repair</label>
+            </value>
+            <value>
+                <fullName>CD5 Permit</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CD5 Permit</label>
+            </value>
+            <value>
+                <fullName>Cabinet Rigging</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cabinet Rigging</label>
+            </value>
+            <value>
+                <fullName>Cabinets &amp; Antenna Removal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cabinets &amp; Antenna Removal</label>
+            </value>
+            <value>
+                <fullName>Carpet protection &amp; labor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Carpet protection &amp; labor</label>
+            </value>
+            <value>
+                <fullName>Concealment removal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Concealment removal</label>
+            </value>
+            <value>
+                <fullName>Concrete Curb Resto</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Concrete Curb Resto</label>
+            </value>
+            <value>
+                <fullName>Concrete pad removal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Concrete pad removal</label>
+            </value>
+            <value>
+                <fullName>Crane Rel</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Crane Rel</label>
+            </value>
+            <value>
+                <fullName>Crane and Roof Hatch repair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Crane and Roof Hatch repair</label>
+            </value>
+            <value>
+                <fullName>Design AMD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Design AMD</label>
+            </value>
+            <value>
+                <fullName>Escrow Inspection Services</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Escrow Inspection Services</label>
+            </value>
+            <value>
+                <fullName>Exception</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Exception</label>
+            </value>
+            <value>
+                <fullName>Expeditor Fee for Pulling BP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Expeditor Fee for Pulling BP</label>
+            </value>
+            <value>
+                <fullName>Fence replacement</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fence replacement</label>
+            </value>
+            <value>
+                <fullName>Full Decom</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Full Decom</label>
+            </value>
+            <value>
+                <fullName>Full Decom - Ground only</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Full Decom - Ground only</label>
+            </value>
+            <value>
+                <fullName>Full Decom LL GC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Full Decom LL GC</label>
+            </value>
+            <value>
+                <fullName>Full Decom to Anten only</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Full Decom to Anten only</label>
+            </value>
+            <value>
+                <fullName>Full Decom to Antenna only</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Full Decom to Antenna only</label>
+            </value>
+            <value>
+                <fullName>Full Decom to Full Decom Ground only</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Full Decom to Full Decom Ground only</label>
+            </value>
+            <value>
+                <fullName>Full Decom to Ground only</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Full Decom to Ground only</label>
+            </value>
+            <value>
+                <fullName>Full Decom to Radio &amp; Hazmat</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Full Decom to Radio &amp; Hazmat</label>
+            </value>
+            <value>
+                <fullName>Full Decom to Radio &amp; Hazmat(Pay &amp; Walk)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Full Decom to Radio &amp; Hazmat(Pay &amp; Walk)</label>
+            </value>
+            <value>
+                <fullName>Full Decom to remob fee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Full Decom to remob fee</label>
+            </value>
+            <value>
+                <fullName>Full decom to Antenna Mount Removal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Full decom to Antenna Mount Removal</label>
+            </value>
+            <value>
+                <fullName>Generator Removal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Generator Removal</label>
+            </value>
+            <value>
+                <fullName>Inspection Services Escrow</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Inspection Services Escrow</label>
+            </value>
+            <value>
+                <fullName>Junction box Adder</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Junction box Adder</label>
+            </value>
+            <value>
+                <fullName>LL Engineer (125/hr)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LL Engineer (125/hr)</label>
+            </value>
+            <value>
+                <fullName>LL preferred GC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LL preferred GC</label>
+            </value>
+            <value>
+                <fullName>LL preferred GC +10%</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LL preferred GC +10%</label>
+            </value>
+            <value>
+                <fullName>Masonry Restoration</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Masonry Restoration</label>
+            </value>
+            <value>
+                <fullName>Nextel Cabinet Removal &amp; Disposal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Nextel Cabinet Removal &amp; Disposal</label>
+            </value>
+            <value>
+                <fullName>Nextel Fuel Cell System</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Nextel Fuel Cell System</label>
+            </value>
+            <value>
+                <fullName>Nextel Install Diamond plate over platform openings</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Nextel Install Diamond plate over platform openings</label>
+            </value>
+            <value>
+                <fullName>Original</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Original</label>
+            </value>
+            <value>
+                <fullName>Pay &amp; Walk - Radio &amp; Hazmat</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pay &amp; Walk - Radio &amp; Hazmat</label>
+            </value>
+            <value>
+                <fullName>Pay and Walk</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pay and Walk</label>
+            </value>
+            <value>
+                <fullName>Permit AMD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Permit AMD</label>
+            </value>
+            <value>
+                <fullName>Permit Application Fees over $500.00 / EXPEDITER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Permit Application Fees over $500.00 / EXPEDITER</label>
+            </value>
+            <value>
+                <fullName>Permit Expediter</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Permit Expediter</label>
+            </value>
+            <value>
+                <fullName>Permit Expeditor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Permit Expeditor</label>
+            </value>
+            <value>
+                <fullName>Permit fee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Permit fee</label>
+            </value>
+            <value>
+                <fullName>Pest control needed for permit</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pest control needed for permit</label>
+            </value>
+            <value>
+                <fullName>Post AM Study</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Post AM Study</label>
+            </value>
+            <value>
+                <fullName>RUBIX Removal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RUBIX Removal</label>
+            </value>
+            <value>
+                <fullName>Radio &amp; Hazmat</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Radio &amp; Hazmat</label>
+            </value>
+            <value>
+                <fullName>Radio &amp; Hazmat to Full Decom</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Radio &amp; Hazmat to Full Decom</label>
+            </value>
+            <value>
+                <fullName>Remobilizatoin fee to get meter</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Remobilizatoin fee to get meter</label>
+            </value>
+            <value>
+                <fullName>Roof Patch</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Roof Patch</label>
+            </value>
+            <value>
+                <fullName>Roof Repair/Maintenance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Roof Repair/Maintenance</label>
+            </value>
+            <value>
+                <fullName>Roofing Restoration</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Roofing Restoration</label>
+            </value>
+            <value>
+                <fullName>SOFFIT REMOVAL &amp; RESTORATION</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SOFFIT REMOVAL &amp; RESTORATION</label>
+            </value>
+            <value>
+                <fullName>Shelter Removal - Nextel</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Shelter Removal - Nextel</label>
+            </value>
+            <value>
+                <fullName>Skid Steer with breaker attachment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Skid Steer with breaker attachment</label>
+            </value>
+            <value>
+                <fullName>Stud Weld Removal/Grinding/Painting</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stud Weld Removal/Grinding/Painting</label>
+            </value>
+            <value>
+                <fullName>UG Conduit Removal/ Restoration</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>UG Conduit Removal/ Restoration</label>
+            </value>
+            <value>
+                <fullName>Wall/sheetrock restoration</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wall/sheetrock restoration</label>
+            </value>
+            <value>
+                <fullName>Water Tank Paint</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Water Tank Paint</label>
+            </value>
+            <value>
+                <fullName>Water Tank Painting</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Water Tank Painting</label>
+            </value>
+            <value>
+                <fullName>Water tank Paint (LL preferred)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Water tank Paint (LL preferred)</label>
+            </value>
+            <value>
+                <fullName>Water tank Welding Resto</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Water tank Welding Resto</label>
+            </value>
+            <value>
+                <fullName>Watertank welding resto</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Watertank welding resto</label>
+            </value>
+            <value>
+                <fullName>Welding of mounts(City preferred)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Welding of mounts(City preferred)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Linked_Station_Call_Sign__c</fullName>
+    <externalId>false</externalId>
+    <formula>comsearch_results_analysis__r.Linked_Station__c</formula>
+    <inlineHelpText>Call Sign of related/linked station from CS results</inlineHelpText>
+    <label>Linked Station Call Sign</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

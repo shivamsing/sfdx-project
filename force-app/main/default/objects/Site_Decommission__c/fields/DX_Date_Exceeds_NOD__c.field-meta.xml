@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Date_Exceeds_NOD__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(DX_Complete_Forecast__c &gt; Divestiture_Site__r.Notice_of_Decom_NOD__c, TRUE, NULL)</formula>
+    <inlineHelpText>When checked, DX complete forecast date is greater than nod date. Must update monitoring trustee reason code.</inlineHelpText>
+    <label>DX Date Exceeds NOD</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

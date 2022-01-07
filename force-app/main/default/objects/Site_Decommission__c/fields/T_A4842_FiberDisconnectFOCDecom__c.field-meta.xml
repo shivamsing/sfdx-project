@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>T_A4842_FiberDisconnectFOCDecom__c</fullName>
+    <description>Previous Label: SV Milestone 4842 *** Previous API Name: SV_Milestone_4842
+
+T:(A 4842) Fiber Disconnect Firm Order Commitment (FOC) - Decom</description>
+    <externalId>false</externalId>
+    <inlineHelpText>T:(A 4842) Fiber Disconnect Firm Order Commitment (FOC) - Decom</inlineHelpText>
+    <label>T:(A 4842) Fiber Disconnect FOC Decom</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

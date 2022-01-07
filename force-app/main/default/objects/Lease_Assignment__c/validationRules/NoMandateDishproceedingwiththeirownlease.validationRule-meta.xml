@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NoMandateDishproceedingwiththeirownlease</fullName>
+    <active>true</active>
+    <description>If Does Dish still want to option lease is No.
+Dish proceeding with their own lease shd b selected Yes or No.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Does_Dish_still_want_to_option_lease__c,&apos;No&apos;),
+ISBLANK(TEXT(Dish_proceeding_with_their_own_lease__c)))</errorConditionFormula>
+    <errorDisplayField>Dish_proceeding_with_their_own_lease__c</errorDisplayField>
+    <errorMessage>Please select Yes or No.
+Since, Does Dish still want to option lease is No.</errorMessage>
+</ValidationRule>

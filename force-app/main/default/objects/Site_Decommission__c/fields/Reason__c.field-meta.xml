@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>DX Delay Reason Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NTP - Leasing</fullName>
+                <default>false</default>
+                <label>NTP - Leasing</label>
+            </value>
+            <value>
+                <fullName>NTP - MLA/LL</fullName>
+                <default>false</default>
+                <label>NTP - MLA/LL</label>
+            </value>
+            <value>
+                <fullName>Permitting</fullName>
+                <default>false</default>
+                <label>Permitting</label>
+            </value>
+            <value>
+                <fullName>Jurisdictional delay</fullName>
+                <default>false</default>
+                <label>Jurisdictional delay</label>
+            </value>
+            <value>
+                <fullName>Backhaul Decomissioning</fullName>
+                <default>false</default>
+                <label>Backhaul Decomissioning</label>
+            </value>
+            <value>
+                <fullName>Landlord - Access Restrictions</fullName>
+                <default>false</default>
+                <label>Landlord - Access Restrictions</label>
+            </value>
+            <value>
+                <fullName>Power Company</fullName>
+                <default>false</default>
+                <label>Power Company</label>
+            </value>
+            <value>
+                <fullName>Original Date</fullName>
+                <default>false</default>
+                <label>Original Date</label>
+            </value>
+            <value>
+                <fullName>Migratory Birds</fullName>
+                <default>false</default>
+                <label>Migratory Birds</label>
+            </value>
+            <value>
+                <fullName>Reforecast - No Delay</fullName>
+                <default>false</default>
+                <label>Reforecast - No Delay</label>
+            </value>
+            <value>
+                <fullName>Crane Restrictions</fullName>
+                <default>false</default>
+                <label>Crane Restrictions</label>
+            </value>
+            <value>
+                <fullName>Weather Restrictions</fullName>
+                <default>false</default>
+                <label>Weather Restrictions</label>
+            </value>
+            <value>
+                <fullName>Moved to Retain</fullName>
+                <default>false</default>
+                <label>Moved to Retain</label>
+            </value>
+            <value>
+                <fullName>Pending Colo Site Off Air</fullName>
+                <default>false</default>
+                <label>Pending Colo Site Off Air</label>
+            </value>
+            <value>
+                <fullName>Downstream Dependencies</fullName>
+                <default>false</default>
+                <label>Downstream Dependencies</label>
+            </value>
+            <value>
+                <fullName>GC Delay-Pending Crew Availability</fullName>
+                <default>false</default>
+                <label>GC Delay-Pending Crew Availability</label>
+            </value>
+            <value>
+                <fullName>Escalation Issue</fullName>
+                <default>false</default>
+                <label>Escalation Issue</label>
+            </value>
+            <value>
+                <fullName>Landlord - Preferred GC Delay</fullName>
+                <default>false</default>
+                <label>Landlord - Preferred GC Delay</label>
+            </value>
+            <value>
+                <fullName>Landlord - SOW Change</fullName>
+                <default>false</default>
+                <label>Landlord - SOW Change</label>
+            </value>
+            <value>
+                <fullName>Landlord - Locked Schedule Date</fullName>
+                <default>false</default>
+                <label>Landlord - Locked Schedule Date</label>
+            </value>
+            <value>
+                <fullName>Pending RF Wilt</fullName>
+                <default>false</default>
+                <label>Pending RF Wilt</label>
+            </value>
+            <value>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+                <label>On Hold</label>
+            </value>
+            <value>
+                <fullName>Dish divestiture site closing</fullName>
+                <default>false</default>
+                <label>Dish divestiture site closing</label>
+            </value>
+            <value>
+                <fullName>NTP - Pending PO Exception Adjustment</fullName>
+                <default>false</default>
+                <label>NTP - Pending PO Exception Adjustment</label>
+            </value>
+            <value>
+                <fullName>DX Based On RAN Wilt</fullName>
+                <default>false</default>
+                <label>DX Based On RAN Wilt</label>
+            </value>
+            <value>
+                <fullName>Pending GC Confirmation of DX Schedule</fullName>
+                <default>false</default>
+                <label>Pending GC Confirmation of DX Schedule</label>
+            </value>
+            <value>
+                <fullName>Pending GC NTP Issuance</fullName>
+                <default>false</default>
+                <label>Pending GC NTP Issuance</label>
+            </value>
+            <value>
+                <fullName>Pending Change Request</fullName>
+                <default>false</default>
+                <label>Pending Change Request</label>
+            </value>
+            <value>
+                <fullName>Backahaul</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Backahaul</label>
+            </value>
+            <value>
+                <fullName>Backhaul</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Backhaul</label>
+            </value>
+            <value>
+                <fullName>Building Restrictions</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Building Restrictions</label>
+            </value>
+            <value>
+                <fullName>Clock Not Started</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Clock Not Started</label>
+            </value>
+            <value>
+                <fullName>Data True-up</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Data True-up</label>
+            </value>
+            <value>
+                <fullName>Divest Extension</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Divest Extension</label>
+            </value>
+            <value>
+                <fullName>GC Delay</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GC Delay</label>
+            </value>
+            <value>
+                <fullName>GC Delay-Pending CR</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GC Delay-Pending CR</label>
+            </value>
+            <value>
+                <fullName>Jurisdicational Delay</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Jurisdicational Delay</label>
+            </value>
+            <value>
+                <fullName>Landlord NO Response</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Landlord NO Response</label>
+            </value>
+            <value>
+                <fullName>Leasing Milestone (NNR)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Leasing Milestone (NNR)</label>
+            </value>
+            <value>
+                <fullName>Leasing NTP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Leasing NTP</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>MLA/LL NTP</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MLA/LL NTP</label>
+            </value>
+            <value>
+                <fullName>Power (Meter Removal)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Power (Meter Removal)</label>
+            </value>
+            <value>
+                <fullName>Pulled in DX Date</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pulled in DX Date</label>
+            </value>
+            <value>
+                <fullName>RF</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RF</label>
+            </value>
+            <value>
+                <fullName>Waiting on Co-Lo site Offer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Waiting on Co-Lo site Offer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

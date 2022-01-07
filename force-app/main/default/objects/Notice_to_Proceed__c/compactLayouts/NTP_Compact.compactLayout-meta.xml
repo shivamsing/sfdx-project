@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NTP_Compact</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>General_Contractor__c</fields>
+    <fields>Divestiture_Site__c</fields>
+    <fields>Must_Deconstruct_by__c</fields>
+    <label>NTP Compact</label>
+</CompactLayout>

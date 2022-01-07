@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lease_NNR</fullName>
+    <fields>Name</fields>
+    <fields>RecordTypeId</fields>
+    <fields>OwnerId</fields>
+    <fields>Submitter__c</fields>
+    <fields>Notice_Date__c</fields>
+    <fields>Site_ID__c</fields>
+    <label>Lease NNR</label>
+</CompactLayout>

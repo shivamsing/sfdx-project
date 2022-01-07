@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Key_Status__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to signify stations lifespan regarding it&apos;s repack status.</inlineHelpText>
+    <label>Key Status (automated)</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Part of Repack</fullName>
+                <default>false</default>
+                <label>Not Part of Repack</label>
+            </value>
+            <value>
+                <fullName>Move Pending</fullName>
+                <default>false</default>
+                <label>Move Pending</label>
+            </value>
+            <value>
+                <fullName>CP Extended (Still Open)</fullName>
+                <default>false</default>
+                <label>CP Extended (Still Open)</label>
+            </value>
+            <value>
+                <fullName>Fully Repacked</fullName>
+                <default>false</default>
+                <label>Fully Repacked</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

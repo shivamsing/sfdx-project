@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Displacement_Filed__c</fullName>
+    <description>Used to keep track of displacements that are filed moving, as of 5/1/2018.  this field is used as a summary field for numerous reports with john/shirley and Mark bishop.</description>
+    <externalId>false</externalId>
+    <formula>IF(Displacement_Status__c = &quot;&quot;, FALSE, TRUE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This indicates a station has filed a Displacement.</inlineHelpText>
+    <label>Displacement Filed</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

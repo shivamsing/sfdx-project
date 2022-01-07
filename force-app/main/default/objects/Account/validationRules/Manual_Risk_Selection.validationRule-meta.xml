@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manual_Risk_Selection</fullName>
+    <active>true</active>
+    <description>The Broadcaster Risk Overall can only be managed manually via the Broadcaster Risk (Select) when the Broadcaster Risk (Manage Manuallyl) checkbox is selected.</description>
+    <errorConditionFormula>AND(ISCHANGED(Broadcaster_Risk_Select__c),  Broadcaster_Risk_Manage_Manually__c = False)</errorConditionFormula>
+    <errorDisplayField>Broadcaster_Risk_Select__c</errorDisplayField>
+    <errorMessage>The Broadcaster Risk (Manage Manually) checkbox must be selected to change the overall broadcaster risk.</errorMessage>
+</ValidationRule>

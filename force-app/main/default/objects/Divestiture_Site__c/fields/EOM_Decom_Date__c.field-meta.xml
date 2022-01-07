@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EOM_Decom_Date__c</fullName>
+    <externalId>false</externalId>
+    <formula>DATE(
+YEAR(  Forecasted_Logical_Decommission_Date__c ),
+MONTH( Forecasted_Logical_Decommission_Date__c ),
+CASE( MONTH( Forecasted_Logical_Decommission_Date__c),
+1, 31,
+2, IF( MOD( YEAR( Forecasted_Logical_Decommission_Date__c), 4) = 0, 29, 28),
+3, 31,
+4, 30,
+5, 31,
+6, 30,
+7, 31,
+8, 31,
+9, 30,
+10, 31,
+11, 30,
+12, 31,
+0
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Shows the last day of the month for the Logical decommission date.</inlineHelpText>
+    <label>EOM Decom Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

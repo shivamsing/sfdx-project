@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>Notice_to_Proceed__c.General_Contractor__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Site_Decommission__c.General_Contractor__c</field>
+    </columns>
+    <description>Used to review general contractor matches for ntp and decon</description>
+    <filter>
+        <criteriaItems>
+            <column>FK_$Site_Decommission__c.General_Contractor__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Ericsson</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Notice_to_Proceed__c.General_Contractor__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>betacom</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Decon GC True up</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Notice_to_Proceed__c@Notice_to_Proceed__c.Site_Deconstruction__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>FK_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Projected_Off_600_LP__c</fullName>
+    <description>Calculates best projected date for LP going off air</description>
+    <externalId>false</externalId>
+    <formula>IF(  ISNULL( Concurrent_Operations_End_Date__c ) ,  Commencement_Date__c ,  Concurrent_Operations_End_Date__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Gives the later of the Commencement or Concurrent Ops date</inlineHelpText>
+    <label>Projected Off 600 LP</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

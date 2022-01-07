@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendors_Cannot_Complete_Milestone</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISCHANGED( Package_Status__c ),
+TEXT(Package_Status__c)  = &quot;Milestone Complete/Review Complete&quot;,  
+$Profile.Name = &quot;Divest Due Diligence&quot;)</errorConditionFormula>
+    <errorMessage>Changes to Milestones Complete must be done by a member of the T-Mobile Team.</errorMessage>
+</ValidationRule>

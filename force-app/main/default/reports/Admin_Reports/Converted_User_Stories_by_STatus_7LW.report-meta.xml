@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_63780282</developerName>
+        <masterLabel>Combined Status</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>FK_$agf__ADM_Work__c.agf__Status__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>New</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Grooming</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Analyzing</sourceValue>
+            </sourceValues>
+            <value>Open</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Build Ready</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Implementing</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Peer Reviewing</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Testing</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Documenting</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Designing</sourceValue>
+            </sourceValues>
+            <value>In Progress</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Blocked - Grooming</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Blocked - Sprint</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Duplicate</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Never</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Not a bug</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Not Reproducible</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Closed</sourceValue>
+            </sourceValues>
+            <value>Closed</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>FK_$agf__ADM_Work__c.agf__Status__c</field>
+    </columns>
+    <columns>
+        <field>FK_$agf__ADM_Work__c.agf__Priority__c</field>
+    </columns>
+    <columns>
+        <field>FK_$agf__ADM_Work__c.agf__Assignee__c</field>
+    </columns>
+    <columns>
+        <field>FK_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>FK_$agf__ADM_Work__c.agf__Subject__c</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>AGE</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_63780282</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Converted User Stories by STatus</name>
+    <params>
+        <name>units</name>
+        <value>h</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList@Case.Work_Lookup__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

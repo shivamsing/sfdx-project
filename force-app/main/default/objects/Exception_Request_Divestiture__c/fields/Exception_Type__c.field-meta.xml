@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exception_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the type of exception.</inlineHelpText>
+    <label>Exception Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>Select Option</label>
+            </value>
+            <value>
+                <fullName>Change Site To Retain</fullName>
+                <default>false</default>
+                <label>Change Site To Retain</label>
+            </value>
+            <value>
+                <fullName>Delay RF Shutdown Date</fullName>
+                <default>false</default>
+                <label>Delay RF Shutdown Date</label>
+            </value>
+            <value>
+                <fullName>Delay Physical Deconstruction Date</fullName>
+                <default>false</default>
+                <label>Delay Physical Deconstruction Date</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

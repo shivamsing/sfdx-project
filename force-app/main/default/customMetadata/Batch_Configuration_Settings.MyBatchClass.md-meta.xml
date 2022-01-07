@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>MyBatchClass</label>
+    <protected>false</protected>
+    <values>
+        <field>Batch_Description__c</field>
+        <value xsi:type="xsd:string">This Batch Job process Account Type Updates weekly.</value>
+    </values>
+    <values>
+        <field>Batch_Result_Email_Body__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Batch_Result_Email_Recipients__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Batch_Result_Email_Subject__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Batch_SOQL__c</field>
+        <value xsi:type="xsd:string">SELECT ID,name, BillingStreet, BillingCity, BillingState, BillingPostalCode, (SELECT ID, MailingStreet, MailingCity, MailingState, MailingPostalCode FROM Contacts) FROM Account</value>
+    </values>
+    <values>
+        <field>Batch_Size__c</field>
+        <value xsi:type="xsd:double">25.0</value>
+    </values>
+    <values>
+        <field>Delta_Load_Condition__c</field>
+        <value xsi:type="xsd:string">where name!=&apos;&apos; limit 5</value>
+    </values>
+    <values>
+        <field>End_Date_Time__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Full_Load__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Max_Reprocess_Count__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>Next_Batch_Class__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Reprocess_Failures__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Send_Email_to_Running_User__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Start_Date_Time__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

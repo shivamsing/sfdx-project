@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QALS06</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Ladders &amp; Scaffolds</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QALS06_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Documented inspections are required by a competent person (trained to 1926.451, capable of identifying hazards and has authorization to take prompt corrective actions) prior to each shift or after any event that could affect structural integrity.
+A competent person is required to be present for the erection and dismantling of scaffold systems and to determine the safety during high wind or storm events. CFR 1926.451 (f)(3)</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QALS06__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">If a scaffold system is in use, has it been inspected and being used under the supervision of a competent person?</value>
+    </values>
+</CustomMetadata>

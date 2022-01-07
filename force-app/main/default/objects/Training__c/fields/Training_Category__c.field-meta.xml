@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_Category__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the training category or enter one.  Add a brief description of the training below.</inlineHelpText>
+    <label>Training Category</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General Education (enter description below)</fullName>
+                <default>false</default>
+                <label>General Education (enter description below)</label>
+            </value>
+            <value>
+                <fullName>General Team Tools (Web ex, Slack, etc)</fullName>
+                <default>false</default>
+                <label>General Team Tools (Web ex, Slack, etc)</label>
+            </value>
+            <value>
+                <fullName>Skills (Project Management, Lean, etc)</fullName>
+                <default>false</default>
+                <label>Skills (Project Management, Lean, etc)</label>
+            </value>
+            <value>
+                <fullName>Specialized Tools (Salesforce, JIRA,, etc)</fullName>
+                <default>false</default>
+                <label>Specialized Tools (Salesforce, JIRA,, etc)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

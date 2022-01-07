@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Dish_Option_Status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dish Option Status</shortDescription>
+        <value>Dish Option Status Has been Changed</value>
+    </labels>
+    <labels>
+        <fullName>FooterLogo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FooterLogo</shortDescription>
+        <value>https://tmo-spectrum--c.na153.content.force.com/servlet/servlet.ImageServer?id=0155G000002MuJw&amp;oid=00D030000004btB&amp;lastMod=1612645144000</value>
+    </labels>
+    <labels>
+        <fullName>HeaderLogo_Link</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HeaderLogo Link</shortDescription>
+        <value>https://tmo-spectrum--c.na153.content.force.com/servlet/servlet.ImageServer?id=0155G000002MuJx&amp;oid=00D030000004btB&amp;lastMod=1612645144000</value>
+    </labels>
+    <labels>
+        <fullName>New_Line</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New Line</shortDescription>
+        <value>-
+-</value>
+    </labels>
+    <labels>
+        <fullName>Phase_for_QPR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Phase for QPR</shortDescription>
+        <value>3</value>
+    </labels>
+    <labels>
+        <fullName>Salesforce_to_Salesforce_Connection_User</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Salesforce to Salesforce Connection User</shortDescription>
+        <value>0055G000007GrpyQAC</value>
+    </labels>
+    <labels>
+        <fullName>Salesforce_to_Salesforce_Connection_User2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Salesforce to Salesforce Connection User2</shortDescription>
+        <value>0055G000005UD87QAG</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_FinalList_Filter_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS_FinalList_Filter_1</shortDescription>
+        <value>Hard_Lock_List__c = : headerId
+AND 
+(( Remove_RF_Forecast_List__c = false
+AND Tab_Formula_Hardlock__c = &apos;With National Response&apos;
+AND New_RF_Date_EOM__c &lt;= : ADM_DATE_270 ) 
+OR New_Site_Add__c = true)</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_FinalList_Query</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS_FinalList_Query</shortDescription>
+        <value>SELECT Id, Final_List__c, RF_List_Override__c, Site_ID__c, Remove_RF_Forecast_List__c, Hard_Lock_List__c,Tab_Formula_Hardlock__c,New_RF_Date_EOM__c,Macro_Site__r.ADM_NationalRFResponse__c,Macro_Site__r.BKL_Vetted_For_Decom__c,Macro_Site__r.ADM_NationalLeaseResponse__c,Macro_Site__r.Forced_Removal__c,Macro_Site__c
+FROM Site_Forecast__c
+WHERE</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_Hardlock_Filter_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS_Hardlock_Filter_1</shortDescription>
+        <value>Soft_Lock_List__c = : headerId
+AND 
+(( Remove_RF_Forecast_List__c = false
+AND Tab_Formula_Hardlock__c = &apos;With National Response&apos;
+AND New_RF_Date_EOM__c &lt;= : ADM_DATE_270 ) 
+OR New_Site_Add__c = true)</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_Harlock_Query</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS Hardlock Query</shortDescription>
+        <value>SELECT Id, Hard_Lock_List__c, RF_List_Override__c, Site_ID__c, Remove_RF_Forecast_List__c, Soft_Lock_List__c,Tab_Formula_Hardlock__c,New_RF_Date_EOM__c,Macro_Site__r.ADM_NationalRFResponse__c,Macro_Site__r.BKL_Vetted_For_Decom__c,Macro_Site__r.ADM_NationalLeaseResponse__c,Macro_Site__r.Forced_Removal__c,Macro_Site__c
+FROM Site_Forecast__c  WHERE</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_MacrositeDataProcessor_Query1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS MacrositeDataProcessor Query1</shortDescription>
+        <value>SELECT A4750_Close_Doc_Comple_Decom_Finish__c,A4815_LstrmModNtce2Ldlrd_Decom_Finish__c,A4817_ZoningPermitCmpltDecomFinish__c,A4870_Site_Decon_Complete_Finish__c,A4880_RAN_Wilt_Complete_Finish__c,F4880_RAN_Wilt_Complete_Finish__c,
+A4881_RAN_Lg_Disconn_Macro_Finish__c,A4882_Bckhaul_Lg_Discon_Decom_Finish__c,A4884_EleclUtlyAcctTerm_Decom_Finish__c,Address__c,ADM_Best_Estimate_Timing_Date__c,ADM_Final_Disposition_Date__c,
+ADM_Final_Disposition__c,ADM_Justification__c,ADM_Market_Disposition__c,ADM_NationalLeaseComments__c,ADM_NationalLeaseDisposition__c,ADM_NationalLeaseResponse__c,ADM_NationalLeaseSignoff_Date__c,
+ADM_NationalRFComments__c,ADM_NationalRFDisposition__c,ADM_NationalRFResponse__c,ADM_NationalRFSignOff_Date__c,ADM_Region_Disposition__c,ADM_Region_Sign_Off_Date__c,Augment_Status__c,Batch_Process_Status__c,Cabinet_Combination__c,Cascade_ID_Legacy_Sprint__c,City__c,Clearwire_Iden_Site__c,</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_MacrositeDataProcessor_Query2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS MacrositeDataProcessor Query2</shortDescription>
+        <value>Close_Out_Complete_Date__c,Close_Out_Complete_Status__c,CreatedById,CreatedDate,Decomm_Reason_Code__c,Decom_Flag__c,F4870_Site_Decon_Complete_Finish__c,Forced_Relocation_Code__c,Forced_Removal_Code__c,
+Forced_Removal__c,Forecasted_Logical_Decommission_Date__c,Forecasted_Logical_Decomm_status__c,Forecast_Disconnect_Date__c,
+Gate_Combination__c,Id,IsDeleted,Landlord_Entity__c,Landlord_Name__c,Landlord_Type__c,Lattitude__c,Legacy_Network__c,Longitude__c,Macro_Flag__c,Macro_Site_ID__c,Market_Legacy_Sprint__c,Market__c,
+MLA_Flag__c,MLA_Site_ID__c,Name,Note__c,OwnerId,POR_Plan_Status__c,Program_Name__c,Project_ID__c,Property_Owner__c,Rad_Center_ft__c,Region__c,Remove_Equipment_Date__c,Remove_Equipment_Status__c,Augment_Type__c,</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_MacrositeDataProcessor_Query3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS MacrositeDataProcessor Query3</shortDescription>
+        <value>Requested_Close_Date__c,Request_Confirmation__c,Site_Access_Procedure__c,Site_Access_Type__c,Site_Class__c,Site_Decommisioned_Date__c,Site_Decommisioned_Status__c,Site_Name__c,
+Site_Status__c,State__c,Structure_Type__c,Sub_Channel__c,SystemModstamp,Utility_Account__c,Utility_Meter__c,Utility_Provider__c,Utility_Status__c,Vendor__c,Zip_Code__c, BKL_Vetted_For_Decom__c, 
+BKL_Vetted_For_Decom_Comments__c, BKL_Vetted_For_Decom_SignOffDate__c  ,ADM_JustificationComments__c, T_A4842_FiberDisconnectFOCDecom__c,Sensitive_Landlord__c,Site_FNL_BCK_MID_FRNT_HAUL_TYP__c
+FROM Macro_Site_Staging__c</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_MacrositeDataProcessor_Query4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS MacrositeDataProcessor Query4</shortDescription>
+        <value>FDS_DecisionatorStatus__c,FDS_DIS_Coverage_Capacity__c,FDS_DIS_Tranche__c,
+FDS_Geo_Market__c,FDS_Geo_Region__c,FDS_LEA_Current_Monthly_Lease_Rent_Amt__c,
+FDS_LEA_Primary_Lease_Current_Term_EndDt__c,FDS_LEA_Primary_Lease_Cur_Monthly_Rent__c,
+FDS_LEA_Primary_Lease_Payee__c,FDS_PC_Distrib_Amount__c,FDS_Physical_Decom_Binding_Date__c,
+FDS_Physical_Decom_Binding_Flag__c,FDS_Physical_Decom_Issue_Date__c,FDS_POR_Status__c,
+FDS_RF_Shutdown_Binding_Date__c,FDS_RF_Shutdown_Binding_Flag__c,
+FDS_ring_cd__c,FDS_Ring_Mkt_Name__c,FDS_Siterra_Current_Rent_Amount__c,</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_MacrositeDataProcessor_Query5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS MacrositeDataProcessor Query5</shortDescription>
+        <value>FDS_Siterra_End_Date__c,FDS_Siterra_Payee__c,FDS_Site_Build_Status_Description__c,
+FDS_Site_Off_Air_Date__c,FDS_Site_On_Air_Date__c,FDS_Sprint_Site_Decommissioned_Date__c,
+FDS_Sprint_Site_Decommissioned_Status__c,FDS_Sprint_Transmission_Ended_Date__c,
+FDS_Sprint_Transmission_Ended_Status__c,FDS_SV_Site_Status__c,
+FDS_SV_SubjectToDivestiture__c,FDS_TMO_Site_Decommissioned_Date__c,
+FDS_TMO_Site_Decommissioned_Status__c,FDS_TMO_Trmsn_Ended_Site_Off_Air_Date__c,
+FDS_TMO_Trmsn_Ended_Site_Off_Air_Status__c,FDS_PC_Physical_Removal_Cost__c,FDS_PC_Leasing_Cost__c,</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_RFListBatch_Filter_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS_RFListBatch_Filter_1</shortDescription>
+        <value>Final_List__r.Name = :listName</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_RFListBatch_Query</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS_RFListBatch_Query</shortDescription>
+        <value>SELECT Id, Name, RecordTypeId, New_Site_Add_Macro_Site__c, Forced_Removal__c, Notes_comments__c, RF_Shutdown_Date_is_Locked__c, RF_Shutdown_Forecast_Date__c, Address__c, City__c, Forecasted_Logical_Decommission_Date__c,Rad_Center_ft__c, Site_ID__c, Sprint_S_Tmobile_T__c, State__c, Structure_Type__c, ZipCode__c, RF800_MHZ_Y_N__c, Freely_Transferable_Y_N__c, Lattitude__c, Longitude__c, TMO_Market__c, Comment_History__c,Forced_Removal_Code__c,Lease_Only__c,Macro_Flag__c, Prior_List_Actions__c, Macro_Site__c 
+FROM Site_Forecast__c
+WHERE</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_Softlock_Query1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS Softlock Query1</shortDescription>
+        <value>SELECT A4750_Close_Doc_Comple_Decom_Finish__c,A4815_LstrmModNtce2Ldlrd_Decom_Finish__c,A4817_ZoningPermitCmpltDecomFinish__c,A4870_Site_Decon_Complete_Finish__c,A4880_RAN_Wilt_Complete_Finish__c,F4880_RAN_Wilt_Complete_Finish__c,
+A4881_RAN_Lg_Disconn_Macro_Finish__c,A4882_Bckhaul_Lg_Discon_Decom_Finish__c, A4884_EleclUtlyAcctTerm_Decom_Finish__c, Active_Decom_POR_AUG_Status__c,
+Address__c, ADM_Best_Estimate_Timing_Date__c,ADM_Final_Disposition_Date__c,ADM_Final_Disposition__c,ADM_Justification__c,ADM_Market_Disposition__c,
+ADM_NationalLeaseComments__c,ADM_NationalLeaseDisposition__c,ADM_NationalLeaseResponse__c,ADM_NationalLeaseSignoff_Date__c,ADM_NationalRFComments__c,
+ADM_NationalRFDisposition__c,ADM_NationalRFResponse__c, ADM_NationalRFSignOff_Date__c,ADM_RegionSignOff_Date__c,ADM_Region_Disposition__c,
+Augment_Status__c,AUG_ID__c,Cabinet_Combination__c,Cascade_ID_Legacy_Sprint__c,City__c,Clearwire_Iden_Site__c,Close_Out_Complete_Date__c,</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_Softlock_Query2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS Softlock Query2</shortDescription>
+        <value>Close_Out_Complete_Status__c,Decomm_Reason_Code__c,Decom_Flag__c,Divestiture_Site_Text__c,Divestiture_Site__c, Earliest_CTED_Term_Date__c,
+F4870_Site_Decon_Complete_Finish__c,Forced_Relocation_Code__c,Forced_Removal_Code__c,Forced_Removal__c,Forecasted_Logical_Decommission_Date__c,Forecasted_Logical_Decommission_Date_Sor__c,
+Forecasted_Logical_Decomm_Status__c, Utility_Forecast_Disconnect_Date__c,Gate_Combination__c,Landlord_Entity__c,Landlord_Name__c,Landlord_Type__c,Lattitude__c,
+Lease_Only_Site__c,Legacy_Network__c,Longitude__c,Macro_Flag__c,Market_Legacy_Sprint__c,Market__c,MLA_Flag__c,MLA_Site_ID__c, Name, Notes__c,
+Physical_Decom_Date_Source_System__c,POR_Plan_Status__c,POR_Project_ID__c,Program_Name__c,Property_Owner__c,Rad_Center_ft__c,Region__c,Remove_Equipment_Date__c,
+Remove_Equipment_Status__c, Utility_Requested_Close_Date__c,Utility_Request_Confirmation__c,RF_Shutdown_Date_Complete__c,Sensitive_Landlord__c,Site_Access_Procedure__c,</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_Softlock_Query3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS Softlock Query3</shortDescription>
+        <value>Site_Access_Type__c,Site_Class__c,Site_Decommisioned_Date__c,Site_Decommisioned_Status__c,Site_Name__c,Site_Status__c, State__c,Structure_Type__c,Sub_Channel__c,
+SystemModstamp,Utility_Account__c,Utility_Meter__c,Utility_Provider__c,Utility_Status__c,Vendor__c,Zip_Code__c,
+Notes_Comments__c, RF_Shutdown_Date_is_Locked_F__c, RF_Shutdown_Forecast_Date__c, BKL_Vetted_For_Decom__c, BKL_Vetted_For_Decom_Comments__c, BKL_Vetted_For_Decom_SignOffDate__c, ADM_Justification_Comments__c, Divestiture_Site__r.Forecasted_Logical_Decommission_Date__c, RF_List_Override__c, Post_7_1_20_List_Notes__c, Prior_RF_Site_Lists__c   
+FROM Macro_Site__c 
+WHERE</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_Softlock_Query_Fiter_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS Softlock Query Fiter 1</shortDescription>
+        <value>(    RF_Shutdown_Date_is_Locked_F__c = true
+         AND Divestiture_Site__r.Forecasted_Logical_Decommission_Date__c &lt;= :ADM_DATE_270
+         AND Divestiture_Site__r.Forecasted_Logical_Decommission_Date__c &gt;= : listTargetDate
+
+          )</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_Softlock_Query_Fiter_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS Softlock Query Fiter 2</shortDescription>
+        <value>OR (
+             RF_Shutdown_Date_is_Locked_F__c = false
+         AND RF_List_Override__c = &apos;N/A&apos;
+         AND On_Sprint_Intracompany_List__c = false
+         AND ADM_Region_Disposition__c LIKE &apos;%Decom%&apos;
+         AND Macro_Flag__c = &apos;Y&apos;
+         AND Site_Class__c = &apos;Standard Site&apos;
+         AND Decomm_Reason_Code__c IN ( &apos;Subject to Div&apos; , &apos;Subject to Div – Forced Relocation&apos; )
+         AND Market__c &lt;&gt; &apos;ALASKA&apos;
+         AND Site_Status__c IN (&apos;ON-AIR&apos;, &apos;Active&apos;)
+         AND Legacy_Network__c = &apos;SPRINT&apos;
+         AND Augment_Status__c = &apos;Build&apos;
+         AND Forecasted_Logical_Decomm_Status__c != &apos;A&apos;
+         AND Forecasted_Logical_Decommission_Date_Sor__c &lt;= :ADM_DATE_270
+         AND Forecasted_Logical_Decommission_Date_Sor__c &gt;= : listTargetDate
+        )</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_Softlock_Query_Fiter_3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS Softlock Query Fiter 3</shortDescription>
+        <value>OR (      
+            RF_Shutdown_Date_is_Locked_F__c = false
+        AND RF_List_Override__c = &apos;N/A&apos;
+        AND On_Sprint_Intracompany_List__c = false
+        AND Macro_Flag__c = &apos;Y&apos; 
+        AND Forecasted_Logical_Decomm_Status__c = &apos;P&apos;
+        AND Forecasted_Logical_Decommission_Date_Sor__c &lt;= :ADM_DATE_270
+        AND Forecasted_Logical_Decommission_Date_Sor__c &gt;= : listTargetDate
+        AND POR_Project_ID__c LIKE &apos;%Decom%&apos;
+        AND POR_Plan_Status__c =&apos;Active&apos;
+        AND Legacy_Network__c = &apos;T-MOBILE&apos;
+      )</value>
+    </labels>
+    <labels>
+        <fullName>TMOS_Softlock_Query_Fiter_4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TMOS Softlock Query Fiter 4</shortDescription>
+        <value>OR (
+        RF_List_Override__c = &apos;RF List Override Include&apos;
+      )</value>
+    </labels>
+    <labels>
+        <fullName>T_Mobile_Assigned_Account</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>T-Mobile Assigned Account</shortDescription>
+        <value>001f400001PunIiAAJ</value>
+    </labels>
+</CustomLabels>

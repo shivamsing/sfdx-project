@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Site_Add_Macro_Site__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Lookup to Macro site for rf lists</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter Site Id to add a new site to the list</inlineHelpText>
+    <label>Manual Site add</label>
+    <referenceTo>Macro_Site__c</referenceTo>
+    <relationshipLabel>Site Forecasts</relationshipLabel>
+    <relationshipName>Site_Forecasts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Update__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the option when all applicable leases on the site have been terminated and the source system has been updated.</inlineHelpText>
+    <label>Update Lease Termination Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lease Termination Task 4815 in Sprint Vision was updated</fullName>
+                <default>false</default>
+                <label>Lease Termination Task 4815 in Sprint Vision was updated</label>
+            </value>
+            <value>
+                <fullName>Lease Termination in Element was updated</fullName>
+                <default>false</default>
+                <label>Lease Termination in Element was updated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

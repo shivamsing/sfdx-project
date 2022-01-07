@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requester_Group__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the group that requested this functionality.</inlineHelpText>
+    <label>Requester Group</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Divest &amp; Decomm</fullName>
+                <default>false</default>
+                <label>Divest &amp; Decomm</label>
+            </value>
+            <value>
+                <fullName>Deconstruction</fullName>
+                <default>false</default>
+                <label>Deconstruction</label>
+            </value>
+            <value>
+                <fullName>Lease Negotiation (&amp; Related)</fullName>
+                <default>false</default>
+                <label>Lease Negotiation (&amp; Related)</label>
+            </value>
+            <value>
+                <fullName>Safety Management (Incidents)</fullName>
+                <default>false</default>
+                <label>Safety Management (Incidents)</label>
+            </value>
+            <value>
+                <fullName>2.5</fullName>
+                <default>false</default>
+                <label>2.5</label>
+            </value>
+            <value>
+                <fullName>Admins</fullName>
+                <default>false</default>
+                <label>Admins</label>
+            </value>
+            <value>
+                <fullName>Management</fullName>
+                <default>false</default>
+                <label>Management</label>
+            </value>
+            <value>
+                <fullName>Due Diligence</fullName>
+                <default>false</default>
+                <label>Due Diligence</label>
+            </value>
+            <value>
+                <fullName>Data Analytics</fullName>
+                <default>false</default>
+                <label>Data Analytics</label>
+            </value>
+            <value>
+                <fullName>Clearing Administration</fullName>
+                <default>false</default>
+                <label>Clearing Administration</label>
+            </value>
+            <value>
+                <fullName>Project Management</fullName>
+                <default>false</default>
+                <label>Project Management</label>
+            </value>
+            <value>
+                <fullName>Spectrum Engineering</fullName>
+                <default>false</default>
+                <label>Spectrum Engineering</label>
+            </value>
+            <value>
+                <fullName>Outreach Team</fullName>
+                <default>false</default>
+                <label>Outreach Team</label>
+            </value>
+            <value>
+                <fullName>Govt. Affairs</fullName>
+                <default>false</default>
+                <label>Govt. Affairs</label>
+            </value>
+            <value>
+                <fullName>Field</fullName>
+                <default>false</default>
+                <label>Field</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>true</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

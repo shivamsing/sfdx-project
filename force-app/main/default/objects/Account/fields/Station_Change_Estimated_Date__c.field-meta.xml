@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Station_Change_Estimated_Date__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Best estimate of the new date for station to move. If no date is specified please use 1 months out. (will be auto populated when at any risk box is filled. Will also be cleared when station goes off air).</inlineHelpText>
+    <label>Station Change - Estimated Date (DELAY)</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

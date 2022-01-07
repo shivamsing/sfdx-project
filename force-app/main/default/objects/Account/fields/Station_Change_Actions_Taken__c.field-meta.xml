@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Station_Change_Actions_Taken__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select all actions taken.  Additional items can be added later.</inlineHelpText>
+    <label>Station Change - Actions Taken</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Action</fullName>
+                <default>false</default>
+                <label>No Action</label>
+            </value>
+            <value>
+                <fullName>Continue Monitoring</fullName>
+                <default>false</default>
+                <label>Continue Monitoring</label>
+            </value>
+            <value>
+                <fullName>Contest at the FCC</fullName>
+                <default>false</default>
+                <label>Contest at the FCC</label>
+            </value>
+            <value>
+                <fullName>Support at the FCC</fullName>
+                <default>false</default>
+                <label>Support at the FCC</label>
+            </value>
+            <value>
+                <fullName>Outreach to Broadcaster</fullName>
+                <default>false</default>
+                <label>Outreach to Broadcaster</label>
+            </value>
+            <value>
+                <fullName>Provide Broadcaster PM Help</fullName>
+                <default>false</default>
+                <label>Provide Broadcaster PM Help</label>
+            </value>
+            <value>
+                <fullName>Provide Broadcaster Vendor Assistance</fullName>
+                <default>false</default>
+                <label>Provide Broadcaster Vendor Assistance</label>
+            </value>
+            <value>
+                <fullName>Provide Broadcaster Financial Assistance</fullName>
+                <default>false</default>
+                <label>Provide Broadcaster Financial Assistance</label>
+            </value>
+            <value>
+                <fullName>Special Notification to Field</fullName>
+                <default>false</default>
+                <label>Special Notification to Field</label>
+            </value>
+            <value>
+                <fullName>Request for New Contour</fullName>
+                <default>false</default>
+                <label>Request for New Contour</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

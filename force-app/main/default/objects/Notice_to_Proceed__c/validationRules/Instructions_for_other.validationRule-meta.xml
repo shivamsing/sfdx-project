@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Instructions_for_other</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+INCLUDES(Scope_of_Work_Designation__c, &apos;Others&apos;),
+LEN(Special_Conditions__c) = 0)</errorConditionFormula>
+    <errorDisplayField>Special_Conditions__c</errorDisplayField>
+    <errorMessage>Special comments field required when selected others on scope of work</errorMessage>
+</ValidationRule>

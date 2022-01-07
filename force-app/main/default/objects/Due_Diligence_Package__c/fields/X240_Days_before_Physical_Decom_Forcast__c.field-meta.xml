@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X240_Days_before_Physical_Decom_Forcast__c</fullName>
+    <externalId>false</externalId>
+    <formula>Divestiture_Site__r.Physical_Decommsion_Date_from_Source_Sys__c - 240</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Calculates 240 days before the forecasted Physical Decommsion date from source systems to flag packages that are 60 days out from the Notice of Decommsion.</inlineHelpText>
+    <label>60 Days to Forecasted Lock Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

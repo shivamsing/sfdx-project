@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Key_Dates_and_Notifications_link__c</fullName>
+    <description>Removed a bootstrap VF page because it was taking up a lot of space. converted into a link, and kept the help section. may want to combine into key details.</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;https://c.na59.visual.force.com/apex/Bootstrap_Key_Dates&quot;, &quot;Link&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Info regarding High and Low power stations ,Views, and detailed origins of LP and HP classifications. Also links to SalesForce Onboarding presentation.</inlineHelpText>
+    <label>Key Dates and Notifications Guide</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

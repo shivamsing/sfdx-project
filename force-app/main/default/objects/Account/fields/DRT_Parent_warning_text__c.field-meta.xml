@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DRT_Parent_warning_text__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( DRT_Parent_Station__c, &quot;This station is a DRT Parent. Please check the Hierarchy link to see related child DRT stations. FCC filings may be fired for the DRT’s and not the parent station.&quot;, null)</formula>
+    <label>DRT Parent warning text</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

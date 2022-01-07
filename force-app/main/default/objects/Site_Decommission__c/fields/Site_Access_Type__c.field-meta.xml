@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Site_Access_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Site Access Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>#N/A</fullName>
+                <default>false</default>
+                <label>#N/A</label>
+            </value>
+            <value>
+                <fullName>Advance Notice</fullName>
+                <default>false</default>
+                <label>Advance Notice</label>
+            </value>
+            <value>
+                <fullName>Badged Access</fullName>
+                <default>false</default>
+                <label>Badged Access</label>
+            </value>
+            <value>
+                <fullName>Escort Required</fullName>
+                <default>false</default>
+                <label>Escort Required</label>
+            </value>
+            <value>
+                <fullName>Restricted Times</fullName>
+                <default>false</default>
+                <label>Restricted Times</label>
+            </value>
+            <value>
+                <fullName>Unrestricted</fullName>
+                <default>false</default>
+                <label>Unrestricted</label>
+            </value>
+            <value>
+                <fullName>Written Request</fullName>
+                <default>false</default>
+                <label>Written Request</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

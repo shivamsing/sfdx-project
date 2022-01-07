@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_Case_Owner</fullName>
+    <active>true</active>
+    <description>Once a case is created, only admins can modify the owner.  (got from this Knowledge Article-https://help.salesforce.com/articleView?id=000004462&amp;type=1 )</description>
+    <errorConditionFormula>AND(
+ISCHANGED(OwnerId),
+$RecordType.Name = &quot;Case Owner&quot;,
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>Case owner cannot be changed. Speak with your admin if it must be changed.</errorMessage>
+</ValidationRule>

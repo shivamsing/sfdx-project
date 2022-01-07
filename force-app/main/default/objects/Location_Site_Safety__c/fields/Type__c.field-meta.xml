@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Corporate Office</fullName>
+                <default>false</default>
+                <label>Corporate Office</label>
+            </value>
+            <value>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+                <label>Warehouse</label>
+            </value>
+            <value>
+                <fullName>Warehouse - Commercial</fullName>
+                <default>false</default>
+                <label>Warehouse - Commercial</label>
+            </value>
+            <value>
+                <fullName>Network ER Warehouse</fullName>
+                <default>false</default>
+                <label>Network ER Warehouse</label>
+            </value>
+            <value>
+                <fullName>Warehouse - Technical</fullName>
+                <default>false</default>
+                <label>Warehouse - Technical</label>
+            </value>
+            <value>
+                <fullName>Call Center</fullName>
+                <default>false</default>
+                <label>Call Center</label>
+            </value>
+            <value>
+                <fullName>Earth Station</fullName>
+                <default>false</default>
+                <label>Earth Station</label>
+            </value>
+            <value>
+                <fullName>Headquarter</fullName>
+                <default>false</default>
+                <label>Headquarter</label>
+            </value>
+            <value>
+                <fullName>Data Center</fullName>
+                <default>false</default>
+                <label>Data Center</label>
+            </value>
+            <value>
+                <fullName>Store</fullName>
+                <default>false</default>
+                <label>Store</label>
+            </value>
+            <value>
+                <fullName>Switch</fullName>
+                <default>false</default>
+                <label>Switch</label>
+            </value>
+            <value>
+                <fullName>Structure</fullName>
+                <default>false</default>
+                <label>Structure</label>
+            </value>
+            <value>
+                <fullName>Ground</fullName>
+                <default>false</default>
+                <label>Ground</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

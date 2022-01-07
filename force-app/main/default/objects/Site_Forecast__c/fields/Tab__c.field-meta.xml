@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tab__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(   CONTAINS(TEXT(RF_List_Override__c),&quot;Exclude&quot;) , 
+&quot;To Be Excluded&quot;,
+ IF( Forced_Removal__c = TRUE, 
+&quot;Forced Removals&quot;,
+ IF( AND( CONTAINS( ADM_NationalRFResponse__c , &quot;Approved&quot;), CONTAINS( BKL_Vetted_For_Decom__c , &quot;Approved&quot;),  CONTAINS( ADM_NationalLeaseResponse__c , &quot;Approved&quot;) ) , 
+&quot;With National Response&quot;, 
+&quot;Blank National Responses&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tab</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

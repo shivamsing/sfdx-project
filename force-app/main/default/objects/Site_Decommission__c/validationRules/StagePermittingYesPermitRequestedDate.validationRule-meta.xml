@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StagePermittingYesPermitRequestedDate</fullName>
+    <active>true</active>
+    <description>Required Fields at Stage Permitting Yes - Permit Requested Date</description>
+    <errorConditionFormula>AND(
+$User.Bypass_Automation__c = false,
+$Profile.Id = &apos;2F00ef4000000GmzO&apos;,
+ISPICKVAL(Permits_Required__c , &apos;Yes&apos;),
+ISBLANK( Permit_Requested_Date__c )
+)</errorConditionFormula>
+    <errorDisplayField>Permit_Requested_Date__c</errorDisplayField>
+    <errorMessage>Permit Required is Yes;
+Please enter the Permit Requested Date</errorMessage>
+</ValidationRule>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QAEH03</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Electrical Hazards</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QAEH03_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Electrical extension cords shall be inspected for plug damage (exposed wires/conductors, ground prongs in tact, evidence of heat or arcing (melting or charring), cord damage (cuts, abrasions, flat spots, or other evidence of damage). Damaged cords create shock and fire hazards, and are not allowed. Extension cord sizes smaller than 12AWG may generate too much heat when used with construction equipment, creating fire dangers and equipment damage. CFR 1910.334</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QAEH03__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Are all extension cords 12AWG or larger and in good condition?</value>
+    </values>
+</CustomMetadata>

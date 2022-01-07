@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Complete_Forecast_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>DX_Complete_Forecast__c + 5</formula>
+    <inlineHelpText>Used for deconstruction forecasting to match to t-mobile. but runs in to issues when the year completes/if there are dates that are over.</inlineHelpText>
+    <label>DX Complete Forecast Formula</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

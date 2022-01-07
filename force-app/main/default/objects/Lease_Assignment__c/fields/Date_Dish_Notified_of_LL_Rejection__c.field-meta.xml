@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Dish_Notified_of_LL_Rejection__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Date Dish Notified of LL Rejection of Consent Request
+PM to update upon notifying Dish of LL’s decision to not provide consent.</inlineHelpText>
+    <label>Date Dish Notified of LL Rejection?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

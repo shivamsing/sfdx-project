@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commencement_Date__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Date LP station required to be off air to avoid interference with T-Mobile service.  Date set by T-Mobile via LPTV Notification process.  Note - stations may be re-notified that the day has moved out and this field will reflect the later date.</inlineHelpText>
+    <label>Commencement Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Date</type>
+</CustomField>

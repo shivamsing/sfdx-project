@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Probe_Dashboard_Documentation__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;https://na59.salesforce.com/069f4000004YI3l&quot;, &quot;Training&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>PPT with probe and dashboard training.</inlineHelpText>
+    <label>Probe Dashboard Documentation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

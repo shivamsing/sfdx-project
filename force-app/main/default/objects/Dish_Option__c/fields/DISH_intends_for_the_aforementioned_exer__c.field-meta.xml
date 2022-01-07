@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DISH_intends_for_the_aforementioned_exer__c</fullName>
+    <externalId>false</externalId>
+    <label>DISH intends for the aforementioned exer</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>An assignment and assumption of the aforementioned rights of Seller.</fullName>
+                <default>false</default>
+                <label>An assignment and assumption of the aforementioned rights of Seller.</label>
+            </value>
+            <value>
+                <fullName>Another form of transaction whereby DISH obtains the aforementioned rights of Seller.</fullName>
+                <default>false</default>
+                <label>Another form of transaction whereby DISH obtains the aforementioned rights of Seller.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enviro_Permit_Received_Explanation__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Explanation for the question - Station has received necessary Federal, State, and/or local permits and/or review of environmental impact for its post-auction facility</inlineHelpText>
+    <label>Enviro Permit Received Explanation</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

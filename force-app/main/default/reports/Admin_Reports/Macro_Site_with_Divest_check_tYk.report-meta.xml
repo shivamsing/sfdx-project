@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Divestiture_Site__c$Name</field>
+    </columns>
+    <columns>
+        <field>Divestiture_Site__c.Macro_Sites__r$Name</field>
+    </columns>
+    <columns>
+        <field>Divestiture_Site__c.Macro_Sites__r$Id</field>
+    </columns>
+    <columns>
+        <field>Divestiture_Site__c$Id</field>
+    </columns>
+    <columns>
+        <field>Divestiture_Site__c.Macro_Sites__r$Divestiture_Site_Text__c</field>
+    </columns>
+    <description>Used to check and make sure all macro sites are created and linked to divest site</description>
+    <format>Tabular</format>
+    <name>Macro Site with Divest check</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Divest_Sites_with_or_without_Macro_Sites__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Divestiture_Site__c.Macro_Sites__r$Name</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Divestiture_Site__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

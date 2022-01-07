@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RF_Delay_Nearby_Upgrade__c</fullName>
+    <externalId>false</externalId>
+    <label>RF Delay - Additional Reason Code</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Select Option</fullName>
+                <default>false</default>
+                <label>Select Option</label>
+            </value>
+            <value>
+                <fullName>On-time delivery of backhaul</fullName>
+                <default>false</default>
+                <label>On-time delivery of backhaul</label>
+            </value>
+            <value>
+                <fullName>Utility delays</fullName>
+                <default>false</default>
+                <label>Utility delays</label>
+            </value>
+            <value>
+                <fullName>Jurisdictional delays</fullName>
+                <default>false</default>
+                <label>Jurisdictional delays</label>
+            </value>
+            <value>
+                <fullName>Leasing delays (Landlord responsiveness)</fullName>
+                <default>false</default>
+                <label>Leasing delays (Landlord responsiveness)</label>
+            </value>
+            <value>
+                <fullName>Extensive structural modifications</fullName>
+                <default>false</default>
+                <label>Extensive structural modifications</label>
+            </value>
+            <value>
+                <fullName>Equipment delivery delay</fullName>
+                <default>false</default>
+                <label>Equipment delivery delay</label>
+            </value>
+            <value>
+                <fullName>General contractor availability driven by industry changes</fullName>
+                <default>false</default>
+                <label>General contractor availability driven by industry changes</label>
+            </value>
+            <value>
+                <fullName>Site access issues</fullName>
+                <default>false</default>
+                <label>Site access issues</label>
+            </value>
+            <value>
+                <fullName>Force Majeure delays</fullName>
+                <default>false</default>
+                <label>Force Majeure delays</label>
+            </value>
+            <value>
+                <fullName>Construction delays</fullName>
+                <default>false</default>
+                <label>Construction delays</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

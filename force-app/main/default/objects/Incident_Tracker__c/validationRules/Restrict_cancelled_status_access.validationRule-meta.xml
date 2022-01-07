@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_cancelled_status_access</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(   
+      ISCHANGED( Incident_Status__c ) , 
+      TEXT(Incident_Status__c) = &quot;Cancelled&quot;,
+      $User.Username &lt;&gt; 
+          &apos;steven.sanford13@t-mobile.com.divest&apos;,
+      $User.Username &lt;&gt; 
+            &apos;heather.gastelum@t-mobile.com.divest&apos;
+)</errorConditionFormula>
+    <errorDisplayField>Incident_Status__c</errorDisplayField>
+    <errorMessage>Only users Steven Sanford and Heather Gastelum can change incident status to Cancelled</errorMessage>
+</ValidationRule>

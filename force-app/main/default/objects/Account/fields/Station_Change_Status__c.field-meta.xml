@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Station_Change_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Station Change - Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>At Risk</fullName>
+                <default>false</default>
+                <label>At Risk</label>
+            </value>
+            <value>
+                <fullName>Requested</fullName>
+                <default>false</default>
+                <label>STA Filed</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>STA Approved</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>STA Rejected</label>
+            </value>
+            <value>
+                <fullName>No Longer at Risk</fullName>
+                <default>false</default>
+                <label>No Longer at Risk</label>
+            </value>
+            <value>
+                <fullName>Change Complete</fullName>
+                <default>false</default>
+                <label>Change Complete</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

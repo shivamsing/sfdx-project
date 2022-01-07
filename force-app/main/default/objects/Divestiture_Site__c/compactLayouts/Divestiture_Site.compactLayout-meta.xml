@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Divestiture_Site</fullName>
+    <fields>Name</fields>
+    <fields>X180_Day_RF_Shutdown_Warning__c</fields>
+    <fields>X180_Day_Physical_Shutdown_Warning__c</fields>
+    <fields>RF_Shutdown_Date_is_Locked__c</fields>
+    <fields>Date_is_locked_NOD_Issued__c</fields>
+    <fields>Forecasted_Logical_Decommission_Date__c</fields>
+    <fields>Notice_of_Decom_NOD__c</fields>
+    <fields>Region__c</fields>
+    <fields>Structure_Type__c</fields>
+    <label>Divestiture Site</label>
+</CompactLayout>

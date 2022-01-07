@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QASCE11</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Site Critical Elements</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QASCE11_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Site Critical Element* - Equipment selection and utilization shall not allow for an employee to free fall more than 6ft, or contact a lower level.
+Y-lanyard anchorage connectors shall never be connected below the elevation of the user&apos;s back d-ring.
+Self Retracting Devices and lifeline/rope grab systems must be used with-in the parameters of the manufacturer and industry standards. CFR 1926.502</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QASCE11__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Are all elevated employees properly utilizing their PFAS equipment to minimize free fall and total fall distances?</value>
+    </values>
+</CustomMetadata>

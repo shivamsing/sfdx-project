@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notice_of_Non_Renewal</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Lease_NNR</compactLayoutAssignment>
+    <label>Notice of Non-Renewal</label>
+    <picklistValues>
+        <picklist>Notice_Sent_Via__c</picklist>
+        <values>
+            <fullName>Delivery Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>First Class Mail</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Termination_Fee_Type__c</picklist>
+        <values>
+            <fullName>All fees associated with the termination of this Agreement set forth in Paragraph %5F%5F_ will be processed through and paid in accordance with the regular payment of rent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enclosed is check number %5F%5F%5F%5F%5F%5F%5F%5F%5F%5F_%2C representing the termination fee required by Paragraph %5F%5F%5F%5F of the Agreement%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>If the Agreement requires payment of the termination fee to accompany the Termination Notice%2C insert the following%3A</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

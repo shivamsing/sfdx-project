@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suspension_Record_Type</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Custom_Compact_Layout</compactLayoutAssignment>
+    <description>Used when there are Suspension records that need to be tracked?</description>
+    <label>Suspension Record Type</label>
+    <picklistValues>
+        <picklist>Incident_Category__c</picklist>
+        <values>
+            <fullName>Incident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Violation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Incident_Status__c</picklist>
+        <values>
+            <fullName>Awaiting Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incident Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Suspension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Investigation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Incident_Type__c</picklist>
+        <values>
+            <fullName>Altercation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burglary%2FRobbery%2FTheft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Climber Tie-Off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doc %28JHA%2C Certs%2C Rescue%2C Rigging%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dropped Object</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equip Damage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fatality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitalization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Near Miss</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PPE Inadequate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regulatory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rigging Incident</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rigging Method</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solo%2FFree Climb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structure Collapse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsafe Structure</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Likelihood__c</picklist>
+        <values>
+            <fullName>Frequent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Improbable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Occasional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Probable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remote</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OEM__c</picklist>
+        <values>
+            <fullName>Ericsson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nokia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Risk_Rank__c</picklist>
+        <values>
+            <fullName>Catastrophic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marginal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moderate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Negligible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Significant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Secondary_Cause__c</picklist>
+        <values>
+            <fullName>Anchor Attachments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arc%2FPolarity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arson%2FTheft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bird Nest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certs Missing%2FFake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confined Space</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crane Operator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Criminal Activity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deception</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equip Dmg%2FMissing%2FImproper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excessive load</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fall From Heights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fuel%2FOil Spill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hoisting over</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Housekeeping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lock out%2FTag out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maint%2E%2FInstallation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Material Handling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neighbor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PPE Dmg%2FMissing%2FImproper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rigging Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slip%2FTrip%2FSprain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tether</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weather%2FNature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welding</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Suspension_Type_T_Mobile__c</picklist>
+        <values>
+            <fullName>Company Suspension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional Suspension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspension by Crew</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Work_Ordered_By__c</picklist>
+        <values>
+            <fullName>Deconstruction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switch</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>primary_cause__c</picklist>
+        <values>
+            <fullName>Improper%2FNo Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outside Force</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Oversight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standards not followed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

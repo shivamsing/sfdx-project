@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dish_Extension_Requires_Date</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(  ISBLANK( Date_30_Day_Extension_Sent_to_Dish__c ),
+ TEXT( X30_Day_Extension_Sent_to_Dish__c ) = &quot;Yes&quot;)</errorConditionFormula>
+    <errorDisplayField>Date_30_Day_Extension_Sent_to_Dish__c</errorDisplayField>
+    <errorMessage>If entering a Yes for 30 Day Extension sent to Dish, a date must be entered.</errorMessage>
+</ValidationRule>

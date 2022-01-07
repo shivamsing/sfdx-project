@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phase_Transition_Updates_from_the_Broadc__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please use this drop down pick list to select the tower company the broadcaster has selected to do their tower work. If the contractor is not in the pick list, please select &quot;Other&quot;. Then type in the contractors name in the Tower Name comment field below</inlineHelpText>
+    <label>Tower Contractor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acme RF Inc</fullName>
+                <default>false</default>
+                <label>Acme RF Inc</label>
+            </value>
+            <value>
+                <fullName>Advanced Tower Services</fullName>
+                <default>false</default>
+                <label>Advanced Tower Services</label>
+            </value>
+            <value>
+                <fullName>Almendarez Technical Services</fullName>
+                <default>false</default>
+                <label>Almendarez Technical Services</label>
+            </value>
+            <value>
+                <fullName>Al Warmus and Associates</fullName>
+                <default>false</default>
+                <label>Al Warmus and Associates</label>
+            </value>
+            <value>
+                <fullName>Americom_Tower(s)</fullName>
+                <default>false</default>
+                <label>Americom Tower(s)</label>
+            </value>
+            <value>
+                <fullName>Beckman Tower</fullName>
+                <default>false</default>
+                <label>Beckman Tower</label>
+            </value>
+            <value>
+                <fullName>Best Endeavours, Inc.</fullName>
+                <default>false</default>
+                <label>Best Endeavours, Inc.</label>
+            </value>
+            <value>
+                <fullName>Coast to Coast Tower service Inc.</fullName>
+                <default>false</default>
+                <label>Coast to Coast Tower service Inc.</label>
+            </value>
+            <value>
+                <fullName>Comm Plus Inc.</fullName>
+                <default>false</default>
+                <label>Comm Plus Inc.</label>
+            </value>
+            <value>
+                <fullName>Crawford Communications</fullName>
+                <default>false</default>
+                <label>Crawford Communications</label>
+            </value>
+            <value>
+                <fullName>Cycle Tower Services</fullName>
+                <default>false</default>
+                <label>Cycle Tower Services</label>
+            </value>
+            <value>
+                <fullName>Deep South Communications</fullName>
+                <default>false</default>
+                <label>Deep South Communications</label>
+            </value>
+            <value>
+                <fullName>EasTex Tower</fullName>
+                <default>false</default>
+                <label>EasTex Tower</label>
+            </value>
+            <value>
+                <fullName>ERI Installations</fullName>
+                <default>false</default>
+                <label>ERI Installations</label>
+            </value>
+            <value>
+                <fullName>Great Plains Tower</fullName>
+                <default>false</default>
+                <label>Great Plains Tower</label>
+            </value>
+            <value>
+                <fullName>Grundy Telecom</fullName>
+                <default>false</default>
+                <label>Grundy Telecom (GTI)</label>
+            </value>
+            <value>
+                <fullName>H.C. Jefferies Tower Company Inc.</fullName>
+                <default>false</default>
+                <label>H.C. Jefferies Tower Company Inc.</label>
+            </value>
+            <value>
+                <fullName>Houston&apos;s Tower Service</fullName>
+                <default>false</default>
+                <label>Houston&apos;s Tower Service</label>
+            </value>
+            <value>
+                <fullName>International Towers Inc.</fullName>
+                <default>false</default>
+                <label>International Towers Inc.</label>
+            </value>
+            <value>
+                <fullName>North East Towers Inc.</fullName>
+                <default>false</default>
+                <label>North East Towers Inc.</label>
+            </value>
+            <value>
+                <fullName>Northstar Broadcast Contractors</fullName>
+                <default>false</default>
+                <label>Northstar Broadcast Contractors</label>
+            </value>
+            <value>
+                <fullName>P&amp;R Tower</fullName>
+                <default>false</default>
+                <label>P&amp;R Tower</label>
+            </value>
+            <value>
+                <fullName>PEXX, Inc</fullName>
+                <default>false</default>
+                <label>PEXX, Inc</label>
+            </value>
+            <value>
+                <fullName>Precision Communications Inc .</fullName>
+                <default>false</default>
+                <label>Precision Communications Inc .</label>
+            </value>
+            <value>
+                <fullName>RIO Steel and Tower Ltd</fullName>
+                <default>false</default>
+                <label>RIO Steel and Tower Ltd</label>
+            </value>
+            <value>
+                <fullName>Royce Tower Service</fullName>
+                <default>false</default>
+                <label>Royce Tower Service</label>
+            </value>
+            <value>
+                <fullName>Schrader Broadcast Services Inc.</fullName>
+                <default>false</default>
+                <label>Schrader Broadcast Services Inc.</label>
+            </value>
+            <value>
+                <fullName>SeaComm Erectors</fullName>
+                <default>false</default>
+                <label>SeaComm Erectors</label>
+            </value>
+            <value>
+                <fullName>Shenandoah Tower Service</fullName>
+                <default>false</default>
+                <label>Shenandoah Tower Service</label>
+            </value>
+            <value>
+                <fullName>Sioux Falls Tower</fullName>
+                <default>false</default>
+                <label>Sioux Falls Tower</label>
+            </value>
+            <value>
+                <fullName>Sky jack communications</fullName>
+                <default>false</default>
+                <label>Sky Jack Communications</label>
+            </value>
+            <value>
+                <fullName>Stainless LLC</fullName>
+                <default>false</default>
+                <label>Stainless LLC</label>
+            </value>
+            <value>
+                <fullName>Steve Lemay, LLC</fullName>
+                <default>false</default>
+                <label>Steve Lemay, LLC</label>
+            </value>
+            <value>
+                <fullName>Superior Tower Service Inc.</fullName>
+                <default>false</default>
+                <label>Superior Tower Service Inc.</label>
+            </value>
+            <value>
+                <fullName>Tower &amp; Communication Services Inc</fullName>
+                <default>false</default>
+                <label>Tower &amp; Communication Services Inc</label>
+            </value>
+            <value>
+                <fullName>Tower Guys Inc.</fullName>
+                <default>false</default>
+                <label>Tower Guys Inc.</label>
+            </value>
+            <value>
+                <fullName>Tower King II</fullName>
+                <default>false</default>
+                <label>Tower King II</label>
+            </value>
+            <value>
+                <fullName>Tower Systems</fullName>
+                <default>false</default>
+                <label>Tower Systems</label>
+            </value>
+            <value>
+                <fullName>Tower Systems South</fullName>
+                <default>false</default>
+                <label>Tower Systems South</label>
+            </value>
+            <value>
+                <fullName>Tri State Towers (TST)</fullName>
+                <default>false</default>
+                <label>Tri State Towers (TST)</label>
+            </value>
+            <value>
+                <fullName>Ultimate Tower Services Inc</fullName>
+                <default>false</default>
+                <label>Ultimate Tower Services Inc</label>
+            </value>
+            <value>
+                <fullName>United Tower Service</fullName>
+                <default>false</default>
+                <label>United Tower Service</label>
+            </value>
+            <value>
+                <fullName>Vertical Technology Services LLC</fullName>
+                <default>false</default>
+                <label>Vertical Technology Services LLC</label>
+            </value>
+            <value>
+                <fullName>Wallace Tower</fullName>
+                <default>false</default>
+                <label>Wallace Tower</label>
+            </value>
+            <value>
+                <fullName>Wallen Communications</fullName>
+                <default>false</default>
+                <label>Wallen Communications</label>
+            </value>
+            <value>
+                <fullName>World Tower Company</fullName>
+                <default>false</default>
+                <label>World Tower Company</label>
+            </value>
+            <value>
+                <fullName>Worldwide Communications Consultants, Inc.</fullName>
+                <default>false</default>
+                <label>Worldwide Communications Consultants, Inc.</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Midwest Steeplejacks</fullName>
+                <default>false</default>
+                <label>Midwest Steeplejacks</label>
+            </value>
+            <value>
+                <fullName>Marsand Inc</fullName>
+                <default>false</default>
+                <label>Marsand Inc</label>
+            </value>
+            <value>
+                <fullName>Tower Engineering Professionals</fullName>
+                <default>false</default>
+                <label>Tower Engineering Professionals</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

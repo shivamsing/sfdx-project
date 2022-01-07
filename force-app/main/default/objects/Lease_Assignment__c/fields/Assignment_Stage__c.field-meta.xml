@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assignment_Stage__c</fullName>
+    <defaultValue>&apos;1. Select Lease&apos;</defaultValue>
+    <externalId>false</externalId>
+    <label>Assignment Stage</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1. Select Lease</fullName>
+                <default>true</default>
+                <label>1. Select Lease</label>
+            </value>
+            <value>
+                <fullName>2. Send Consent Request</fullName>
+                <default>false</default>
+                <label>2. Send Consent Request</label>
+            </value>
+            <value>
+                <fullName>3. Waiting on LL Consent</fullName>
+                <default>false</default>
+                <label>3. Waiting on LL Consent</label>
+            </value>
+            <value>
+                <fullName>4. Dish Discussion - Fees</fullName>
+                <default>false</default>
+                <label>4. Dish Discussion - Fees</label>
+            </value>
+            <value>
+                <fullName>5. Finalize LL Consent</fullName>
+                <default>false</default>
+                <label>5. Finalize LL Consent</label>
+            </value>
+            <value>
+                <fullName>6. Discussion with DISH</fullName>
+                <default>false</default>
+                <label>6. Discussion with DISH</label>
+            </value>
+            <value>
+                <fullName>7. Lease Termination</fullName>
+                <default>false</default>
+                <label>7. Lease Termination</label>
+            </value>
+            <value>
+                <fullName>8. Compile Closing</fullName>
+                <default>false</default>
+                <label>8. Compile Closing</label>
+            </value>
+            <value>
+                <fullName>9. Deal Closed</fullName>
+                <default>false</default>
+                <label>9. Deal Closed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

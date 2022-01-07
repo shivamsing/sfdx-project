@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Export_Date_from_Salesforce__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Used when exporting data from Salesforce to SQL DB for PI Probe team</inlineHelpText>
+    <label>Export Date from Salesforce</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

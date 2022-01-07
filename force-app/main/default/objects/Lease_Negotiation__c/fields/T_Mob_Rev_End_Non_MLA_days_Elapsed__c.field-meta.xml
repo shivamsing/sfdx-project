@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>T_Mob_Rev_End_Non_MLA_days_Elapsed__c</fullName>
+    <externalId>false</externalId>
+    <formula>T_Mobile_Review_NNr_Not_End_Date__c - Non_MLA_Termination_Process_Start_Date__c</formula>
+    <label>T-Mob Rev End - Non-MLA days Elapsed</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

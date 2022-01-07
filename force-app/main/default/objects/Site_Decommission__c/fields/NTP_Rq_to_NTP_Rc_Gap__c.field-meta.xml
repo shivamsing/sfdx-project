@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NTP_Rq_to_NTP_Rc_Gap__c</fullName>
+    <description>time between fields: &quot;MLA/LL NTP Requested Date&quot; and &quot;MLA/LL NTP Received&quot;</description>
+    <externalId>false</externalId>
+    <formula>MLA_LL_NTP_Received_Date__c - MLA_LL_NTP_Requested_Date__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>NTP Rq to NTP Rc Gap</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

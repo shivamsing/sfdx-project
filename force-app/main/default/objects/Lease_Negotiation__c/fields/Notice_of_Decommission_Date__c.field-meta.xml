@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notice_of_Decommission_Date__c</fullName>
+    <externalId>false</externalId>
+    <formula>Divestiture_Site__r.Notice_of_Decom_NOD__c</formula>
+    <inlineHelpText>Populated from related divest site</inlineHelpText>
+    <label>Notice of Decommission Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

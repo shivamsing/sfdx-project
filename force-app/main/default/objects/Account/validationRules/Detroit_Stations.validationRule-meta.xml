@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Detroit_Stations</fullName>
+    <active>false</active>
+    <description>Need to ordinate three Detroit stations off air dates to prevent issues from marking WLPC Off Air early.</description>
+    <errorConditionFormula>OR(Call_Sign_Current__c  = &quot;WXYZ-TV&quot;,Call_Sign_Current__c  = &quot;WADL&quot;)  &amp;&amp;  ISCHANGED( Actual_Date__c )</errorConditionFormula>
+    <errorMessage>Detroit Stations WXYZ-TV and WADL cannot be marked off air until WLPC is confirmed off air and not just showing off air in SF.  Please confirm with Rogers if you see this error.</errorMessage>
+</ValidationRule>

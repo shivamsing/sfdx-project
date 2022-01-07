@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prior_List_Actions__c</fullName>
+    <description>Comment History for this site from the previous Lists</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Comment History for this site from the previous Lists</inlineHelpText>
+    <label>Prior List Actions</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

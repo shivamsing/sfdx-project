@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call_Sign_City_State_Channels__c</fullName>
+    <externalId>false</externalId>
+    <formula>Name  &amp;&quot; / &quot; &amp; Account_City__c &amp;&quot;, &quot; &amp; Account_State__c &amp; &quot; /Channel - &quot; &amp; TEXT(Channel__c) &amp;&quot; / &quot;&amp;&quot;New Channel - &quot; &amp;  Text(New_Channel__c)&amp; &quot; /&quot; &amp; &quot;Phase - &quot; &amp;     Dashboard_Repack_Phase_Admin__c  &amp; &quot; / &quot; &amp;  Parent.Name</formula>
+    <label>Fac ID /City / State / Channels/ Owner</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

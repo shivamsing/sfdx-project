@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReadOnly</fullName>
+    <active>true</active>
+    <description>To Make the fields Read-only</description>
+    <label>ReadOnly</label>
+    <picklistValues>
+        <picklist>National_Response__c</picklist>
+        <values>
+            <fullName>Blank National Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Response Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Be Excluded</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>National_Team_Approve_Reject__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RF_List_Override__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>RF List Override Exclude</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RF List Override Include</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Regional_Approval__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awaiting Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Market Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Regional_Team_Approve_Reject__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TMO_Region_Picklist__c</picklist>
+        <values>
+            <fullName>CENTRAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NORTHEAST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOUTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WEST</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Change__c</picklist>
+        <values>
+            <fullName>Date Add</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deselect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New RF Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Site Add</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Change</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

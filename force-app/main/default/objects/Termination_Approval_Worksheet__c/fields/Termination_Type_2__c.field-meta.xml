@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Termination_Type_2__c</fullName>
+    <externalId>false</externalId>
+    <label>Termination Type 2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sole discretion</fullName>
+                <default>false</default>
+                <label>Sole discretion</label>
+            </value>
+            <value>
+                <fullName>Economic</fullName>
+                <default>false</default>
+                <label>Economic</label>
+            </value>
+            <value>
+                <fullName>Technological</fullName>
+                <default>false</default>
+                <label>Technological</label>
+            </value>
+            <value>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+                <label>Environmental</label>
+            </value>
+            <value>
+                <fullName>No term in lease</fullName>
+                <default>false</default>
+                <label>No term in lease</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

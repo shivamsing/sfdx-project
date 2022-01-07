@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LN_Status_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR(ISPICKVAL(Negotiation_Steps__c , &quot;Complete&quot;), ISPICKVAL(Negotiation_Steps__c ,&quot;Canceled&quot;)),$Profile.Name=&apos;Due Diligence Vendor Profile&apos;)</errorConditionFormula>
+    <errorDisplayField>Negotiation_Steps__c</errorDisplayField>
+    <errorMessage>Please contact Lease Negotiation management to cancel or complete this record</errorMessage>
+</ValidationRule>

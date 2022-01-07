@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tracking_Date_LP__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    AND(
+        ISBLANK( Commencement_Date__c ),
+        ISBLANK( Concurrent_Operations_End_Date__c ),
+        ISBLANK( HP_Reference_date__c ),
+        ISBLANK( Actual_Date__c )
+    ),
+    NULL,
+    DATE(1900, 01, 01) +
+    MAX(
+        BLANKVALUE(
+             Commencement_Date__c , 
+            DATE(1900, 01, 01)
+        ) - DATE(1900, 01, 01),
+        BLANKVALUE(
+             Concurrent_Operations_End_Date__c ,
+            DATE(1900, 01, 01)
+        ) - DATE(1900, 01, 01),
+        BLANKVALUE(
+             HP_Reference_date__c ,
+            DATE(1900, 01, 01)
+        ) - DATE(1900, 01, 01),
+        BLANKVALUE(
+             Actual_Date__c ,
+            DATE(1900, 01, 01)
+        ) - DATE(1900, 01, 01)
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Latest date of commencement, concurrent Ops, HP Reference or Actual Off 600 MHz.  Used for Escalated Station Flow.</inlineHelpText>
+    <label>Tracking Date LP</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

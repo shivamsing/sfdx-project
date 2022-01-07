@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_Zone_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISNULL(Time__c)),ISPICKVAL(Time_Zone__c,&apos;&apos;))</errorConditionFormula>
+    <errorDisplayField>Time_Zone__c</errorDisplayField>
+    <errorMessage>Time Zone is Required when you entered Time</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Broadcaster_Reports_Transition_at_Risk__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>I left the broadcaster reports transtiion field name the same, because I didn&apos;t want to risk messing with reports. But Broadcaster Reports Transition at Risk is the same as Outreach Reports Transition at risk. (Change made 7/17/2018, due to Mark Combs request).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Completed by the Outreach Team if the Broadcaster reports they are at risk of missing their phase completion date. Checking the box generates a request for an analysis of the impact to our sites if the station misses its date.</inlineHelpText>
+    <label>Outreach ReportsTransition at Risk</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

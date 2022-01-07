@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Justification_Details_is_Required</fullName>
+    <active>true</active>
+    <description>Justification Details is Required</description>
+    <errorConditionFormula>AND(
+NOT(ISNEW()),
+Justification_Details__c = &apos;&apos;)</errorConditionFormula>
+    <errorDisplayField>Justification_Details__c</errorDisplayField>
+    <errorMessage>Please enter the Justification Details</errorMessage>
+</ValidationRule>

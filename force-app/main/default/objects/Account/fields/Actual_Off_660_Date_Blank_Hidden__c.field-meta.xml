@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_Off_660_Date_Blank_Hidden__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used for filtering dates, hidden from page layout to avoid confusion, but useful in reporting.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used for filtering dates- Blank checkbox means station is OFF AIR. Checked box means station is on air. (True or false. Default state is checked).</inlineHelpText>
+    <label>Actual Off 600 Date Checkbox (✓=on air)</label>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

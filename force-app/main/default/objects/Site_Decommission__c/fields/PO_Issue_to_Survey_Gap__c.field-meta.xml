@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PO_Issue_to_Survey_Gap__c</fullName>
+    <description>time between fields: &quot;PO Issue Date&quot; and &quot;GC Site Survey Complete Date&quot;</description>
+    <externalId>false</externalId>
+    <formula>GC_Site_Survey_Complete_Date__c - PO_Issue_Date__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>PO Issue to Survey Gap</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

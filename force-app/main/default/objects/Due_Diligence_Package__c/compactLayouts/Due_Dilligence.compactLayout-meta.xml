@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Dilligence</fullName>
+    <fields>Name</fields>
+    <fields>Priority_Group__c</fields>
+    <fields>Total_Checklist_Items__c</fields>
+    <fields>Percent_Complete__c</fields>
+    <fields>QC_Completed_and_Approved__c</fields>
+    <fields>Vendor__c</fields>
+    <fields>OwnerId</fields>
+    <label>Due Dilligence</label>
+</CompactLayout>

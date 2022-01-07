@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Station_Change_Link_to_STA__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Link to the STA or other FCC Filling that details the station change</inlineHelpText>
+    <label>Station Change - Link to STA</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Url</type>
+</CustomField>

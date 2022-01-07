@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MandateRegulatoryFees</fullName>
+    <active>true</active>
+    <description>To Mandate the value in the currency field - Regulatory Fees, based on the selection in the Multi-select picklist field - LL Demands Additional Compensation</description>
+    <errorConditionFormula>AND(
+INCLUDES(LL_Demands_Additional_Compensation__c, &apos;Regulatory Fees&apos;),
+ISNULL(Regulatory_Fees__c)
+)</errorConditionFormula>
+    <errorDisplayField>Regulatory_Fees__c</errorDisplayField>
+    <errorMessage>LL Demands Additional Compensation has Regulatory Fees
+Please Enter value in the field - Regulatory Fees</errorMessage>
+</ValidationRule>

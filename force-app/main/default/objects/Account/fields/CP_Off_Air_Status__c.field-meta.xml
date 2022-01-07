@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CP_Off_Air_Status__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used to Identify all the low power stations that have a facility status of CP Off Air &amp; have not filed a displacement request and have not been assigned a commencement date on channels above 37 and check the box.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This box is checked when this criteria is met-  Lp&apos;s with a facility status of CP Off Air, who have not filed a displacement request, and have not been assigned a commencement date on channels above 37.</inlineHelpText>
+    <label>CP Off Air Status</label>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

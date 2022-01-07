@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NOT_NNR_Sent_to_Landlord__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Created a field for Trigger to get the value from Lease Negotiation.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please do not change the value in this field.
+The value in the field is populated from the associated Lease Negotiation record.</inlineHelpText>
+    <label>NOT/NNR Sent to Landlord</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

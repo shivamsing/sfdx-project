@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QALS10</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Ladders &amp; Scaffolds</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QALS10_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Suspended scaffolding system suspension lines require anchorages capable of supporting the gross weight of the loaded device multiplied by a Safety Factor of 4 Each occupant of a suspended scaffolding system must utilize their own Vertical Lifeline system, connected to an anchorage capable of  supporting a static load of 5,000lbs. CFR 1910.28 (g)</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QALS10__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Have the anchors for all suspended scaffolding system suspension lines and separate vertical lifelines been verified?</value>
+    </values>
+</CustomMetadata>

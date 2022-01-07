@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>primary_cause__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary Cause</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Improper/No Training</fullName>
+                <default>false</default>
+                <label>Improper/No Training</label>
+            </value>
+            <value>
+                <fullName>Standards not followed</fullName>
+                <default>false</default>
+                <label>Standards not followed</label>
+            </value>
+            <value>
+                <fullName>Outside Force</fullName>
+                <default>false</default>
+                <label>Outside Force</label>
+            </value>
+            <value>
+                <fullName>Poor Oversight</fullName>
+                <default>false</default>
+                <label>Poor Oversight</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

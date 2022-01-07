@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Spoke_to_Landlord_Required</fullName>
+    <active>true</active>
+    <description>Spoke_to_Landlord_Required</description>
+    <errorConditionFormula>AND(ISPICKVAL(Spoke_to_Landlord__c , &quot;Yes&quot;), ISBLANK( LL_Primary_Contact__c ))</errorConditionFormula>
+    <errorMessage>Please update the LL Primary Contact information with who you spoke with, including Phone and Email if available</errorMessage>
+</ValidationRule>

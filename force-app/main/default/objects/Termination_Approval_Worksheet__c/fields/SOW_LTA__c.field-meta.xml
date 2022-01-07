@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SOW_LTA__c</fullName>
+    <externalId>false</externalId>
+    <label>SOW LTA</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1. Radio/Battery/LTE Cabinet Only</fullName>
+                <default>false</default>
+                <label>1. Radios and HazMat</label>
+            </value>
+            <value>
+                <fullName>2. Cabinets Only</fullName>
+                <default>false</default>
+                <label>2. Cabinets Only</label>
+            </value>
+            <value>
+                <fullName>3. Antennas Only</fullName>
+                <default>false</default>
+                <label>3. Antennas Only</label>
+            </value>
+            <value>
+                <fullName>4. Cabinets and Antennas Only</fullName>
+                <default>false</default>
+                <label>4. Cabinets and Antennas</label>
+            </value>
+            <value>
+                <fullName>5. Full Deconstruction</fullName>
+                <default>false</default>
+                <label>5. Full Deconstruction - Ground Only</label>
+            </value>
+            <value>
+                <fullName>6. Full Deconstruction</fullName>
+                <default>false</default>
+                <label>6. Full Deconstruction</label>
+            </value>
+            <value>
+                <fullName>7. Other (Please describe below)</fullName>
+                <default>false</default>
+                <label>7. Other (Please describe below)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Risk_Value_Hidden__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Broadcaster_Risk_Overall_Hidden__c ,
+ &quot;Moderate&quot;, 5,
+ &quot;Severe&quot;, 6,
+ &quot;Urgent&quot;, 8,
+ &quot;Critical&quot;, 9,
+1)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Value of the risk level.</inlineHelpText>
+    <label>Risk Value (Hidden)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

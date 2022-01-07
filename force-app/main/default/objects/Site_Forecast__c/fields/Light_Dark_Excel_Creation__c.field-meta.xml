@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Light_Dark_Excel_Creation__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;/apex/APXTConga4__Conga_Composer?id=&quot;+$User.Id+
+&quot;&amp;QueryId=[LDTemplate]0Q_011EAY114166?pv0=&quot;+
+&quot;&amp;TemplateId=0T_011EAY447691&quot;</formula>
+    <inlineHelpText>*Not Needed* There is a field on the User Record that is used to export site forecast data in both light and dark form.</inlineHelpText>
+    <label>Light Dark Excel Creation</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

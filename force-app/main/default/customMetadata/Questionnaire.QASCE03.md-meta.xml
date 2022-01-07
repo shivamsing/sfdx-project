@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QASCE03</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Site Critical Elements</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QASCE03_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Site Critical Element* - Each crew shall document an evaluation of the duties for the day. This includes the tasks to be performed, all hazards associated with each task, and the methods that will be used to control each hazard present on the jobsite. Any worker or visitor to the jobsite must review the JSA, and sign or initial the document to confirm they understand the hazards present in the area they are about to enter.
+JSAs and other safety documentation are required to represent the Employer working the jobsite. OSHA 3071 2002 (Revised)</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QASCE03__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Is the daily Job Safety Analysis/ Job Hazard Analysis form filled out and on site?</value>
+    </values>
+</CustomMetadata>

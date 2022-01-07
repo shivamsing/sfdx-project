@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Likelihood__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>See Risk Hazard Scoring image below to guide decisions in Likelihood</inlineHelpText>
+    <label>Likelihood</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Frequent</fullName>
+                <default>false</default>
+                <label>Frequent</label>
+            </value>
+            <value>
+                <fullName>Probable</fullName>
+                <default>false</default>
+                <label>Probable</label>
+            </value>
+            <value>
+                <fullName>Occasional</fullName>
+                <default>false</default>
+                <label>Occasional</label>
+            </value>
+            <value>
+                <fullName>Remote</fullName>
+                <default>false</default>
+                <label>Remote</label>
+            </value>
+            <value>
+                <fullName>Improbable</fullName>
+                <default>false</default>
+                <label>Improbable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

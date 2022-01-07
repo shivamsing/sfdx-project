@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DX_Start_to_DX_Comp_Gap__c</fullName>
+    <description>time between fields: &quot;DX Start Actual&quot; and &quot;DX Start Complete Actual&quot;</description>
+    <externalId>false</externalId>
+    <formula>DX_Complete_Actual__c - DX_Start_Actual__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>DX Start to DX Comp Gap</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

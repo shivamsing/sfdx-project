@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QASCE10</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Site Critical Elements</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QASCE10_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Site Critical Element* - All employees working 6 feet or more (measured from the bottom of the foot) above ground or a lower level must use an applicable form of fall protection. Any elevated employee using a Personal Fall Arrest System (PFAS) as their fall protection method must ensure that at least one (1) of their PFAS lanyards or devices is connected to a structural anchorage at all times. Anchorage must be capable of holding a static load of 5,000 lbs. (3,600 lbs. minimum if an engineered anchorage is utilized). CFR 1926.501, ANSI A10.48, NATE CTS</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QASCE10__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Are all elevated employees maintaining 100% tie-off? (No one Free Climbing)</value>
+    </values>
+</CustomMetadata>

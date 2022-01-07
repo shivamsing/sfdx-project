@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quarters_Until_Close__c</fullName>
+    <externalId>false</externalId>
+    <formula>CEILING(MONTH( Physical_Decom_Date_Complete__c ) / 3 ) - CEILING(MONTH( TODAY() ) / 3 ) +
+((YEAR( Physical_Decom_Date_Complete__c ) - YEAR( TODAY() )) * 4 )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Quarters Until Close</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

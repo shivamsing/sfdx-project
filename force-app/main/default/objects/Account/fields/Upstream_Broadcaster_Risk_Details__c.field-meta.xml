@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Upstream_Broadcaster_Risk_Details__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Details of all Upstream Broadcaster Risk for the first upstream risk.</inlineHelpText>
+    <label>Upstream 1 Broadcaster Risk Details</label>
+    <length>15000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>15</visibleLines>
+</CustomField>

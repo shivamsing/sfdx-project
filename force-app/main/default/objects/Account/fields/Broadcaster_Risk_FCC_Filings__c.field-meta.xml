@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Broadcaster_Risk_FCC_Filings__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the risk the Broadcaster will not meet it&apos;s phase completion date| Normal (Green) no additional risks |Mod/Sev- small delays/crew| Urgent/Critical- Very likely delay days/weeks| Critical will be missed w/out help- delay 1 month +| View RiskRating ^</inlineHelpText>
+    <label>Broadcaster Risk (FCC Filings)</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Normal</fullName>
+                <default>false</default>
+                <label>Normal</label>
+            </value>
+            <value>
+                <fullName>Moderate</fullName>
+                <default>false</default>
+                <label>Moderate</label>
+            </value>
+            <value>
+                <fullName>Severe</fullName>
+                <default>false</default>
+                <label>Severe</label>
+            </value>
+            <value>
+                <fullName>Urgent</fullName>
+                <default>false</default>
+                <label>Urgent</label>
+            </value>
+            <value>
+                <fullName>Critical</fullName>
+                <default>false</default>
+                <label>Critical</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

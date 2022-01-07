@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QAGP06</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Gin Poles</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QAGP06_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">For wire rope, sheave-to-load line requires an 18:1 D:d, or required deductions to load line strength. Equal to 9in sheave for 1/2in wire rope 18:1=80% efficiency of a wire rope&apos;s WLL, smaller sheave requires reduction of rope&apos;s WLL.
+For synthetic rope, 6:1 minimum D:d is required. ANSI A10.48 (11), (10.5.1.1)</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QAGP06__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Does the rooster head sheave have the proper D:d for the load line being used?</value>
+    </values>
+</CustomMetadata>

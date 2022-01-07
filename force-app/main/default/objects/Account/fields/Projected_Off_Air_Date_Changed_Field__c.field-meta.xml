@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Projected_Off_Air_Date_Changed_Field__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to populate when the projected off air date is changed, with today&apos;s date. (This is the date the info will be sent to Ninja, and show the projected off air date)</inlineHelpText>
+    <label>Date Station Delay Sent to Ninja</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Date</type>
+</CustomField>

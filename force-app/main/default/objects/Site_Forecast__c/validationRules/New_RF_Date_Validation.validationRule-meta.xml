@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_RF_Date_Validation</fullName>
+    <active>true</active>
+    <description>New_RF_Date_Validation this date can not be updated if the RF Shutdown Date is Locked</description>
+    <errorConditionFormula>AND( !ISBLANK( New_RF_Date__c ) ,
+				 RF_Shutdown_Date_is_Locked__c 
+				)</errorConditionFormula>
+    <errorDisplayField>New_RF_Date__c</errorDisplayField>
+    <errorMessage>You can not enter new RF date if the RF Shutdown Date Locked is enabled</errorMessage>
+</ValidationRule>

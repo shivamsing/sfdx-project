@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QAMEWP04</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">MEWP&apos;s/Aerial Lifts</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QAMEWP04_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">The MEWP operator shall provide instruction or otherwise ensure all occupants have a basic level of knowledge to work safely on the MEWP. This instruction should also provide at least one of the occupants with the knowledge to operate the controls in an emergency where the operator cannot. This instruction does not give the occupant authorization to operate the controls at any time except in an emergency. ANSI A92.24 (7.4)</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QAMEWP04__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Has occupant knowledge been documented in case of an emergency situation where personnel other than the operator needs to operate the MEWP?</value>
+    </values>
+</CustomMetadata>

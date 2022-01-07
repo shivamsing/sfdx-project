@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Specialty_Approval_Permits_Required__c</fullName>
+    <externalId>false</externalId>
+    <label>Specialty Approval/Permits Required</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LANDMARKS</fullName>
+                <default>false</default>
+                <label>LANDMARKS</label>
+            </value>
+            <value>
+                <fullName>FDOT</fullName>
+                <default>false</default>
+                <label>FDOT</label>
+            </value>
+            <value>
+                <fullName>NYSTA</fullName>
+                <default>false</default>
+                <label>NYSTA</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

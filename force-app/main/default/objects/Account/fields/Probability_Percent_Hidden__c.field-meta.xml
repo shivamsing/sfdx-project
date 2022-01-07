@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Probability_Percent_Hidden__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Station_Change_Probability__c, 
+&quot;Certain&quot;, 1, 
+&quot;High&quot;, 2, 
+&quot;Medium&quot;, 3,
+&quot;Low&quot;, 4, 
+&quot;No Probability&quot;, 5,
+6)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Field populates off of the Text Probability in Account. Hidden for reporting purposes.</inlineHelpText>
+    <label>Probability Percent (Hidden)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
