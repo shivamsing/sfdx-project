@@ -32,6 +32,14 @@ jobs:
 
     - name: 'Authenticate against dev hub'
       run: sfdx force:auth:sfdxurl:store -f SFDX_PA -s -a DevHub
+      
+    # Create scratch org
+    - name: 'Create scratch org'
+      run: sfdx force:org:create -f config/project-scratch-def.json -a CICDScratchOrg -s -d 1 -v DevHub
+      
+    # Deploy source to scratch org
+    - name: 'Push source to scratch org'
+      run: sfdx force:source:push
 
     - name: Run Apex test
       run: sfdx force:apex:test:run --resultformat json --codecoverage --testlevel=RunLocalTests -r human
