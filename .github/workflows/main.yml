@@ -36,14 +36,6 @@ jobs:
     # Create scratch org
     - name: 'Create scratch org'
       run: sfdx force:org:create -f config/project-scratch-def.json -a CICDScratchOrg -s -d 1 -v DevHub
-    
-    # Export User Data to org
-    - name: 'Export User Data'
-      run: sfdx force:data:tree:export --objects User --outputdir ./data --targetusername DevHub
-    
-    # Import User Data to org
-    - name: 'Import User Data'
-      run: sfdx force:data:tree:import --inputdir ./data --targetusername CICDScratchOrg
       
     # Deploy source to scratch org
     - name: 'Push source to scratch org'
