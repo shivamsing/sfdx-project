@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lease_Negotiation_Validation_Rule</fullName>
+    <active>false</active>
+    <description>Forecasted NTP Date is required</description>
+    <errorConditionFormula>AND(NOT(ISNEW()),ISNULL(Forecasted_NTP_Date__c), Responsible_for_Physical_Decom__c = &apos;National&apos;,
+ISPICKVAL( PRIORVALUE (Negotiation_Steps__c), &quot;Start Lease Negotiation Process&quot;),ISCHANGED(Negotiation_Steps__c))</errorConditionFormula>
+    <errorDisplayField>Forecasted_NTP_Date__c</errorDisplayField>
+    <errorMessage>Forecasted NTP Date is required in Stage 2</errorMessage>
+</ValidationRule>

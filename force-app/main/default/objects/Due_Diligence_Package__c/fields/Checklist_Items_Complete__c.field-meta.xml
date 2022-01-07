@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Checklist_Items_Complete__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Calculates the total number of Checklist items (that are included in the summary) are completed</inlineHelpText>
+    <label>Checklist Items Complete</label>
+    <summaryFilterItems>
+        <field>Checklist_Item__c.Exclude_From_Summary__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Checklist_Item__c.Document_s_Available_in_eletronic_form__c</field>
+        <operation>notEqual</operation>
+        <value></value>
+    </summaryFilterItems>
+    <summaryForeignKey>Checklist_Item__c.Due_Diligence_Package__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

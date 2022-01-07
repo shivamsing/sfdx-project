@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QALS07</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Ladders &amp; Scaffolds</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QALS07_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">All employees who work on a scaffold must be trained by a person qualified to recognize the hazards associated with the type of scaffold used and to understand the procedures to control and minimize those hazards. CFR 1926.454(b)
+Fall protection includes guardrail systems and personal fall arrest systems. Guardrail systems are explained below in another question. Personal fall arrest systems include harnesses, components of the harness/belt such as Dee-rings, and snap hooks, lifelines, and anchorage point. Vertical or horizontal lifelines may be used. Lifelines must be independent of support lines and suspension ropes and not attached to the same anchorage point as the support or suspension ropes. CFR 1926.451(g)</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QALS07__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Are all employees that are using the scaffold system trained for the system in use, and utilizing proper fall protection measures?</value>
+    </values>
+</CustomMetadata>

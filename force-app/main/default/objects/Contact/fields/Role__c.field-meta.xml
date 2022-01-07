@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Main Contact</fullName>
+                <default>false</default>
+                <label>Main Contact</label>
+            </value>
+            <value>
+                <fullName>Decision Maker</fullName>
+                <default>false</default>
+                <label>Decision Maker</label>
+            </value>
+            <value>
+                <fullName>Licensee</fullName>
+                <default>false</default>
+                <label>Licensee</label>
+            </value>
+            <value>
+                <fullName>Technical Contact</fullName>
+                <default>false</default>
+                <label>Technical Contact</label>
+            </value>
+            <value>
+                <fullName>Alternative Contact</fullName>
+                <default>false</default>
+                <label>Alternative Contact</label>
+            </value>
+            <value>
+                <fullName>Legal Representative</fullName>
+                <default>false</default>
+                <label>Legal Representative</label>
+            </value>
+            <value>
+                <fullName>Legal Entity</fullName>
+                <default>false</default>
+                <label>Legal Entity</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

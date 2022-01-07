@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RF_List_Override_Update_Check</fullName>
+    <active>true</active>
+    <description>RF List Override can only updated when Remove RF Forecast List is checked.</description>
+    <errorConditionFormula>AND(
+    ISCHANGED(RF_List_Override__c), 
+    NOT(Remove_RF_Forecast_List__c)
+)</errorConditionFormula>
+    <errorDisplayField>RF_List_Override__c</errorDisplayField>
+    <errorMessage>Not allowed to change RF List Override value when Remove RF Forecast List is unchecked.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Divestiture_Site__c.Market__c</field>
+    </columns>
+    <columns>
+        <field>Divestiture_Site__c.Structure_Type__c</field>
+    </columns>
+    <columns>
+        <field>Divestiture_Site__c.X800_MHz__c</field>
+    </columns>
+    <columns>
+        <field>Divestiture_Site__c.Freely_Transferable__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Divestiture_Site__c.Site_Stage__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>120 - 179 Days Before RF Shutdown Date,60 - 119 Days Before RF Shutdown Date,0 - 59 Days Before RF Shutdown Date</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Divestiture_Site__c.Site_Stage__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Divestiture_Site__c.Region__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Sites with RF Shutdown Date Lock_111720</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Divestiture_Site__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

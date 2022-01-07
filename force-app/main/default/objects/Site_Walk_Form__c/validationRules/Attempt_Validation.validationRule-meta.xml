@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attempt_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+	And(First_Attempt__c = False,Second__c = true),
+	And(Third_Attempt__c = True,OR(Second__c = false,First_Attempt__c = False)))</errorConditionFormula>
+    <errorMessage>Previous Attempts is required</errorMessage>
+</ValidationRule>

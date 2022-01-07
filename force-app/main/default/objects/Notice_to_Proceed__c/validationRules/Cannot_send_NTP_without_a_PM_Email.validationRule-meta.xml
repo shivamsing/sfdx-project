@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_send_NTP_without_a_PM_Email</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(  ISBLANK(Decon_Project_Manager_Email__c ), Send_NTP_to_Deconstruction_Team__c =TRUE, ISCHANGED( Send_NTP_to_Deconstruction_Team__c )  )</errorConditionFormula>
+    <errorDisplayField>Send_NTP_to_Deconstruction_Team__c</errorDisplayField>
+    <errorMessage>Before sending an NTP to the Deconstruction team the Project Manager Email must be populated or no one will be notified.  Please check that a Deconstruction Record is associated with this NTP and a Project Manager is assigned to the Deconstruction Record</errorMessage>
+</ValidationRule>

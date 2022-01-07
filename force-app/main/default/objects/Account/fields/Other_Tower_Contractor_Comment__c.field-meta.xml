@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Tower_Contractor_Comment__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please type in the name of the contractor the broadcaster is using (If it is NOT in the drop down menu above).</inlineHelpText>
+    <label>Other Tower Contractor (Enter Name)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

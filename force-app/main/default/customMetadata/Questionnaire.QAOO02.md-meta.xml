@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QAOO02</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Observation Overview</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QAOO02_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Exceeds Expectations 
+Meets Expectations 
+Does Not Meet Expectations</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QAOO02__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Observation Outcome</value>
+    </values>
+</CustomMetadata>

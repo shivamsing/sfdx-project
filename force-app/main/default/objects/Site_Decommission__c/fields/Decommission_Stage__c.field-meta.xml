@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Decommission_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Deconstruction Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Site Info &amp; Assignment</fullName>
+                <default>false</default>
+                <label>1.Site Info &amp; Assignment</label>
+            </value>
+            <value>
+                <fullName>Site Survey</fullName>
+                <default>false</default>
+                <label>2.Site Survey</label>
+            </value>
+            <value>
+                <fullName>Permitting</fullName>
+                <default>false</default>
+                <label>3.Permitting</label>
+            </value>
+            <value>
+                <fullName>Notice to Proceed</fullName>
+                <default>false</default>
+                <label>4.Notice to Proceed</label>
+            </value>
+            <value>
+                <fullName>Deconstruction</fullName>
+                <default>false</default>
+                <label>5.Deconstruction</label>
+            </value>
+            <value>
+                <fullName>Closeout</fullName>
+                <default>false</default>
+                <label>6.Closeout</label>
+            </value>
+            <value>
+                <fullName>Deconstruction Complete</fullName>
+                <default>false</default>
+                <label>7.Deconstruction Complete</label>
+            </value>
+            <value>
+                <fullName>Deconstruction Canceled</fullName>
+                <default>false</default>
+                <label>8.Deconstruction Canceled</label>
+            </value>
+            <value>
+                <fullName>CDs</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CDs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

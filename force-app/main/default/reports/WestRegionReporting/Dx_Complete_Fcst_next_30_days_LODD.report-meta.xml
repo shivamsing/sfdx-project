@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Site_Decommission__c.Divestiture_Site__c</field>
+    </columns>
+    <description>Dashboard DX complete forecast by market for regional reporting</description>
+    <filter>
+        <criteriaItems>
+            <column>CUST_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>test</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Site_Decommission__c.General_Contractor__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Site_Decommission__c.DX_Complete_Forecast__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>THIS_WEEK</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Site_Decommission__c.Deconstruction_Phases__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Phase 4 - ON HOLD</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Site_Decommission__c.DX_Complete_Forecast__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Site_Decommission__c.Market__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Site_Decommission__c.General_Contractor__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Dx Complete Fcst this week-Executive</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Site_Decommission__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Site_Decommission__c.Access_Issue_Resolved_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

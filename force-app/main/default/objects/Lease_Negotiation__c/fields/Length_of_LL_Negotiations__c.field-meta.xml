@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Length_of_LL_Negotiations__c</fullName>
+    <externalId>false</externalId>
+    <formula>TODAY()-  LL_Negotiations_Initiated_Date__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Calculates the length of time since the record entered the Agreement Negotiation stage/</inlineHelpText>
+    <label>Length of LL Negotiations</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

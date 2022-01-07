@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NoWhichfeeshasDishagreedtopay</fullName>
+    <active>true</active>
+    <description>If there an agreement to pay fees is No.
+Blank the value from Which fees has Dish agreed to pay?</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Is_there_an_agreement_to_pay_fees__c, &apos;No&apos;),
+NOT(ISBLANK(Which_fees_has_Dish_agreed_to_pay__c))
+)</errorConditionFormula>
+    <errorDisplayField>Which_fees_has_Dish_agreed_to_pay__c</errorDisplayField>
+    <errorMessage>Is there an agreement to pay fees is No.
+Please remove the value from Which fees has Dish agreed to pay?</errorMessage>
+</ValidationRule>

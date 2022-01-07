@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QAJSC07</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Job Site Conditions</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QAJSC07_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">The crew must take measures to prevent unauthorized personnel from accessing the work site (including the drop-zone). CFR 1926.759</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QAJSC07__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Have measures been taken to prevent access to the site by unauthorized people?</value>
+    </values>
+</CustomMetadata>

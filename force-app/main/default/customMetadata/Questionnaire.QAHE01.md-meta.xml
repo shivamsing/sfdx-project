@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QAHE01</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Heavy Equipment</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QAHE01_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Operators of any mechanical equipment must be trained to recognize the hazards created by use of the machine. CFR.1926.21 (b)</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QAHE01__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Is the operator qualified to use the equipment and is the equipment being used per manufacturers specifications?</value>
+    </values>
+</CustomMetadata>

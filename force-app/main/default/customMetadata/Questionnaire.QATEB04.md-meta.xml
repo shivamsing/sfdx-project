@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QATEB04</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Trenching, Excavation, and Boring</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QATEB04_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Points of entry and exit of excavations and trenches that are 4 ft or deeper, are required with-in 25ft of any employee. CFR 1926.651 (c)</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QATEB04__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Are proper access and egress methods employed for trenches and excavations?</value>
+    </values>
+</CustomMetadata>

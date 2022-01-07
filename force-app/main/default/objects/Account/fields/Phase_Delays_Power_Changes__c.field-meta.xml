@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phase_Delays_Power_Changes__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;/servlet/servlet.FileDownload?file=015f4000001pro4&quot;, &quot;Process Flow for Station Changes&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Link to pdf showing the Process Flow for Station Changes</inlineHelpText>
+    <label>Phase Delays &amp; Power Changes</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

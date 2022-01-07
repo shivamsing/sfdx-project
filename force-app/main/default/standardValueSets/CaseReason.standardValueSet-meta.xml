@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Answered</fullName>
+        <default>false</default>
+        <label>Answered</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>By Design</fullName>
+        <default>false</default>
+        <label>By Design</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Cannot Reproduce</fullName>
+        <default>false</default>
+        <label>Cannot Reproduce</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Declined</fullName>
+        <default>false</default>
+        <label>Declined</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Deferred</fullName>
+        <default>false</default>
+        <label>Deferred</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Done</fullName>
+        <default>false</default>
+        <label>Done</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Duplicate</fullName>
+        <default>false</default>
+        <label>Duplicate</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>No Response From Requester</fullName>
+        <default>false</default>
+        <label>No Response From Requester</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Feasible</fullName>
+        <default>false</default>
+        <label>Not Feasible</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Out of Scope</fullName>
+        <default>false</default>
+        <label>Out of Scope</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Referred</fullName>
+        <default>false</default>
+        <label>Referred</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Triaged</fullName>
+        <default>false</default>
+        <label>Triaged</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Won&apos;t Do</fullName>
+        <default>false</default>
+        <label>Won&apos;t Do</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

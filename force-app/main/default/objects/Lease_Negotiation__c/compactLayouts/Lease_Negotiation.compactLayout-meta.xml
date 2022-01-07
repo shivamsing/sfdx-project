@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lease_Negotiation</fullName>
+    <fields>Name</fields>
+    <fields>OwnerId</fields>
+    <fields>Submitter__c</fields>
+    <fields>Vendor__c</fields>
+    <fields>Notice_of_Decommission_Date__c</fields>
+    <fields>Dish_Option_Status__c</fields>
+    <fields>NOD_Issue_Date_Plus_120__c</fields>
+    <fields>RF_Shutdown_Date_Complete__c</fields>
+    <label>Lease Negotiation</label>
+</CompactLayout>

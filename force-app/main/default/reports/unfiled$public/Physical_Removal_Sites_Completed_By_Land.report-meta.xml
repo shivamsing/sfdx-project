@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_30188410</developerName>
+        <masterLabel>DX Type</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Macro_Site__c.SD_DX_Type__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Full Deconstruction</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Full Deconstruction - Ground Only</sourceValue>
+            </sourceValues>
+            <value>Physical Removal</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Pay &amp; Walk - Radios &amp; Hazmat</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>P&amp;W+Additional Base</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Site Walk Only</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Site Walk Only - No Equipment</sourceValue>
+            </sourceValues>
+            <value>Pay &amp; Walk</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>VerticalColumnStacked</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>Macro_Site__c.Landlord_Type__c</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_TOP</location>
+        <secondaryGroupingColumn>BucketField_30188410</secondaryGroupingColumn>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Macro_Site__c.SD_DX_Type__c</field>
+    </columns>
+    <description>Physical Removal Sites Completed By Landlords</description>
+    <filter>
+        <criteriaItems>
+            <column>Macro_Site__c.Landlord_Name__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Macro_Site__c.SD_DX_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Macro_Site__c.SD_DX_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Site Walk Only - No Equipment,Site Walk Only,Pay &amp; Walk - Radios &amp; Hazmat,P&amp;W+Additional Base,Full Deconstruction - Ground Only,Full Deconstruction</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Macro_Site__c.Landlord_Type__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Year</dateGranularity>
+        <field>Macro_Site__c.Physical_Decom_Date_Source_System__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_30188410</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Physical Removal Sites Completed By Land</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Macro_Site__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

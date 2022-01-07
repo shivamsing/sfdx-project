@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enter_Long_Comment_here__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Longer comment for intake reqs, should allow for rich text and formatting. used in Case PB</inlineHelpText>
+    <label>Enter Long Comment here</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

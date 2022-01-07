@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incident_Type__c</fullName>
+    <description>was previously catindicent</description>
+    <externalId>false</externalId>
+    <label>Incident Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Altercation</fullName>
+                <default>false</default>
+                <label>Altercation</label>
+            </value>
+            <value>
+                <fullName>Doc (JHA, Certs, Rescue, Rigging)</fullName>
+                <default>false</default>
+                <label>Doc (JHA, Certs, Rescue, Rigging)</label>
+            </value>
+            <value>
+                <fullName>Dropped Object</fullName>
+                <default>false</default>
+                <label>Dropped Object</label>
+            </value>
+            <value>
+                <fullName>Equip Damage</fullName>
+                <default>false</default>
+                <label>Equip Damage</label>
+            </value>
+            <value>
+                <fullName>Fatality</fullName>
+                <default>false</default>
+                <label>Fatality</label>
+            </value>
+            <value>
+                <fullName>Fire</fullName>
+                <default>false</default>
+                <label>Fire</label>
+            </value>
+            <value>
+                <fullName>Climber Tie-Off</fullName>
+                <default>false</default>
+                <label>Climber Tie-Off</label>
+            </value>
+            <value>
+                <fullName>Solo/Free Climb</fullName>
+                <default>false</default>
+                <label>Solo/Free Climb</label>
+            </value>
+            <value>
+                <fullName>Injury</fullName>
+                <default>false</default>
+                <label>Injury</label>
+            </value>
+            <value>
+                <fullName>Near Miss</fullName>
+                <default>false</default>
+                <label>Near Miss</label>
+            </value>
+            <value>
+                <fullName>PPE Inadequate</fullName>
+                <default>false</default>
+                <label>PPE Inadequate</label>
+            </value>
+            <value>
+                <fullName>Regulatory</fullName>
+                <default>false</default>
+                <label>Regulatory</label>
+            </value>
+            <value>
+                <fullName>Rigging Incident</fullName>
+                <default>false</default>
+                <label>Rigging Incident</label>
+            </value>
+            <value>
+                <fullName>Rigging Method</fullName>
+                <default>false</default>
+                <label>Rigging Method</label>
+            </value>
+            <value>
+                <fullName>Structure Collapse</fullName>
+                <default>false</default>
+                <label>Structure Collapse</label>
+            </value>
+            <value>
+                <fullName>Unsafe Structure</fullName>
+                <default>false</default>
+                <label>Unsafe Structure</label>
+            </value>
+            <value>
+                <fullName>Hospitalization</fullName>
+                <default>false</default>
+                <label>Hospitalization</label>
+            </value>
+            <value>
+                <fullName>Burglary/Robbery/Theft</fullName>
+                <default>false</default>
+                <label>Burglary/Robbery/Theft</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

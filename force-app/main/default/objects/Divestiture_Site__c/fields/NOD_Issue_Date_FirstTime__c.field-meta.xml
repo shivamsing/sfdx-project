@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NOD_Issue_Date_FirstTime__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>To check if NOD Issue Date Entered First Time</description>
+    <externalId>false</externalId>
+    <inlineHelpText>To check if NOD Issue Date Entered First Time</inlineHelpText>
+    <label>NOD Issue Date FirstTime</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

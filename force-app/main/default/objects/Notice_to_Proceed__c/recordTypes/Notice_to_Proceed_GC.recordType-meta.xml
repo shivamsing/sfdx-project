@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notice_to_Proceed_GC</fullName>
+    <active>true</active>
+    <description>Used to send the Notice to Proceed to the General Contractor</description>
+    <label>Notice to Proceed GC</label>
+    <picklistValues>
+        <picklist>Exceptions_any_applicable__c</picklist>
+        <values>
+            <fullName>Antenna Mounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Backup Power Harvest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cabinet Harvest %28back to NTM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concrete Removal %28implied if full deconstruction%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crane Lifts %28if known%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fuel Cell System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generator %26 Fuel Storage Tank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shelter Removal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Use of LL Contractors %28e%2Eg%2E Transmission towers%2C utility towers%2C ROW%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Scope_of_Work_Designation__c</picklist>
+        <values>
+            <fullName>Antennas Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cabinets %26 Antennas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cabinets Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Deconstruction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Deconstruction%2C Ground Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radio %26 Hazmat</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Spoke_to_Landlord__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

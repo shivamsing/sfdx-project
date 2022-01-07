@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Checkbox_2__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( TEXT(Document_s_Available_in_eletronic_form__c) = &quot;Y&quot;,
+&quot;X&quot;,
+NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Auto Checked when the Documents Available in Electronic Form is entered.</inlineHelpText>
+    <label>Document Checkbox</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

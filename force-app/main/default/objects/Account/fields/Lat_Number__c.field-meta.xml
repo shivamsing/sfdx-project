@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lat_Number__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Conversion field for Lat (updated via etl, as a text field). this changes it to number for EA and reporting</inlineHelpText>
+    <label>Lat Number</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>6</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

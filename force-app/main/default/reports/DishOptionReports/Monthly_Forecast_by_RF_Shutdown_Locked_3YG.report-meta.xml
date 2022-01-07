@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Divestiture_Site__c.Region__c</field>
+    </columns>
+    <columns>
+        <field>Divestiture_Site__c.Notice_of_Decom_NOD__c</field>
+    </columns>
+    <columns>
+        <field>Divestiture_Site__c.RF_Shutdown_Date_Complete__c</field>
+    </columns>
+    <columns>
+        <field>Divestiture_Site__c.Physical_Decom_Date_Complete__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Divestiture_Site__c.Site_Stage__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>180 - 270 Days Before RF Shutdown Date,120 - 179 Days Before RF Shutdown Date,60 - 119 Days Before RF Shutdown Date,0 - 59 Days Before RF Shutdown Date</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Month</dateGranularity>
+        <field>Divestiture_Site__c.Forecasted_Logical_Decommission_Date__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CUST_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>RF Shut Down Monthly Forecast</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>CustomEntity$Divestiture_Site__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

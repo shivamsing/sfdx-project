@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_field_if_testing_date_is_not_open</fullName>
+    <active>false</active>
+    <description>Used to lock field unless phase testing date is open (for HPs).</description>
+    <errorConditionFormula>ISCHANGED(Actual_Date__c) &amp;&amp; (Phase_Testing_Date__c &gt; Actual_Date__c)</errorConditionFormula>
+    <errorDisplayField>Actual_Date__c</errorDisplayField>
+    <errorMessage>You are attempting to update a station with a phase testing date in the future. Please contact 600MHz Admin to discuss updating it.</errorMessage>
+</ValidationRule>

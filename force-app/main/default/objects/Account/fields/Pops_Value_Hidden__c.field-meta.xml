@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pops_Value_Hidden__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(  Est_Pops_Hidden__c  , 
+
+ &quot;No Impact&quot;,1 /15 ,
+ &quot;XS&quot;,3,
+ &quot;UL Noise Only&quot;,4, 
+ &quot;S&quot;, 4,
+ &quot;M&quot;, 6,
+ &quot;L&quot;, 10,
+ &quot;XL&quot;, 14,
+ 1/50)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Holds value for Pops impact.</inlineHelpText>
+    <label>Pops Value (Hidden)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

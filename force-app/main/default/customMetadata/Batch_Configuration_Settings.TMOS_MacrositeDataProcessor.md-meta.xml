@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>TMOS_MacrositeDataProcessor</label>
+    <protected>false</protected>
+    <values>
+        <field>Batch_Description__c</field>
+        <value xsi:type="xsd:string">Start Macrosite Object Deletion Batch Name:</value>
+    </values>
+    <values>
+        <field>Batch_Result_Email_Body__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Batch_Result_Email_Recipients__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Batch_Result_Email_Subject__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Batch_SOQL__c</field>
+        <value xsi:type="xsd:string">SELECT A4750_Close_Doc_Comple_Decom_Finish__c,A4815_LstrmModNtce2Ldlrd_Decom_Finish__c,A4817_ZoningPermitCmpltDecomFinish__c,A4870_Site_Decon_Complete_Finish__c,A4880_RAN_Wilt_Complete_Finish__c,F4880_RAN_Wilt_Complete_Finish__c,
+A4881_RAN_Lg_Disconn_Macro_Finish__c,A4882_Bckhaul_Lg_Discon_Decom_Finish__c,A4884_EleclUtlyAcctTerm_Decom_Finish__c,Address__c,ADM_Best_Estimate_Timing_Date__c,ADM_Final_Disposition_Date__c,
+ADM_Final_Disposition__c,ADM_Justification__c,ADM_Market_Disposition__c,ADM_NationalLeaseComments__c,ADM_NationalLeaseDisposition__c,ADM_NationalLeaseResponse__c,ADM_NationalLeaseSignoff_Date__c,
+ADM_NationalRFComments__c,ADM_NationalRFDisposition__c,ADM_NationalRFResponse__c,ADM_NationalRFSignOff_Date__c,ADM_Region_Disposition__c,ADM_Region_Sign_Off_Date__c,Augment_Status__c,Batch_Process_Status__c,Cabinet_Combination__c,Cascade_ID_Legacy_Sprint__c,City__c,Clearwire_Iden_Site__c,Close_Out_Complete_Date__c,Close_Out_Complete_Status__c,CreatedById,CreatedDate,Decomm_Reason_Code__c,Decom_Flag__c,F4870_Site_Decon_Complete_Finish__c,Forced_Relocation_Code__c,Forced_Removal_Code__c,
+Forced_Removal__c,Forecasted_Logical_Decommission_Date__c,Forecasted_Logical_Decomm_status__c,Forecast_Disconnect_Date__c,
+Gate_Combination__c,Id,IsDeleted,Landlord_Entity__c,Landlord_Name__c,Landlord_Type__c,Lattitude__c,Legacy_Network__c,Longitude__c,Macro_Flag__c,Macro_Site_ID__c,Market_Legacy_Sprint__c,Market__c,
+MLA_Flag__c,MLA_Site_ID__c,Name,Note__c,OwnerId,POR_Plan_Status__c,Program_Name__c,Project_ID__c,Property_Owner__c,Rad_Center_ft__c,Region__c,Remove_Equipment_Date__c,Remove_Equipment_Status__c,Augment_Type__c,Requested_Close_Date__c,Request_Confirmation__c,Site_Access_Procedure__c,Site_Access_Type__c,Site_Class__c,Site_Decommisioned_Date__c,Site_Decommisioned_Status__c,Site_Name__c,
+Site_Status__c,State__c,Structure_Type__c,Sub_Channel__c,SystemModstamp,Utility_Account__c,Utility_Meter__c,Utility_Provider__c,Utility_Status__c,Vendor__c,Zip_Code__c, BKL_Vetted_For_Decom__c,
+BKL_Vetted_For_Decom_Comments__c, BKL_Vetted_For_Decom_SignOffDate__c ,ADM_JustificationComments__c, T_A4842_FiberDisconnectFOCDecom__c,Sensitive_Landlord__c,Site_FNL_BCK_MID_FRNT_HAUL_TYP__c
+FROM Macro_Site_Staging__c</value>
+    </values>
+    <values>
+        <field>Batch_Size__c</field>
+        <value xsi:type="xsd:double">2000.0</value>
+    </values>
+    <values>
+        <field>Delta_Load_Condition__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>End_Date_Time__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Full_Load__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Max_Reprocess_Count__c</field>
+        <value xsi:type="xsd:double">0.0</value>
+    </values>
+    <values>
+        <field>Next_Batch_Class__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Reprocess_Failures__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Send_Email_to_Running_User__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Start_Date_Time__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

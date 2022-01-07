@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Radio_Service__c</fullName>
+    <description>Indicates the type of Broadcast Auxiliary Service.</description>
+    <externalId>false</externalId>
+    <label>Radio Service</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Point-to-Point</fullName>
+                <default>false</default>
+                <label>Point-to-Point</label>
+            </value>
+            <value>
+                <fullName>Point Radius</fullName>
+                <default>false</default>
+                <label>Point Radius</label>
+            </value>
+            <value>
+                <fullName>Nationwide</fullName>
+                <default>false</default>
+                <label>Nationwide</label>
+            </value>
+            <value>
+                <fullName>State</fullName>
+                <default>false</default>
+                <label>State</label>
+            </value>
+            <value>
+                <fullName>County</fullName>
+                <default>false</default>
+                <label>County</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

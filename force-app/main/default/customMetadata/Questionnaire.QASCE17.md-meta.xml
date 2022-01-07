@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QASCE17</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Site Critical Elements</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QASCE17_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Site Critical Element* - Employees engaged in activities on a low-slope roof (&lt;4&quot;/12&quot;) are considered protected from fall hazards as long as they are completely encircled by a solid wall at least 39in. above the highest walking/working surface. When any portion of the parapet wall system is less than 39in. tall, other fall protection measures are required. CFR 1910.29</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QASCE17__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">If the roof&apos;s parapet wall is less than 39 in. high are proper fall protection measures being utilized?</value>
+    </values>
+</CustomMetadata>

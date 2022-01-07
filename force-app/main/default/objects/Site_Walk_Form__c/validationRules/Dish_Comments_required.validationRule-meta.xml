@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dish_Comments_required</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(AND(OR(
+AND(Priorvalue(Second__c)=false,ISCHANGED(Second__c)),
+AND(Priorvalue(Third_Attempt__c)=false,ISCHANGED(Third_Attempt__c))),NOT(ischanged( Enter_Long_Comment_here__c ))))</errorConditionFormula>
+    <errorMessage>Comments is Required for each Attempt</errorMessage>
+</ValidationRule>

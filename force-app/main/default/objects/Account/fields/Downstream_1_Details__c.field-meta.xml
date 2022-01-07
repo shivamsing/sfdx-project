@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Downstream_1_Details__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Stations downstream of this station that will be impacted if it is delayed.</inlineHelpText>
+    <label>Downstream 1 Details</label>
+    <length>15000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>6</visibleLines>
+</CustomField>

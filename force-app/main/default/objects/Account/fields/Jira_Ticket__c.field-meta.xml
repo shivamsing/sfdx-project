@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jira_Ticket__c</fullName>
+    <description>Jira link or ticket number, will be updated by Broadcaster at Risk Process</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Updated from the Broadcaster at risk process, related to the Case and Jira Ticket that may be open.</inlineHelpText>
+    <label>Jira Ticket</label>
+    <length>64</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

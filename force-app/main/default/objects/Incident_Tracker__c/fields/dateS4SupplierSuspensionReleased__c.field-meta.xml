@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dateS4SupplierSuspensionReleased__c</fullName>
+    <description>dateS4SupplierSuspensionReleased  and Supplier Suspension Released</description>
+    <externalId>false</externalId>
+    <label>Date TMO Released GC Suspension</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

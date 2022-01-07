@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Call_Sign__c</field>
+    </columns>
+    <columns>
+        <field>Account.Call_Sign_Current__c</field>
+    </columns>
+    <columns>
+        <field>Account.Commencement_Date__c</field>
+    </columns>
+    <columns>
+        <field>Account.Actual_Date__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>(1 OR 2 OR 3 OR 4) AND 5</booleanFilter>
+        <criteriaItems>
+            <column>Account.Service_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Analog tv translator</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Service_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Digital Tv Translator</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Service_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Low Power Analog Tv</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Service_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Low Power Digital Tv</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Commencement_Date__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.Service_Type__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Off air and Commencement date analysis</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account.Commencement_Date__c</dateColumn>
+        <endDate>2018-05-08</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2000-05-08</startDate>
+    </timeFrameFilter>
+</Report>

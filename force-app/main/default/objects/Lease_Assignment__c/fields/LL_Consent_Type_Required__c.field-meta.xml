@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LL_Consent_Type_Required__c</fullName>
+    <externalId>false</externalId>
+    <label>LL Consent Type Required?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Consent to Assign to 3rd Party</fullName>
+                <default>false</default>
+                <label>Consent to Assign to 3rd Party</label>
+            </value>
+            <value>
+                <fullName>Consent for Release of Liability upon Assignment</fullName>
+                <default>false</default>
+                <label>Consent for Release of Liability upon Assignment</label>
+            </value>
+            <value>
+                <fullName>Consent and Release (both)</fullName>
+                <default>false</default>
+                <label>Consent and Release (both)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

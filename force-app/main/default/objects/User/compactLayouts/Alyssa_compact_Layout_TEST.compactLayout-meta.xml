@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alyssa_compact_Layout_TEST</fullName>
+    <fields>Id</fields>
+    <fields>Username</fields>
+    <fields>Name</fields>
+    <fields>ReceivesAdminInfoEmails</fields>
+    <fields>CreatedDate</fields>
+    <fields>Email</fields>
+    <fields>LastLoginDate</fields>
+    <fields>LastModifiedDate</fields>
+    <fields>NeedsNewPassword</fields>
+    <fields>ProfileId</fields>
+    <label>Alyssa compact Layout TEST</label>
+</CompactLayout>

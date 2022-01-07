@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dependency_Map__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;https://analytics.eng.t-mobile.com/t/TP/views/FCCPostAuction-DependenciesRelationshipsFacilityIDRoot/FCCPostAuction-DependenciesRelationships?iframeSizedToWindow=true&amp;:embed=y&amp;:showAppBanner=false&amp;:display_count=no&amp;:showVizHome=no#1&quot;, &quot;Dashboard&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Open the Dependency Dashboard.  Must enter Facility ID there.</inlineHelpText>
+    <label>Dependency Map</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

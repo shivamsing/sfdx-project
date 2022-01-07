@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>T_A4881_RAN_Logical_Discon_Macro_Finish__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>T: (A 4881) RAN Logical Disconnect (Macro)-Finish from Sprint Vision</inlineHelpText>
+    <label>T:(A4881)RAN Logical Discon Macro-Finish</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

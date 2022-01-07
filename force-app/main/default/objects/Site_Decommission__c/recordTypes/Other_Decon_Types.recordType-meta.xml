@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Decon_Types</fullName>
+    <active>true</active>
+    <description>Used for tracking all deonstructions other than those managed by the national Team</description>
+    <label>Other Decon Types</label>
+    <picklistValues>
+        <picklist>Access_Issue__c</picklist>
+        <values>
+            <fullName>Access %2F Contact Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leasing Inquiry - SOW%2FRestoration Language%2FEntitlements%2C ETC%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Management %2F Rent Issues</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CD_s_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Redlines Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Concrete_Pad_Removal__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Crane_Lift_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DX_Status__c</picklist>
+        <values>
+            <fullName>Actual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Projected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DX_Type__c</picklist>
+        <values>
+            <fullName>Antennas Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cabinets %26 Antennas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cabinets Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DX Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DX On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Deconstruction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Deconstruction - Ground Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P%26W%2BAdditional Base</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pay %26 Walk - Radios %26 Hazmat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restoration Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Never Built</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Walk Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Walk Only - No Equipment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Decommission_Stage__c</picklist>
+        <values>
+            <fullName>Closeout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deconstruction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deconstruction Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deconstruction Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notice to Proceed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permitting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Info %26 Assignment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Survey</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Escalation_Status__c</picklist>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated to Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LL Info Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Check to LL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending LL Signature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Landlord Contact Info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending MLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending T-Mobile Signature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fuel_Dispostion_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GC_Site_Survey_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Generator_Decom_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Legal_Issue__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MLA_NTP_Status__c</picklist>
+        <values>
+            <fullName>In Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NTP Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NTP Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending %E2%80%93 MLA Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending %E2%80%93 Migratory Bird approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending %E2%80%93 Required Docs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending %E2%80%93 Rooftop LL approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Monitoring_Trustee_Delay_Reason_Code__c</picklist>
+        <values>
+            <fullName>Backhaul</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Building%2F tower access restrictions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dish extension request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dish has accepted this site and we are in the process of closing on the transfer%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Contractor delay%2F availability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landlord Notice to Proceed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landlord violation delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lease termination negotiations%2F finalization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logical Decommissioning Date Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Migratory Birds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permitting%2F Jurisdictional delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Update to be provided in %28future month%29 report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weather Delays</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PO_Main_Type__c</picklist>
+        <values>
+            <fullName>Exceptions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Original</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Permits_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Power_Meter_Removal_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Power_Termination_Notice_Received__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason__c</picklist>
+        <values>
+            <fullName>Backhaul Decomissioning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crane Restrictions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DX Based On RAN Wilt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dish divestiture site closing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Downstream Dependencies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalation Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC Delay-Pending Crew Availability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jurisdictional delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landlord - Access Restrictions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landlord - Locked Schedule Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landlord - Preferred GC Delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landlord - SOW Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Migratory Birds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NTP - Leasing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NTP - MLA%2FLL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NTP - Pending PO Exception Adjustment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Original Date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Change Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Colo Site Off Air</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending GC Confirmation of DX Schedule</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending GC NTP Issuance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending RF Wilt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Permitting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reforecast - No Delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weather Restrictions</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Shelter_Removal__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Site_Access_Type__c</picklist>
+        <values>
+            <fullName>%23N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advance Notice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Badged Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escort Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restricted Times</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unrestricted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Written Request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Specialty_Approval_Permits_Required__c</picklist>
+        <values>
+            <fullName>FDOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LANDMARKS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NYSTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Closed - Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New-Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Additional Information</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Utility_GC_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Utility_Status__c</picklist>
+        <values>
+            <fullName>Closed - Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New-Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Additional Information</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

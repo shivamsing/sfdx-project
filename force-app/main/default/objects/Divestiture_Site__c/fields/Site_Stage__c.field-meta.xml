@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Site_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>RF Shutdown Site Stage</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No RF Shutdown Date</fullName>
+                <default>false</default>
+                <label>No RF Shutdown Date</label>
+            </value>
+            <value>
+                <fullName>270 Days + Before RF Shutdown Date</fullName>
+                <default>false</default>
+                <label>270 Days + Before RF Shutdown Date</label>
+            </value>
+            <value>
+                <fullName>180 - 270 Days Before RF Shutdown Date</fullName>
+                <default>false</default>
+                <label>180 - 270 Days Before RF Shutdown Date</label>
+            </value>
+            <value>
+                <fullName>120 - 179 Days Before RF Shutdown Date</fullName>
+                <default>false</default>
+                <label>120 - 179 Days Before RF Shutdown Date</label>
+            </value>
+            <value>
+                <fullName>60 - 119 Days Before RF Shutdown Date</fullName>
+                <default>false</default>
+                <label>60 - 119 Days Before RF Shutdown Date</label>
+            </value>
+            <value>
+                <fullName>0 - 59 Days Before RF Shutdown Date</fullName>
+                <default>false</default>
+                <label>0 - 59 Days Before RF Shutdown Date</label>
+            </value>
+            <value>
+                <fullName>Late</fullName>
+                <default>false</default>
+                <label>Late</label>
+            </value>
+            <value>
+                <fullName>RF Shutdown Complete</fullName>
+                <default>false</default>
+                <label>RF Shutdown Complete</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

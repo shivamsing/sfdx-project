@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Justification_Required</fullName>
+    <active>true</active>
+    <description>If the user selects return to requestor they must put a reason.</description>
+    <errorConditionFormula>AND(  ISBlANK( Additional_Justification_Required__c  ),   TEXT(Request_Decsion__c)  = &quot;Request Additional Justification&quot; )</errorConditionFormula>
+    <errorDisplayField>Additional_Justification_Required__c</errorDisplayField>
+    <errorMessage>You must enter Additional Justification explanation to return to the requestor.</errorMessage>
+</ValidationRule>

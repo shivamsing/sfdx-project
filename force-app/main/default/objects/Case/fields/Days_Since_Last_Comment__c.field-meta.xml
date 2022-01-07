@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_Since_Last_Comment__c</fullName>
+    <externalId>false</externalId>
+    <formula>TODAY()- Enter_comments_date_changed__c</formula>
+    <inlineHelpText>Number showing how long it has been since comment was updated. SLA for ticket response is within 1 business day for 90% of all tickets.</inlineHelpText>
+    <label>Days Since Last Comment</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

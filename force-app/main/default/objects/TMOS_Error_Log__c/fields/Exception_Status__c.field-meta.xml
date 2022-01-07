@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exception_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Exception Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>true</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Pending for Action</fullName>
+                <default>false</default>
+                <label>Pending for Action</label>
+            </value>
+            <value>
+                <fullName>Ready for Reprocessing</fullName>
+                <default>false</default>
+                <label>Ready for Reprocessing</label>
+            </value>
+            <value>
+                <fullName>Expected Error</fullName>
+                <default>false</default>
+                <label>Expected Error</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Re-Opened</fullName>
+                <default>false</default>
+                <label>Re-Opened</label>
+            </value>
+            <value>
+                <fullName>Assign</fullName>
+                <default>false</default>
+                <label>Assign</label>
+            </value>
+            <value>
+                <fullName>Test</fullName>
+                <default>false</default>
+                <label>Test</label>
+            </value>
+            <value>
+                <fullName>Verified</fullName>
+                <default>false</default>
+                <label>Verified</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+                <label>Deferred</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

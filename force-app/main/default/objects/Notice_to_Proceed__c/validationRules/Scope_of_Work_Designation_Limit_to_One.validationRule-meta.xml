@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scope_of_Work_Designation_Limit_to_One</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(INCLUDES(Scope_of_Work_Designation__c, &quot;Radio &amp; Hazmat&quot;),1,0) +  
+IF(INCLUDES(Scope_of_Work_Designation__c, &quot;Cabinets Only&quot;),1,0) +  
+IF(INCLUDES(Scope_of_Work_Designation__c, &quot;Antennas Only&quot;),1,0) +  
+IF(INCLUDES(Scope_of_Work_Designation__c, &quot;Cabinets &amp; Antennas&quot;),1,0) +  
+IF(INCLUDES(Scope_of_Work_Designation__c, &quot;Full Deconstruction, Ground Only&quot;),1,0) + 
+IF(INCLUDES(Scope_of_Work_Designation__c, &quot;Full Deconstruction&quot;),1,0) + 
+IF(INCLUDES(Scope_of_Work_Designation__c, &quot;Others&quot;),1,0) &gt; 1</errorConditionFormula>
+    <errorDisplayField>Scope_of_Work_Designation__c</errorDisplayField>
+    <errorMessage>Please choose only one value</errorMessage>
+</ValidationRule>

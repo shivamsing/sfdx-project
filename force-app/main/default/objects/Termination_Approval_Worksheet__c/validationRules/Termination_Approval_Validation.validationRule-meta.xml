@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Termination_Approval_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISBLANK(Months_of_Rent_LTA__c), NOT(ISBLANK(Remaining_Rent_Payments_LTA__c)))</errorConditionFormula>
+    <errorDisplayField>Months_of_Rent_LTA__c</errorDisplayField>
+    <errorMessage>Please update Months of rent before you add the value into Remaining Rents Payments</errorMessage>
+</ValidationRule>

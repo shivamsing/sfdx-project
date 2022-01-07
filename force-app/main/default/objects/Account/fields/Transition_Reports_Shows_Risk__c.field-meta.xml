@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transition_Reports_Shows_Risk__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( TEXT(All_Required_Equipment_Anticipated__c) = &quot;N&quot;  ||  
+ TEXT(Tower_Work_Antenna_Install_Anticipated__c) = &quot;N&quot;  ||
+ TEXT(Other_Issues_Addressed__c) = &quot;Y&quot;   
+ , True,False)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If checkbox is selected the Broadcaster&apos;s Transition report shows that one of three key questions indicates that the Broadcaster has some issues.</inlineHelpText>
+    <label>Transition Reports Shows Risk</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

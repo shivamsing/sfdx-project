@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QARAE10</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Rigging and Associated Equipment</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QARAE10_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">All Hoists - Manufacturers safety labeling legible, no visible damage to drum(s) Capstan - Working Load Limits identified, electrical pig-tail undamaged, rope hook in place, foot switch functioning properly. Winch - no evidence of leaking fluids, engine runs smoothly, operator controls are free of excessive movement and return to neutral when released. ANSI A10.48 (15.4,15.11)</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QARAE10__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Is the hoist in good condition?</value>
+    </values>
+</CustomMetadata>

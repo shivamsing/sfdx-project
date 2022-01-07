@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rejection_Cancelation_Reason_Required</fullName>
+    <active>true</active>
+    <description>A reason is required if the request is rejected or canceled.</description>
+    <errorConditionFormula>AND( ISBLANK( Rejection_Cancelation_Reason__c ), OR( TEXT(Request_Decsion__c)  = &quot;Rejected&quot;,TEXT(Request_Decsion__c)  = &quot;Cancel&quot;) )</errorConditionFormula>
+    <errorDisplayField>Rejection_Cancelation_Reason__c</errorDisplayField>
+    <errorMessage>You must enter a reason if the request is rejected or cancelled.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_fields_Decon_Team_Scheduling</fullName>
+    <active>true</active>
+    <description>Require_fields_Decon_Team_Scheduling</description>
+    <errorConditionFormula>AND(OR(Requested_timeframe_1__c = null,Requested_timeframe_2__c= null,Primary_Contact_Name__c= null,Email__c= null,Title__c= null,
+Mobile__c= null,ISBLANK(Total_of_DISH_people_expected_to_atten__c)), Send_to_Deconstruction_Team__c = True)</errorConditionFormula>
+    <errorMessage>Please fill in the below fields before &quot;Send to Deconstruction Team&quot; checkbox is checked 
+
+Requested timeframe #1,
+Requested timeframe #2,
+Primary Contact Name,
+Title,
+Mobile,
+Total DISH people to attend</errorMessage>
+</ValidationRule>

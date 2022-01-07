@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_Code_validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL(Reason__c ,&apos;&apos;),
+	ISCHANGED(DX_Start_Forecast__c),
+	NOT(ISBLANK(PRIORVALUE(DX_Start_Forecast__c))),
+	DX_Start_Forecast__c &gt; PRIORVALUE(DX_Start_Forecast__c),
+	NOT(ISBLANK(DX_Start_Forecast__c)))</errorConditionFormula>
+    <errorDisplayField>Reason__c</errorDisplayField>
+    <errorMessage>Reason code drop down box that MUST be filled out whenever a DX Start Forecast date is changed.</errorMessage>
+</ValidationRule>

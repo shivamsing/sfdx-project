@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard</fullName>
+    <fields>Name</fields>
+    <fields>Exception_Type__c</fields>
+    <fields>Requested_New_RF_Off_Air_Date__c</fields>
+    <fields>Requested_New_Physical_Decom_Date__c</fields>
+    <fields>Request_Decsion__c</fields>
+    <label>Standard</label>
+</CompactLayout>

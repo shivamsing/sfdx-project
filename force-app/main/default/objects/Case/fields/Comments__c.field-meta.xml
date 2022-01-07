@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comments__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>To add the date/time and updates with your name, use the &quot;enter new comment&quot; field above. This one will automatically update from that field w/your name, date and text entered.</inlineHelpText>
+    <label>Comments</label>
+    <length>32768</length>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

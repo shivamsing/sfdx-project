@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Generate_Site_Forecast_List</fullName>
+    <availability>online</availability>
+    <description>Generate Site Forecast List</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Generate Site Forecast List</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/flow/Generate_Site_Forecast_List?retURL=/lightning/o/Site_Forecast__c/list?filterName=00BS0000007z4kqMAA</url>
+</WebLink>

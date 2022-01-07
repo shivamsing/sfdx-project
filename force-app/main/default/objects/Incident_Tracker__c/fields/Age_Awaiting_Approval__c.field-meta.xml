@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Age_Awaiting_Approval__c</fullName>
+    <description>Displaying the Days, Hours, Minutes, from the time the Incident record is Submitted for Approval (Not on the Layout)</description>
+    <externalId>false</externalId>
+    <formula>TEXT(
+FLOOR(IF(ISBLANK(CaptureApprovalProcessApproved__c), NOW(), CaptureApprovalProcessApproved__c) - CaptureSubmitforApprovalSubmission__c)
+) &amp; &quot; Days &quot; &amp;
+TEXT(
+FLOOR(MOD((IF(ISBLANK(CaptureApprovalProcessApproved__c), NOW(), CaptureApprovalProcessApproved__c) - CaptureSubmitforApprovalSubmission__c)*24,24))
+) &amp;&quot; Hours &quot; &amp;
+TEXT(
+ROUND(MOD((IF(ISBLANK(CaptureApprovalProcessApproved__c), NOW(), CaptureApprovalProcessApproved__c) - CaptureSubmitforApprovalSubmission__c)*1440,60),0)
+) &amp;&quot; Minutes &quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Age - Awaiting Approval</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

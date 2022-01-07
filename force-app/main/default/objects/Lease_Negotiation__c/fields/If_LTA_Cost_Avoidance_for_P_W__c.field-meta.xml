@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_LTA_Cost_Avoidance_for_P_W__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>At time of negotiation, enter estimated cost avoidance using DX cost estimates. After DX is complete, this number will be updated to show actual total avoidance.</inlineHelpText>
+    <label>If LTA, Cost Avoidance for P&amp;W</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

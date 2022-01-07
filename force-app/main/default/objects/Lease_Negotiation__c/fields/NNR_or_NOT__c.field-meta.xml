@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NNR_or_NOT__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Based on the Lease terms select the type of notice to be sent to the LL.</inlineHelpText>
+    <label>NNR/NOT/TOO</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Notice of Non Renewal</fullName>
+                <default>false</default>
+                <label>Notice of Non Renewal</label>
+            </value>
+            <value>
+                <fullName>Notice of Termination</fullName>
+                <default>false</default>
+                <label>Notice of Termination</label>
+            </value>
+            <value>
+                <fullName>Temination of Occupancy</fullName>
+                <default>false</default>
+                <label>Temination of Occupancy</label>
+            </value>
+            <value>
+                <fullName>Notice of Non Renewal  and Pay &amp; Walk</fullName>
+                <default>false</default>
+                <label>Notice of Non Renewal  and Pay &amp; Walk</label>
+            </value>
+            <value>
+                <fullName>Notice of Termination and Pay &amp; Walk</fullName>
+                <default>false</default>
+                <label>Notice of Termination and Pay &amp; Walk</label>
+            </value>
+            <value>
+                <fullName>Lease In Final Term</fullName>
+                <default>false</default>
+                <label>Lease In Final Term</label>
+            </value>
+            <value>
+                <fullName>Pay &amp; Walk</fullName>
+                <default>false</default>
+                <label>Pay &amp; Walk</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

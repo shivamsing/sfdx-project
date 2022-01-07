@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Antenna_MFG__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select the Antenna manufacturer, if they are not in the list, you can add them.</inlineHelpText>
+    <label>Antenna MFG</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alive</fullName>
+                <default>false</default>
+                <label>Alive</label>
+            </value>
+            <value>
+                <fullName>Dielectric</fullName>
+                <default>false</default>
+                <label>Dielectric</label>
+            </value>
+            <value>
+                <fullName>ERI</fullName>
+                <default>false</default>
+                <label>ERI</label>
+            </value>
+            <value>
+                <fullName>Jampro</fullName>
+                <default>false</default>
+                <label>Jampro</label>
+            </value>
+            <value>
+                <fullName>Kathrein</fullName>
+                <default>false</default>
+                <label>Kathrein</label>
+            </value>
+            <value>
+                <fullName>RFS</fullName>
+                <default>false</default>
+                <label>RFS</label>
+            </value>
+            <value>
+                <fullName>SWR</fullName>
+                <default>false</default>
+                <label>SWR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Site_Audit_Forms__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(
+&quot;https://tmobileusa.sharepoint.com/:x:/r/sites/DECON/_layouts/15/Doc.aspx?sourcedoc=%7B27DEC2D5-33E4-4CFD-A0F0-D46D000049A2%7D&amp;file=Site%20Audit%20Response.xlsx&amp;action=default&amp;mobileredirect=true&quot; ,
+&quot;Click to Open Site Audit Excel&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Spreadsheet with information from Site Visit</inlineHelpText>
+    <label>Site Audit Forms</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

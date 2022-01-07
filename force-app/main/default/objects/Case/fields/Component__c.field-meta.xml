@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Component__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter all software/systems impacted by this request.</inlineHelpText>
+    <label>Component</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dude</fullName>
+                <default>false</default>
+                <label>Dude</label>
+            </value>
+            <value>
+                <fullName>ETL</fullName>
+                <default>false</default>
+                <label>ETL</label>
+            </value>
+            <value>
+                <fullName>ITR</fullName>
+                <default>false</default>
+                <label>ITR</label>
+            </value>
+            <value>
+                <fullName>LPnotificationator</fullName>
+                <default>false</default>
+                <label>LPnotificationator</label>
+            </value>
+            <value>
+                <fullName>MRMT</fullName>
+                <default>false</default>
+                <label>MRMT</label>
+            </value>
+            <value>
+                <fullName>Ninja</fullName>
+                <default>false</default>
+                <label>Ninja</label>
+            </value>
+            <value>
+                <fullName>Opportunity Finder</fullName>
+                <default>false</default>
+                <label>Opportunity Finder</label>
+            </value>
+            <value>
+                <fullName>Red-Over-Red</fullName>
+                <default>false</default>
+                <label>Red-Over-Red</label>
+            </value>
+            <value>
+                <fullName>Release Playbook</fullName>
+                <default>false</default>
+                <label>Release Playbook</label>
+            </value>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+            <value>
+                <fullName>Spectrum Status</fullName>
+                <default>false</default>
+                <label>Spectrum Status</label>
+            </value>
+            <value>
+                <fullName>Splat600</fullName>
+                <default>false</default>
+                <label>Splat600</label>
+            </value>
+            <value>
+                <fullName>Squirrel</fullName>
+                <default>false</default>
+                <label>Squirrel</label>
+            </value>
+            <value>
+                <fullName>Tableau</fullName>
+                <default>false</default>
+                <label>Tableau</label>
+            </value>
+            <value>
+                <fullName>TV Study</fullName>
+                <default>false</default>
+                <label>TV Study</label>
+            </value>
+            <value>
+                <fullName>Voight-Kampff</fullName>
+                <default>false</default>
+                <label>Voight-Kampff</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

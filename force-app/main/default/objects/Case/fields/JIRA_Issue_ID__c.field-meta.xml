@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JIRA_Issue_ID__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter from the JIRA issue.  The ID is a number found when you mouse over the &quot;EDIT&quot; button on an issue in JIRA a url appears at the bottom left of the page with the ID number at the end of the URL following the &quot;id=&quot;.</inlineHelpText>
+    <label>JIRA Issue ID</label>
+    <length>16</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

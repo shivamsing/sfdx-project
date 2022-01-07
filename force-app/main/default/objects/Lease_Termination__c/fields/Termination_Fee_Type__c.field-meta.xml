@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Termination_Fee_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Termination Fee Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>If the Agreement requires payment of the termination fee to accompany the Termination Notice, insert the following:</fullName>
+                <default>false</default>
+                <label>If the Agreement requires payment of the termination fee to accompany the Termination Notice, insert the following:</label>
+            </value>
+            <value>
+                <fullName>Enclosed is check number ___________, representing the termination fee required by Paragraph ____ of the Agreement.</fullName>
+                <default>false</default>
+                <label>Enclosed is check number ___________, representing the termination fee required by Paragraph ____ of the Agreement.</label>
+            </value>
+            <value>
+                <fullName>All fees associated with the termination of this Agreement set forth in Paragraph ___ will be processed through and paid in accordance with the regular payment of rent</fullName>
+                <default>false</default>
+                <label>All fees associated with the termination of this Agreement set forth in Paragraph ___ will be processed through and paid in accordance with the regular payment of rent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

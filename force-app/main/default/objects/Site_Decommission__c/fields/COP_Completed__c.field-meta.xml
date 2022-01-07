@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>COP_Completed__c</fullName>
+    <description>Used to capture if the COP is completed- reporting purposes</description>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(COP_Accepted_Date__c) &lt;&gt;  &quot;&quot;, True, False)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Used to capture if the COP is completed- reporting purposes</inlineHelpText>
+    <label>COP Completed</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

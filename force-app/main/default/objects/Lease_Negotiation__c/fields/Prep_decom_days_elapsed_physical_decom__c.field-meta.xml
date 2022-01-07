@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prep_decom_days_elapsed_physical_decom__c</fullName>
+    <externalId>false</externalId>
+    <formula>Prepare_for_Physical_Decom_End_Date__c - Physical_Decon_Process_Start_Date__c</formula>
+    <label>Prep decom days elapsed physical decom</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

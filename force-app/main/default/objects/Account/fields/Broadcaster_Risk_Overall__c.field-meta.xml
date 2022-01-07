@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Broadcaster_Risk_Overall__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Broadcaster_Risk_Overall_Hidden__c,
+&quot;Normal&quot;, IMAGE(&quot;https://c.na59.visual.force.com/resource/1553711190000/Normal&quot;, &quot;Normal&quot; , 20, 60)  , 
+
+&quot;Moderate&quot;,IMAGE(&quot;https://c.na59.visual.force.com/resource/1553711238000/Moderate&quot;, &quot;Moderate&quot; , 20, 60) , 
+
+&quot;Severe&quot;,IMAGE(&quot;https://c.na59.visual.force.com/resource/1553711280000/Severe&quot;, &quot;Severe&quot; , 20, 60) ,
+
+&quot;Urgent&quot;,IMAGE(&quot;https://c.na59.visual.force.com/resource/1553711088000/Urgent&quot;, &quot;Urgent&quot; , 20, 60) ,
+
+&quot;Critical&quot;,IMAGE(&quot;https://c.na59.visual.force.com/resource/1553711320000/Critical&quot;, &quot;Critical&quot; , 20, 60) ,
+
+&quot;Not Available&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Displays the overall risk the broadcaster will miss their phase completion date.</inlineHelpText>
+    <label>Risk (Overall)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

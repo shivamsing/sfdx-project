@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Document_Attachment_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL(Site_Walk_Status__c , &apos;Site Walk Completed&apos;),
+				Document_Attached__c= False )</errorConditionFormula>
+    <errorDisplayField>Document_Attached__c</errorDisplayField>
+    <errorMessage>Please upload the Document before site walk close and check the &quot;Document Attached&quot; field.
+If you already attached the Document, Please Check the &quot;Document Attached&quot; field.</errorMessage>
+</ValidationRule>

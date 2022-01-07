@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dish_Option_Status_Change_Date__c</fullName>
+    <description>Hidden Field used to track date the Dish Option Status last changed.  To support reporting.  Updated from a process builder on the Dish Option Object.</description>
+    <externalId>false</externalId>
+    <label>Dish Option Status Change Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CP_Extension_Station_Will_Move_on_Time__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Only enter this response if the station has filed a Construction Permit Extension for the current Repack phase.  Attachment in the filing needs to be reviewed for the answer.  If the answer is no, confirm there is an STA filed asking for a phase change.</inlineHelpText>
+    <label>CP Extension - Station Will Move on Time</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

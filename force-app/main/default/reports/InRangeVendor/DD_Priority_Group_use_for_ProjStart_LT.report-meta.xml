@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Due_Diligence_Package__c.Priority_Group__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Divestiture_Site__c.NOD_Issue_Date__c</field>
+    </columns>
+    <description>Use this report to help forecast Lease Termination Project Start (F) based on priority level of Due Diligence</description>
+    <format>Tabular</format>
+    <name>DD Priority Group (use for ProjStart LT)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Due_Diligence_Package__c@Due_Diligence_Package__c.Divestiture_Site__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>FK_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

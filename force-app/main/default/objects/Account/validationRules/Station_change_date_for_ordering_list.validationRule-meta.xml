@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Station_change_date_for_ordering_list</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISCHANGED(Order_Site_List__c ) ,  ISBLANK(Station_Change_Estimated_Date__c))</errorConditionFormula>
+    <errorDisplayField>Order_Site_List__c</errorDisplayField>
+    <errorMessage>You must enter and save the Station Change date before ordering a site list.</errorMessage>
+</ValidationRule>

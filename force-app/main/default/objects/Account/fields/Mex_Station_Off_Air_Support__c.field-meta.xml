@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mex_Station_Off_Air_Support__c</fullName>
+    <externalId>false</externalId>
+    <label>Mex Station Off Air Support</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Probe Data</fullName>
+                <default>false</default>
+                <label>Probe Data</label>
+            </value>
+            <value>
+                <fullName>Drive Testing</fullName>
+                <default>false</default>
+                <label>Drive Testing</label>
+            </value>
+            <value>
+                <fullName>IFT</fullName>
+                <default>false</default>
+                <label>IFT</label>
+            </value>
+            <value>
+                <fullName>Rabbit Ears</fullName>
+                <default>false</default>
+                <label>Rabbit Ears</label>
+            </value>
+            <value>
+                <fullName>Wikipedia</fullName>
+                <default>false</default>
+                <label>Wikipedia</label>
+            </value>
+            <value>
+                <fullName>Other see notes</fullName>
+                <default>false</default>
+                <label>Other see notes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Decsion__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the Decision Result.</inlineHelpText>
+    <label>Request Decision</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Request Additional Justification</fullName>
+                <default>false</default>
+                <label>Request Additional Justification</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+                <label>Cancel</label>
+            </value>
+            <value>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Canceled</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Yes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

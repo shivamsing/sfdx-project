@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Option_Choice_is_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL(Option_Choice__c , &quot;&quot;) , NOT(ISPICKVAL(DISH_intends_for_the_aforementioned_exer__c, &quot;&quot;)))</errorConditionFormula>
+    <errorDisplayField>Option_Choice__c</errorDisplayField>
+    <errorMessage>Please populate option choice</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Utah_Mailing__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Station was notified in the Utah Mailing list beginning 3.15.2018</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This box will be checked if the low power station was notified in the Utah Mailing list of March 2018.</inlineHelpText>
+    <label>Utah Mailing</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

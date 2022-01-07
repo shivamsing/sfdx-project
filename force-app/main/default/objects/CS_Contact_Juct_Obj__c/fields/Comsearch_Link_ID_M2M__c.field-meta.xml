@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comsearch_Link_ID_M2M__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>CS Link ID Many to many look up.</inlineHelpText>
+    <label>Comsearch Link ID (M2M)</label>
+    <referenceTo>comsearch_results__c</referenceTo>
+    <relationshipName>CS_Contact_Juctions</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

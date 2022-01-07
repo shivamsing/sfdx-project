@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QAJSC10</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Job Site Conditions</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QAJSC10_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">A traffic control plan must be available on site for right-of-way activities. All workers with potential exposure to vehicular or equipment traffic must wear suitable Hi-Vis apparel (ANSI/ISEA 107-2004 Class 2 or Class 3 depending on environmental conditions). Are all construction tasks taking place inside of the designated Activity Area? Flaggers must be trained, training may be state-specific.                 CFR 1926 subpart G, Manual on Uniform Traffic Control Devices</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QAJSC10__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Are measures in place to effectively mitigate all hazards from motor vehicle and equipment traffic?</value>
+    </values>
+</CustomMetadata>

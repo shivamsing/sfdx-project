@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conga_Composer_NOT_Lease_Termination_Solution</fullName>
+    <availability>online</availability>
+    <description>Originally created by Conga Solution Manager. Date of last use of Update Button from Conga Solution record: https://tmo-spectrum--apxtconga4.na153.visual.force.com/a1x5G000004yNLvQAM
+02-Feb-2021 02:00:10 PM</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>false</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>660</height>
+    <isResizable>false</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>NOT Lease Termination Solution</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_370}
+&amp;Id={!Lease_Termination__c.Id}
+
+&amp;QueryId=[nnrnot]0Q_004EAI985601
+
+&amp;TemplateId=0T_004EAI777576
+
+&amp;AWD=1
+&amp;SC0=1
+&amp;SC1=Content
+&amp;ContentWorkspaceId=0585G000000DNN9QAO
+&amp;OFN={Template.Label}+{!Lease_Termination__c.Lease_ID__c}</url>
+    <width>900</width>
+</WebLink>

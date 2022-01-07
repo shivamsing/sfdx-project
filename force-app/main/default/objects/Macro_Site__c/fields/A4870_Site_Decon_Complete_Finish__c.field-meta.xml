@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>A4870_Site_Decon_Complete_Finish__c</fullName>
+    <description>List Project: BVELU: 03/03/2021 - Field Type changed from Text to Date</description>
+    <externalId>false</externalId>
+    <label>A4870 Site Decon Complete Finish</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

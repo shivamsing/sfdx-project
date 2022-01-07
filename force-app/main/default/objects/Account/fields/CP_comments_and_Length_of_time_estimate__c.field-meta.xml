@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CP_comments_and_Length_of_time_estimate__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to help gauge CP length- full 180 days, or a few days/weeks</inlineHelpText>
+    <label>CP comments and Length of time estimate</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

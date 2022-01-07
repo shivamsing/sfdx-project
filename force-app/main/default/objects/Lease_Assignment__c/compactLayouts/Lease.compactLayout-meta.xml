@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lease</fullName>
+    <fields>Name</fields>
+    <fields>OwnerId</fields>
+    <fields>LL_Consent_Received_for_Assignment__c</fields>
+    <fields>Dish_Option_Status__c</fields>
+    <fields>Dish_Option_s_Date__c</fields>
+    <fields>Did_Dish_Accept_Site__c</fields>
+    <fields>DISH_intends_for_the_aforementioned_exer__c</fields>
+    <label>Lease</label>
+</CompactLayout>

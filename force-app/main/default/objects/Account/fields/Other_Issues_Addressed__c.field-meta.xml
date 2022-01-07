@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Issues_Addressed__c</fullName>
+    <description>Maps to field “unaddressed_issues_explanation”</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Does the Station have other issues that must be addressed before it can fully construct and/or operate its post-auction facility?</inlineHelpText>
+    <label>Other Issues Addressed</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Y</fullName>
+                <default>false</default>
+                <label>Y</label>
+            </value>
+            <value>
+                <fullName>N</fullName>
+                <default>false</default>
+                <label>N</label>
+            </value>
+            <value>
+                <fullName>NA</fullName>
+                <default>false</default>
+                <label>NA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

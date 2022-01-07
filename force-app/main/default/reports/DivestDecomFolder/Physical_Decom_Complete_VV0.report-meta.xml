@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>number</bucketType>
+        <developerName>BucketField_97249107</developerName>
+        <masterLabel>Physical Decom Date Complete (Quarter)</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Divestiture_Site__c.Quarters_Until_Close__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <to>-5</to>
+            </sourceValues>
+            <value>Previous Quarters</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>-5</from>
+                <to>-4</to>
+            </sourceValues>
+            <value>Q3 2020</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>-4</from>
+                <to>-3</to>
+            </sourceValues>
+            <value>Q4 2020</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>-3</from>
+                <to>-2</to>
+            </sourceValues>
+            <value>Q1 2021</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>-2</from>
+                <to>-1</to>
+            </sourceValues>
+            <value>Q2 2021</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>-1</from>
+                <to>0</to>
+            </sourceValues>
+            <value>Q3 2021</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>0</from>
+                <to>1</to>
+            </sourceValues>
+            <value>Q4 2021</value>
+        </values>
+        <values>
+            <sourceValues>
+                <from>1</from>
+            </sourceValues>
+            <value>Q1 2022</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <aggregate>Sum</aggregate>
+            <axisBinding>y</axisBinding>
+            <column>Divestiture_Site__c.Quarters_Until_Close__c</column>
+        </chartSummaries>
+        <chartType>VerticalColumn</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>true</expandOthers>
+        <groupingColumn>BucketField_97249107</groupingColumn>
+        <location>CHART_BOTTOM</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <title>Physical Decom Complete</title>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Divestiture_Site__c.Quarters_Until_Close__c</field>
+    </columns>
+    <columns>
+        <field>Divestiture_Site__c.Physical_Decom_Date_Complete__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Divestiture_Site__c.Physical_Decom_Date_Complete__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>12/31/2019</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Divestiture_Site__c.Active_for_Divestiture_Program__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_97249107</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Physical Decom Complete</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Divestiture_Site__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Divestiture_Site__c.Physical_Decom_Date_Complete__c</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

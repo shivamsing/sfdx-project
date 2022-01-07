@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Street_2_CASS__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Contact address from LMS corrected via CASS verification process.</inlineHelpText>
+    <label>Contact Street 2 CASS</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

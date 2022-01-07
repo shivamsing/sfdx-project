@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X5MHz_Status_Changed__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Date/Time when the status of a &lt;5MHz changed.</inlineHelpText>
+    <label>&lt;5MHz Status Changed</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

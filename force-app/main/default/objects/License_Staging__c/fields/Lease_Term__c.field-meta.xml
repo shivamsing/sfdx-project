@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lease_Term__c</fullName>
+    <description>--L Long; S Short</description>
+    <externalId>false</externalId>
+    <inlineHelpText>--L Long; S Short</inlineHelpText>
+    <label>Lease_Term</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LPTV_Notification_ID__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Salesforce ID of the LPTV Notification.  Populated when an LPTV is creates.  Used to add FCC Filings to a related list on Notifications.</inlineHelpText>
+    <label>LPTV Notification ID</label>
+    <length>64</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

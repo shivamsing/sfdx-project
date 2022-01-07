@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Responded_within_24_hours__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to track time to respond for tickets.</inlineHelpText>
+    <label>Responded within 24 hours</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

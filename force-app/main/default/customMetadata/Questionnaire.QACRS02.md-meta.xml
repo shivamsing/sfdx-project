@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QACRS02</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Cranes</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QACRS02_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Any equipment fitted with outriggers may only be used with all outriggers fully extended unless otherwise stated by the manufacturer (horizontally), and the machine level for maximum stability. Cribbing (aka. Blocking or padding) shall be of sufficient strength to prevent crushing, bending or shear failure, and of sufficient size to transmit the weight of the load and machine to the ground without settlement or shifting. Machine levelness shall be checked frequently to ensure adequate outrigger set-up. CFR 1926.1404 (q), ASME B30.5 (5-3.2.1.3)</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QACRS02__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Are outriggers fully extended, properly cribbed and machine frame level?</value>
+    </values>
+</CustomMetadata>

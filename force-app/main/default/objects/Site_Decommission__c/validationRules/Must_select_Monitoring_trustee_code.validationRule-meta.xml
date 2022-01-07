@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_select_Monitoring_trustee_code</fullName>
+    <active>true</active>
+    <description>You must select a Monitoring Trustee Reason Code and have manager approval.</description>
+    <errorConditionFormula>AND
+($Permission.Regional_Managers_Deconstruction,
+ISCHANGED(DX_Date_Exceeds_NOD__c),
+ISPICKVAL(Monitoring_Trustee_Delay_Reason_Code__c,&quot;&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>DX_Complete_Forecast__c</errorDisplayField>
+    <errorMessage>DX Complete forecast date is greater than nod, select reason code. Contact the DX Regional Managers for assistance.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Work_Lookup__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Used in Agile Accelerator</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used in Agile Accelerator</inlineHelpText>
+    <label>Work Lookup</label>
+    <referenceTo>agf__ADM_Work__c</referenceTo>
+    <relationshipLabel>Intake Requests (Cases) (Work Lookup)</relationshipLabel>
+    <relationshipName>Intake_Requests_Cases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

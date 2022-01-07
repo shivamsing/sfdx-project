@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Cause__c</fullName>
+    <externalId>false</externalId>
+    <label>Secondary Cause</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Anchor Attachments</fullName>
+                <default>false</default>
+                <label>Anchor Attachments</label>
+            </value>
+            <value>
+                <fullName>Arc/Polarity</fullName>
+                <default>false</default>
+                <label>Arc/Polarity</label>
+            </value>
+            <value>
+                <fullName>Arson/Theft</fullName>
+                <default>false</default>
+                <label>Arson/Theft</label>
+            </value>
+            <value>
+                <fullName>Bird Nest</fullName>
+                <default>false</default>
+                <label>Bird Nest</label>
+            </value>
+            <value>
+                <fullName>Certs Missing/Fake</fullName>
+                <default>false</default>
+                <label>Certs Missing/Fake</label>
+            </value>
+            <value>
+                <fullName>Material Handling</fullName>
+                <default>false</default>
+                <label>Material Handling</label>
+            </value>
+            <value>
+                <fullName>Equip Dmg/Missing/Improper</fullName>
+                <default>false</default>
+                <label>Equip Dmg/Missing/Improper</label>
+            </value>
+            <value>
+                <fullName>Excessive load</fullName>
+                <default>false</default>
+                <label>Excessive load</label>
+            </value>
+            <value>
+                <fullName>Fall From Heights</fullName>
+                <default>false</default>
+                <label>Fall From Heights</label>
+            </value>
+            <value>
+                <fullName>Hoisting over</fullName>
+                <default>false</default>
+                <label>Hoisting over</label>
+            </value>
+            <value>
+                <fullName>Lock out/Tag out</fullName>
+                <default>false</default>
+                <label>Lock out/Tag out</label>
+            </value>
+            <value>
+                <fullName>Maint./Installation</fullName>
+                <default>false</default>
+                <label>Maint./Installation</label>
+            </value>
+            <value>
+                <fullName>Rigging Plan</fullName>
+                <default>false</default>
+                <label>Rigging Plan</label>
+            </value>
+            <value>
+                <fullName>Slip/Trip/Sprain</fullName>
+                <default>false</default>
+                <label>Slip/Trip/Sprain</label>
+            </value>
+            <value>
+                <fullName>Tether</fullName>
+                <default>false</default>
+                <label>Tether</label>
+            </value>
+            <value>
+                <fullName>Weather/Nature</fullName>
+                <default>false</default>
+                <label>Weather/Nature</label>
+            </value>
+            <value>
+                <fullName>Neighbor</fullName>
+                <default>false</default>
+                <label>Neighbor</label>
+            </value>
+            <value>
+                <fullName>Fuel/Oil Spill</fullName>
+                <default>false</default>
+                <label>Fuel/Oil Spill</label>
+            </value>
+            <value>
+                <fullName>PPE Dmg/Missing/Improper</fullName>
+                <default>false</default>
+                <label>PPE Dmg/Missing/Improper</label>
+            </value>
+            <value>
+                <fullName>Crane Operator</fullName>
+                <default>false</default>
+                <label>Crane Operator</label>
+            </value>
+            <value>
+                <fullName>Welding</fullName>
+                <default>false</default>
+                <label>Welding</label>
+            </value>
+            <value>
+                <fullName>Deception</fullName>
+                <default>false</default>
+                <label>Deception</label>
+            </value>
+            <value>
+                <fullName>Housekeeping</fullName>
+                <default>false</default>
+                <label>Housekeeping</label>
+            </value>
+            <value>
+                <fullName>Confined Space</fullName>
+                <default>false</default>
+                <label>Confined Space</label>
+            </value>
+            <value>
+                <fullName>Criminal Activity</fullName>
+                <default>false</default>
+                <label>Criminal Activity</label>
+            </value>
+            <value>
+                <fullName>Safety Plan</fullName>
+                <default>false</default>
+                <label>Safety Plan</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

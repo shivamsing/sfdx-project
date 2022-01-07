@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StagePermittingNo</fullName>
+    <active>true</active>
+    <description>Required Field at Stage Permitting No</description>
+    <errorConditionFormula>AND(
+$User.Bypass_Automation__c = false,
+$Profile.Id = &apos;2F00ef4000000GmzO&apos;,
+ISPICKVAL(Permits_Required__c , &apos;No&apos;),
+ISBLANK( Permit_Received_Actual_Date__c )
+)</errorConditionFormula>
+    <errorDisplayField>Permit_Received_Actual_Date__c</errorDisplayField>
+    <errorMessage>Permit Required is No;
+Please enter the Permit Received Actual Date</errorMessage>
+</ValidationRule>

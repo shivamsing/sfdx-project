@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>T_Mobile_Outreach_Contact__c</fullName>
+    <externalId>false</externalId>
+    <label>T-Mobile Outreach Contact</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Katie Miller</fullName>
+                <default>false</default>
+                <label>Katie Miller</label>
+            </value>
+            <value>
+                <fullName>Scott Hewett</fullName>
+                <default>false</default>
+                <label>Scott Hewett</label>
+            </value>
+            <value>
+                <fullName>David Kocyba</fullName>
+                <default>false</default>
+                <label>David Kocyba</label>
+            </value>
+            <value>
+                <fullName>Jeff Mayo</fullName>
+                <default>false</default>
+                <label>Jeff Mayo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

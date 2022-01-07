@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Executed_Date__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Date the contract was executed.  Auto-filled from the Broadcaster Deal via a process.</inlineHelpText>
+    <label>Contract Executed Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

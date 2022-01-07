@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Path_1_Frequencies__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>All frequency ranges as included in LMS</inlineHelpText>
+    <label>Path 1 Frequencies</label>
+    <length>2000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>6</visibleLines>
+</CustomField>

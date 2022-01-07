@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Macro_Site__c.RF_Shutdown_Status__c</field>
+    </columns>
+    <columns>
+        <field>Macro_Site__c.RF_Shutdown_Date__c</field>
+    </columns>
+    <columns>
+        <field>Macro_Site__c.Physical_Decom_Status__c</field>
+    </columns>
+    <columns>
+        <field>Macro_Site__c.Physical_Decom_Date__c</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Macro_Site__c.Legacy_Network__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Sprint &amp; T-Mobile</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Macro_Site__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Macro_Site__c.X2021__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

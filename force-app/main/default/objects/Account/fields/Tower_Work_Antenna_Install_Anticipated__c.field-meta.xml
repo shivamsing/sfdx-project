@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tower_Work_Antenna_Install_Anticipated__c</fullName>
+    <description>Maps to field &quot;tower_work_meet_deadline_ind&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Does the Station anticipate that all tower work, including antenna installation, will be completed in time to meet its construction deadline?</inlineHelpText>
+    <label>Tower Work &amp; Antenna Install Anticipated</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Y</fullName>
+                <default>false</default>
+                <label>Y</label>
+            </value>
+            <value>
+                <fullName>N</fullName>
+                <default>false</default>
+                <label>N</label>
+            </value>
+            <value>
+                <fullName>NA</fullName>
+                <default>false</default>
+                <label>NA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

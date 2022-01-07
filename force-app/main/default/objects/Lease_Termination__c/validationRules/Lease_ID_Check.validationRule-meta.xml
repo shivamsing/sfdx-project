@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lease_ID_Check</fullName>
+    <active>true</active>
+    <description>Lease_ID__c should not be null on saving the record</description>
+    <errorConditionFormula>ISBLANK(Lease_ID__c)</errorConditionFormula>
+    <errorMessage>Lease ID is required field</errorMessage>
+</ValidationRule>

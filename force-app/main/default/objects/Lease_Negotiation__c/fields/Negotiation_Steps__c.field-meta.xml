@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Negotiation_Steps__c</fullName>
+    <externalId>false</externalId>
+    <label>Negotiation Steps</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Awaiting Vendor Assignment</fullName>
+                <default>true</default>
+                <label>Awaiting Vendor Assignment</label>
+            </value>
+            <value>
+                <fullName>Start Lease Negotiation Process</fullName>
+                <default>false</default>
+                <label>Start Lease Negotiation Process</label>
+            </value>
+            <value>
+                <fullName>MLA Termination Process</fullName>
+                <default>false</default>
+                <label>MLA Termination Process</label>
+            </value>
+            <value>
+                <fullName>T-Mobile Review NNR/NOT</fullName>
+                <default>false</default>
+                <label>T-Mobile Review NNR/NOT or TAW</label>
+            </value>
+            <value>
+                <fullName>Non-MLA Termination Process</fullName>
+                <default>false</default>
+                <label>Non-MLA Termination Process</label>
+            </value>
+            <value>
+                <fullName>Agreement Negotiation with the Landlord</fullName>
+                <default>false</default>
+                <label>Agreement Negotiation with the Landlord</label>
+            </value>
+            <value>
+                <fullName>Finalize Agreement</fullName>
+                <default>false</default>
+                <label>Finalize Agreement</label>
+            </value>
+            <value>
+                <fullName>Agreement Review</fullName>
+                <default>false</default>
+                <label>Agreement Review</label>
+            </value>
+            <value>
+                <fullName>Prepare for Physical Decom</fullName>
+                <default>false</default>
+                <label>Prepare for Physical Decom</label>
+            </value>
+            <value>
+                <fullName>Physical Decon Process</fullName>
+                <default>false</default>
+                <label>Physical Decon Process</label>
+            </value>
+            <value>
+                <fullName>Exhibit A Executed</fullName>
+                <default>false</default>
+                <label>Exhibit A Executed</label>
+            </value>
+            <value>
+                <fullName>Complete</fullName>
+                <default>false</default>
+                <label>Complete</label>
+            </value>
+            <value>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+                <label>Canceled</label>
+            </value>
+            <value>
+                <fullName>Agreement on Terms</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Agreement on Terms</label>
+            </value>
+            <value>
+                <fullName>Complete TAW</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Complete TAW</label>
+            </value>
+            <value>
+                <fullName>NNR or NOT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NNR or NOT</label>
+            </value>
+            <value>
+                <fullName>Negotiate LTA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Negotiate LTA</label>
+            </value>
+            <value>
+                <fullName>Negotiate P&amp;W Agreeent</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Negotiate P&amp;W Agreeent</label>
+            </value>
+            <value>
+                <fullName>No Agreement on Terms</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Agreement on Terms</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

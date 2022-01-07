@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nielsen_DMA__c</fullName>
+    <description>DMA (Designated Market Area) regions are the geographic areas in the United States in which local television viewing is measured by The Nielsen Company. The DMA data are essential for any marketer, researcher, or organization seeking to utilize standardized geographic areas within their business.</description>
+    <externalId>false</externalId>
+    <label>Nielsen DMA</label>
+    <length>64</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

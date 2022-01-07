@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QAEH04</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Electrical Hazards</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QAEH04_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">All electrical conductors shall be treated as energized. A documented procedure must be developed if the potential exists to encroach beyond established minimum clearance distances from electrical conductors. Minimum clearance distance of 20ft shall be maintained unless documentation from a Qualified Electrician is obtained that identifies the voltage of the conductor and atmospheric conditions allow for clearance to be reduced safely. CFR 1910.332, NFPA 70E</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QAEH04__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Is there a documented procedure for maintaining minimum clearances from any electrical conductors?</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QAGP04</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Gin Poles</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QAGP04_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Basket rigging and anchorages must be capable of supporting the weight of the gross lifted load plus the weight of the rigging equipment-including the gin pole. Bridle rigging must handle the horizontal forces of keeping the pole&apos;s vertical angle. All equipment must be ASME B30 compliant, in good condition and have Working Load Limits sufficient to hold all applied forces. ASME B30.9, ANSI A10.48 (11.5.7)</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QAGP04__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Is the gin pole bridle and basket rigging compliant and in good condition?</value>
+    </values>
+</CustomMetadata>

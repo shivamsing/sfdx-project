@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PEAs_pre_repack__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>These are the PEAs for the location of the translator, prior to the repack.</inlineHelpText>
+    <label>PEAs (pre-repack)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Risk_Rank__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>See Risk Hazard Scoring image below to guide decisions in Severity</inlineHelpText>
+    <label>Severity</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Catastrophic</fullName>
+                <default>false</default>
+                <label>Catastrophic</label>
+            </value>
+            <value>
+                <fullName>Significant</fullName>
+                <default>false</default>
+                <label>Significant</label>
+            </value>
+            <value>
+                <fullName>Moderate</fullName>
+                <default>false</default>
+                <label>Moderate</label>
+            </value>
+            <value>
+                <fullName>Marginal</fullName>
+                <default>false</default>
+                <label>Marginal</label>
+            </value>
+            <value>
+                <fullName>Negligible</fullName>
+                <default>false</default>
+                <label>Negligible</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QACRS04__c</fullName>
+    <externalId>false</externalId>
+    <label>CRANE_BOOM_ANGLE_LIFT_CHART</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Choices</valueSetName>
+    </valueSet>
+</CustomField>

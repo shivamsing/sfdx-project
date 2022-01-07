@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>General_Contractor_Lookup__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>General Contractor Lookup</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Certificate Tracking</relationshipLabel>
+    <relationshipName>Certificate_Tracking</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dish_Notified_30D_into_Transfer_Period__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Date Dish notified LL unresponsive 30 days after Option</inlineHelpText>
+    <label>Dish Notified 30D into Transfer Period</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

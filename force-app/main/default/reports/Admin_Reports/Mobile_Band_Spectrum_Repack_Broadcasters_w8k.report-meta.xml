@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Actual_Date__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Account_State__c</field>
+    </columns>
+    <columns>
+        <field>Account.T_Mobile_Contact__c</field>
+    </columns>
+    <columns>
+        <field>Account.Deal_Status__c</field>
+    </columns>
+    <description>All high power broadcasters in Salesforce with repack phases between 37 and 51</description>
+    <filter>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Account.High_Power_Station</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Channel__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>36</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.Channel__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.Repack_Phase__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Mobile Band Spectrum Repack Broadcasters</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>Incident_Type__c</fields>
+    <fields>Risk_Rating_Score__c</fields>
+    <fields>primary_cause__c</fields>
+    <fields>Secondary_Cause__c</fields>
+    <fields>dateA0Occured__c</fields>
+    <fields>OwnerId</fields>
+    <label>Custom Compact Layout</label>
+</CompactLayout>

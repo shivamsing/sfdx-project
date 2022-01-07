@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monitoring_Trustee_Delay_Reason_Code__c</fullName>
+    <externalId>false</externalId>
+    <label>Monitoring Trustee Delay Reason Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Backhaul</fullName>
+                <default>false</default>
+                <label>Backhaul</label>
+            </value>
+            <value>
+                <fullName>Building/ tower access restrictions</fullName>
+                <default>false</default>
+                <label>Building/ tower access restrictions</label>
+            </value>
+            <value>
+                <fullName>Dish extension request</fullName>
+                <default>false</default>
+                <label>Dish extension request</label>
+            </value>
+            <value>
+                <fullName>Dish has accepted this site and we are in the process of closing on the transfer.</fullName>
+                <default>false</default>
+                <label>Dish has accepted this site and we are in the process of closing on the transfer.</label>
+            </value>
+            <value>
+                <fullName>General Contractor delay/ availability</fullName>
+                <default>false</default>
+                <label>General Contractor delay/ availability</label>
+            </value>
+            <value>
+                <fullName>Landlord Notice to Proceed</fullName>
+                <default>false</default>
+                <label>Landlord Notice to Proceed</label>
+            </value>
+            <value>
+                <fullName>Landlord violation delay</fullName>
+                <default>false</default>
+                <label>Landlord violation delay</label>
+            </value>
+            <value>
+                <fullName>Lease termination negotiations/ finalization</fullName>
+                <default>false</default>
+                <label>Lease termination negotiations/ finalization</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Logical Decommissioning Date Change</fullName>
+                <default>false</default>
+                <label>Logical Decommissioning Date Change</label>
+            </value>
+            <value>
+                <fullName>Migratory Birds</fullName>
+                <default>false</default>
+                <label>Migratory Birds</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Permitting/ Jurisdictional delay</fullName>
+                <default>false</default>
+                <label>Permitting/ Jurisdictional delay</label>
+            </value>
+            <value>
+                <fullName>Power</fullName>
+                <default>false</default>
+                <label>Power</label>
+            </value>
+            <value>
+                <fullName>Update to be provided in (future month) report</fullName>
+                <default>false</default>
+                <label>Update to be provided in (future month) report</label>
+            </value>
+            <value>
+                <fullName>Weather Delays</fullName>
+                <default>false</default>
+                <label>Weather Delays</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

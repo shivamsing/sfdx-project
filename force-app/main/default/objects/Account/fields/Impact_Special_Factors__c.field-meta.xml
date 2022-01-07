@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Impact_Special_Factors__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Special situations that may not be reflected in the impacts calculated by the Spectrum System Data Mart</inlineHelpText>
+    <label>Impact - Special Factors</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Delays Site Clearing</fullName>
+                <default>false</default>
+                <label>Delays Site Clearing</label>
+            </value>
+            <value>
+                <fullName>STA impact only</fullName>
+                <default>false</default>
+                <label>STA impact only</label>
+            </value>
+            <value>
+                <fullName>Delays Site Clearing- STA only</fullName>
+                <default>false</default>
+                <label>Delays Site Clearing- STA only</label>
+            </value>
+            <value>
+                <fullName>Monitoring STA</fullName>
+                <default>false</default>
+                <label>Monitoring STA</label>
+            </value>
+            <value>
+                <fullName>Potential Impact- TMUS 600 New Sites</fullName>
+                <default>false</default>
+                <label>Potential Impact- TMUS 600 New Sites</label>
+            </value>
+            <value>
+                <fullName>No-Impact Canadian Station</fullName>
+                <default>false</default>
+                <label>No-Impact Canadian Station</label>
+            </value>
+            <value>
+                <fullName>Never Impacting</fullName>
+                <default>false</default>
+                <label>Never Impacting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

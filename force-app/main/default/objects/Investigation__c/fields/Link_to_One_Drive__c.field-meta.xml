@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Link_to_One_Drive__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;https://tmobileusa-my.sharepoint.com/:x:/r/personal/ilona_lindsay_t-mobile_com/_layouts/15/[…]EB.MAIN.OTHER&amp;cid=eedfe9d1-daff-47b4-b4d2-c3f7cec380a0&quot;,&quot;Link to One Drive&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Link to One Drive</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

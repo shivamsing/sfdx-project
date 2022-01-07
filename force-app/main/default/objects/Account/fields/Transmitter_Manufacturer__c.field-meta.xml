@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transmitter_Manufacturer__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select the transmitter manufacturer. If they are not in the list, you can add them.</inlineHelpText>
+    <label>Transmitter Manufacturer</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Anywave</fullName>
+                <default>false</default>
+                <label>Anywave</label>
+            </value>
+            <value>
+                <fullName>Gates Air</fullName>
+                <default>false</default>
+                <label>Gates Air</label>
+            </value>
+            <value>
+                <fullName>Hitachi-Comark</fullName>
+                <default>false</default>
+                <label>Hitachi-Comark</label>
+            </value>
+            <value>
+                <fullName>Rohde &amp; Schwarz</fullName>
+                <default>false</default>
+                <label>Rohde &amp; Schwarz</label>
+            </value>
+            <value>
+                <fullName>Thomson</fullName>
+                <default>false</default>
+                <label>Thomson</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Final_Agreement_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the final outcome of the lease negotiations for this record.</inlineHelpText>
+    <label>Final Agreement Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lease Termination Agreement (P&amp;W and/or Early Termination)</fullName>
+                <default>false</default>
+                <label>Lease Termination Agreement (P&amp;W and/or Early Termination)</label>
+            </value>
+            <value>
+                <fullName>Notice of Termination (NOT) Only</fullName>
+                <default>false</default>
+                <label>Notice of Termination (NOT) Only</label>
+            </value>
+            <value>
+                <fullName>Notice of Non-Renewal (NNR) Only</fullName>
+                <default>false</default>
+                <label>Notice of Non-Renewal (NNR) Only</label>
+            </value>
+            <value>
+                <fullName>None (site in holdover or lease expired/terminated)</fullName>
+                <default>false</default>
+                <label>None (site in holdover or lease expired/terminated)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

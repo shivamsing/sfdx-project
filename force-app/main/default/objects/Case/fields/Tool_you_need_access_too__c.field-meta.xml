@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tool_you_need_access_too__c</fullName>
+    <description>Select multiple by holding CTRL and clicking the desired fields.</description>
+    <externalId>false</externalId>
+    <label>Request Access To:</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Market Request Website- Create, View, Edit existing tickets</fullName>
+                <default>false</default>
+                <label>Market Request Website- Create, View, Edit existing tickets</label>
+            </value>
+            <value>
+                <fullName>Interference Viz-</fullName>
+                <default>false</default>
+                <label>Interference Viz- Dashboard showing TV Broadcasters &amp; Sites</label>
+            </value>
+            <value>
+                <fullName>Illegally Transmitting Reports viz (ITR) -</fullName>
+                <default>false</default>
+                <label>Illegally Transmitting Reports Viz/Dashboard  (ITR)</label>
+            </value>
+            <value>
+                <fullName>Other (update description with tool URL or information you need access to</fullName>
+                <default>false</default>
+                <label>Other (update description with tool URL or information you need access to)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

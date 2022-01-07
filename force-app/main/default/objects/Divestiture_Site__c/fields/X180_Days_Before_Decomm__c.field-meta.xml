@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X180_Days_Before_Decomm__c</fullName>
+    <externalId>false</externalId>
+    <formula>Physical_Decommsion_Date_from_Source_Sys__c  -180</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Date that is 180 days prior to the forecasted decommissioning date of the site from the source systems.</inlineHelpText>
+    <label>180 Days Before Decom</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Probe_Status_Hidden__c</fullName>
+    <defaultValue>&quot;No Probe Data&quot;</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Used for manual changes from Spectrum Team to the Probe Status. Double click the field, and update status when necessary.</inlineHelpText>
+    <label>Spectrum- UPDATE Probe Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Probe Status</fullName>
+                <default>false</default>
+                <label>No Probe Status</label>
+            </value>
+            <value>
+                <fullName>Probe Status Unclear</fullName>
+                <default>false</default>
+                <label>Probe Status Unclear</label>
+            </value>
+            <value>
+                <fullName>Confirmed On Air</fullName>
+                <default>false</default>
+                <label>Confirmed On Air</label>
+            </value>
+            <value>
+                <fullName>Possible On Air</fullName>
+                <default>false</default>
+                <label>Possible On Air</label>
+            </value>
+            <value>
+                <fullName>Possible Off Air</fullName>
+                <default>false</default>
+                <label>Possible Off Air</label>
+            </value>
+            <value>
+                <fullName>Confirmed Off Air</fullName>
+                <default>false</default>
+                <label>Confirmed Off Air</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

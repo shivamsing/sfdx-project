@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NOD_Issue_Date_Plus_180__c</fullName>
+    <externalId>false</externalId>
+    <formula>NOD_Issue_Date__c  + 180</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Final Day to decom site (dependent on Dish option and extension. Calculated as NOD Issue Date + 180 Days</inlineHelpText>
+    <label>NOD Issue Date Plus 180</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

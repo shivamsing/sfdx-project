@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CP_Extension_Reasons_Given__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the key reasons for the CP Extension Request.  Choose all that apply or enter ones not listed.</inlineHelpText>
+    <label>CP Extension Reasons Given</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Antenna Vendor</fullName>
+                <default>false</default>
+                <label>Antenna Vendor</label>
+            </value>
+            <value>
+                <fullName>Coordination with Other Stations</fullName>
+                <default>false</default>
+                <label>Coordination with Other Stations</label>
+            </value>
+            <value>
+                <fullName>Equipment Failure</fullName>
+                <default>false</default>
+                <label>Equipment Failure</label>
+            </value>
+            <value>
+                <fullName>Equipment Vendors (other than Antenna)</fullName>
+                <default>false</default>
+                <label>Equipment Vendors (other than Antenna)</label>
+            </value>
+            <value>
+                <fullName>FCC Approvals</fullName>
+                <default>false</default>
+                <label>FCC Approvals</label>
+            </value>
+            <value>
+                <fullName>FCC Reimbursement or Timeline</fullName>
+                <default>false</default>
+                <label>FCC Reimbursement or Timeline</label>
+            </value>
+            <value>
+                <fullName>Permitting</fullName>
+                <default>false</default>
+                <label>Permitting</label>
+            </value>
+            <value>
+                <fullName>Tower Collapse</fullName>
+                <default>false</default>
+                <label>Tower Collapse</label>
+            </value>
+            <value>
+                <fullName>Tower Crew</fullName>
+                <default>false</default>
+                <label>Tower Crew</label>
+            </value>
+            <value>
+                <fullName>Tower Work</fullName>
+                <default>false</default>
+                <label>Tower Work</label>
+            </value>
+            <value>
+                <fullName>Weather</fullName>
+                <default>false</default>
+                <label>Weather</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

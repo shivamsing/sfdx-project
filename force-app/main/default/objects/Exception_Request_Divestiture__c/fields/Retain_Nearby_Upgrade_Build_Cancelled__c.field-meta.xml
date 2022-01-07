@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retain_Nearby_Upgrade_Build_Cancelled__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If Cause Code is Nearby Upgrade/ Build Cancelled</inlineHelpText>
+    <label>Retain - Additional Reason Code</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Jurisdictional denials</fullName>
+                <default>false</default>
+                <label>Jurisdictional denials</label>
+            </value>
+            <value>
+                <fullName>Landlord agreement falls through</fullName>
+                <default>false</default>
+                <label>Landlord agreement falls through</label>
+            </value>
+            <value>
+                <fullName>Site fails structural analysis</fullName>
+                <default>false</default>
+                <label>Site fails structural analysis</label>
+            </value>
+            <value>
+                <fullName>Force Majeure</fullName>
+                <default>false</default>
+                <label>Force Majeure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

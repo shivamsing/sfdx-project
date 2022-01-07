@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ComSearch_Broadcasters_Parent__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Creates relationship between CS Quarterly results and CS Broadcasters</inlineHelpText>
+    <label>ComSearch Broadcasters Parent</label>
+    <referenceTo>comsearch_broadcasters__c</referenceTo>
+    <relationshipName>Comsearch_Quarterly_Results</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

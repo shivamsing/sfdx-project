@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comments_for_Fed_Land_TV_Stations__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please update this field with follow up information regarding Federal Land outreach.</inlineHelpText>
+    <label>Comments for Fed. Land (TV Stations)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

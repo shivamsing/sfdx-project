@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Certificate_Tracking__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Used to bring over information from certs</description>
+    <externalId>false</externalId>
+    <label>Certificate Tracking Lookup</label>
+    <referenceTo>Certificate_Tracking__c</referenceTo>
+    <relationshipLabel>Contacts</relationshipLabel>
+    <relationshipName>Contacts</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ProcessInstance$TargetName</field>
+    </columns>
+    <columns>
+        <field>ProcessInstance$CreatedDate</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>ProcessInstance$ElapsedTimeInHours</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>ProcessInstance$ElapsedTimeInDays</field>
+    </columns>
+    <description>A Report created for Tracking Pending Approvals of Incident Tracker</description>
+    <filter>
+        <criteriaItems>
+            <column>ProcessInstance.Nodes$NodeStatus</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>P,S,N</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ProcessInstance$SubmittedBy</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Incident Tracker - Pending Approvals</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Pending_Approval_Process_records__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>ProcessInstance$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

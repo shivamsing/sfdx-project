@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Compact_Layout</fullName>
+    <fields>Call_Sign_Current__c</fields>
+    <fields>Impact_Special_Factors__c</fields>
+    <fields>Broadcaster_Risk_Overall__c</fields>
+    <fields>T_Mobile_Contact__c</fields>
+    <fields>Call_Sign_City_State_Channels__c</fields>
+    <label>Account Compact Layout</label>
+</CompactLayout>

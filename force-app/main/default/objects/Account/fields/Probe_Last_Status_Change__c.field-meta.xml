@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Probe_Last_Status_Change__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The date when the Probe Status changed last.</inlineHelpText>
+    <label>Probe Last Status Change</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

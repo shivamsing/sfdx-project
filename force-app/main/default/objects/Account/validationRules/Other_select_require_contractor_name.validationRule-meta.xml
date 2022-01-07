@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_select_require_contractor_name</fullName>
+    <active>true</active>
+    <description>When &quot;other&quot; is selected for tower contractor, make Other tower contractor required.</description>
+    <errorConditionFormula>TEXT(Phase_Transition_Updates_from_the_Broadc__c) = &quot;Other&quot; &amp;&amp;  Other_Tower_Contractor_Comment__c = null</errorConditionFormula>
+    <errorDisplayField>Phase_Transition_Updates_from_the_Broadc__c</errorDisplayField>
+    <errorMessage>When Phase Transition Updates- Other is selected you must type in the contractor name in the Other Tower Contractor (Comment)</errorMessage>
+</ValidationRule>

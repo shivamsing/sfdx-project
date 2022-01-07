@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Forecast_Disconnect_Date__c</fullName>
+    <description>Forecast Disconnect Date</description>
+    <externalId>false</externalId>
+    <label>Forecast Disconnect Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

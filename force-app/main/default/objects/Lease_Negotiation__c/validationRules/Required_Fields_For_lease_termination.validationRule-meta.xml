@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Required_Fields_For_lease_termination</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL(Final_Agreement_Type__c , &apos;Lease Termination Agreement (P&amp;W and/or Early Termination)&apos;),OR(
+ISNULL(Landlord_Signed_Agreement__c),ISNULL(If_LTA_Actual_Costs_Paid_to_LL_for_P_W__c),
+ISBLANK( If_LTA_Cost_Avoidance_for_P_W__c),ISBLANK( T_Mobile_Completed_Signing__c )))</errorConditionFormula>
+    <errorMessage>Below fields are required if you selected the Lease Termination Agreement in the Final Agreement Field.
+* If LTA, Actual Costs Paid to LL for P&amp;W
+* If LTA, Cost Avoidance for P&amp;W
+* Landlord Signed Agreement
+* T-Mobile Completed Signing</errorMessage>
+</ValidationRule>

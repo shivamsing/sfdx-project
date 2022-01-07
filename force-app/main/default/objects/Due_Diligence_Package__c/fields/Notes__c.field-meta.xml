@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notes__c</fullName>
+    <externalId>false</externalId>
+    <label>Landlord (Normalized)</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>American Tower</fullName>
+                <default>false</default>
+                <label>American Tower</label>
+            </value>
+            <value>
+                <fullName>Crown Castle</fullName>
+                <default>false</default>
+                <label>Crown Castle</label>
+            </value>
+            <value>
+                <fullName>Non-MLA</fullName>
+                <default>false</default>
+                <label>Non-MLA</label>
+            </value>
+            <value>
+                <fullName>Other Company</fullName>
+                <default>false</default>
+                <label>Other Company</label>
+            </value>
+            <value>
+                <fullName>Other MLA</fullName>
+                <default>false</default>
+                <label>Other MLA</label>
+            </value>
+            <value>
+                <fullName>SBA</fullName>
+                <default>false</default>
+                <label>SBA</label>
+            </value>
+            <value>
+                <fullName>Sprint</fullName>
+                <default>false</default>
+                <label>Sprint</label>
+            </value>
+            <value>
+                <fullName>Vertical Bridge</fullName>
+                <default>false</default>
+                <label>Vertical Bridge</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

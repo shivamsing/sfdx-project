@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Due_Diligence_Package__c.Priority_Group__c</field>
+    </columns>
+    <columns>
+        <field>CUST_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>Due_Diligence_Package__c.Package_Status__c</field>
+    </columns>
+    <columns>
+        <field>Due_Diligence_Package__c.Vendor_POs__c</field>
+    </columns>
+    <description>Used to send Sure-site information in a daily report</description>
+    <filter>
+        <criteriaItems>
+            <column>FK_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>sure</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>LH Suresite Daily Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Due_Diligence_Package__c@Due_Diligence_Package__c.Vendor__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

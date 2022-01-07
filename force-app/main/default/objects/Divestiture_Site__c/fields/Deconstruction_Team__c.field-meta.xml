@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deconstruction_Team__c</fullName>
+    <description>DO NOT CHANGE THIS FIELD WITHOUT TALKING TO ROGERS&quot;</description>
+    <externalId>false</externalId>
+    <label>Responsible for Physical Decom</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>National</fullName>
+                <default>false</default>
+                <label>National</label>
+            </value>
+            <value>
+                <fullName>Region/Market</fullName>
+                <default>false</default>
+                <label>Region/Market</label>
+            </value>
+            <value>
+                <fullName>Lease Only</fullName>
+                <default>false</default>
+                <label>Lease Only</label>
+            </value>
+            <value>
+                <fullName>National - Lease Only w/Equipment</fullName>
+                <default>false</default>
+                <label>National - Lease Only w/Equipment</label>
+            </value>
+            <value>
+                <fullName>Region/Market - Lease Only w/Equipment</fullName>
+                <default>false</default>
+                <label>Region/Market - Lease Only w/Equipment</label>
+            </value>
+            <value>
+                <fullName>Mobilitie</fullName>
+                <default>false</default>
+                <label>Mobilitie</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

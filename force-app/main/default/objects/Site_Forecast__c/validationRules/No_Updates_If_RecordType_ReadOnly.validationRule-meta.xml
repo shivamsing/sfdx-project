@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Updates_If_RecordType_ReadOnly</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+OR(
+ISCHANGED(Remove_RF_Forecast_List__c),
+ISCHANGED(Enter_Comments__c ),
+ISCHANGED(New_RF_Date__c ),
+ISCHANGED(Notes_comments__c)
+),
+RecordType.Name = &apos;ReadOnly&apos;
+)</errorConditionFormula>
+    <errorMessage>Site Forecast records already uploaded to Intralinks, No updates allowed</errorMessage>
+</ValidationRule>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investigation</fullName>
+    <active>true</active>
+    <label>Investigation</label>
+    <picklistValues>
+        <picklist>Investigation_Categories__c</picklist>
+        <values>
+            <fullName>Disaggregated Lease%2FSub-Lease</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lease Out Early Term</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing Rights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Lease</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partition Lease%2FSub-Lease</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Super Cut%2FPlaceholder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ULS Doc Insufficient</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Spectrum_Market_Area_Frequency__c</picklist>
+        <values>
+            <fullName>1%2E0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E0</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stage__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investigating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending FCC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RF Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent to Legal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Owner_MB__c</fullName>
+    <externalId>false</externalId>
+    <label>Case Owner (MB)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CMG - Order Management</fullName>
+                <default>false</default>
+                <label>CMG - Order Management</label>
+            </value>
+            <value>
+                <fullName>Switch Ops</fullName>
+                <default>false</default>
+                <label>Switch Ops</label>
+            </value>
+            <value>
+                <fullName>AAV Design</fullName>
+                <default>false</default>
+                <label>AAV Design</label>
+            </value>
+            <value>
+                <fullName>Field Ops</fullName>
+                <default>false</default>
+                <label>Field Ops</label>
+            </value>
+            <value>
+                <fullName>Data Delivery &amp; Support</fullName>
+                <default>false</default>
+                <label>Data Delivery &amp; Support</label>
+            </value>
+            <value>
+                <fullName>NOC Microwave &amp; VSAT</fullName>
+                <default>false</default>
+                <label>NOC Microwave &amp; VSAT</label>
+            </value>
+            <value>
+                <fullName>National Transport Design</fullName>
+                <default>false</default>
+                <label>National Transport Design</label>
+            </value>
+            <value>
+                <fullName>Transport-Implementation</fullName>
+                <default>false</default>
+                <label>Transport-Implementation</label>
+            </value>
+            <value>
+                <fullName>IP SERVICES-NETWORK INTEGRITY</fullName>
+                <default>false</default>
+                <label>IP SERVICES-NETWORK INTEGRITY</label>
+            </value>
+            <value>
+                <fullName>Transport - TDM</fullName>
+                <default>false</default>
+                <label>Transport - TDM</label>
+            </value>
+            <value>
+                <fullName>TRAFFIC ENGINEERING</fullName>
+                <default>false</default>
+                <label>TRAFFIC ENGINEERING</label>
+            </value>
+            <value>
+                <fullName>Core Translations Design</fullName>
+                <default>false</default>
+                <label>Core Translations Design</label>
+            </value>
+            <value>
+                <fullName>Transport Eng Services- No On Call</fullName>
+                <default>false</default>
+                <label>Transport Eng Services- No On Call</label>
+            </value>
+            <value>
+                <fullName>UC DevOps</fullName>
+                <default>false</default>
+                <label>UC DevOps</label>
+            </value>
+            <value>
+                <fullName>EIPT Retail</fullName>
+                <default>false</default>
+                <label>EIPT Retail</label>
+            </value>
+            <value>
+                <fullName>EIS Operations Security Deployment</fullName>
+                <default>false</default>
+                <label>EIS Operations Security Deployment</label>
+            </value>
+            <value>
+                <fullName>NOC Retail Deployment</fullName>
+                <default>false</default>
+                <label>NOC Retail Deployment</label>
+            </value>
+            <value>
+                <fullName>Transport AAV Bandwidth Upgrades</fullName>
+                <default>false</default>
+                <label>Transport AAV Bandwidth Upgrades</label>
+            </value>
+            <value>
+                <fullName>RAN Transport</fullName>
+                <default>false</default>
+                <label>RAN Transport</label>
+            </value>
+            <value>
+                <fullName>Tier 2 Operations Security Deployment</fullName>
+                <default>false</default>
+                <label>Tier 2 Operations Security Deployment</label>
+            </value>
+            <value>
+                <fullName>SWOPS</fullName>
+                <default>false</default>
+                <label>SWOPS</label>
+            </value>
+            <value>
+                <fullName>Enterprise Telecom</fullName>
+                <default>false</default>
+                <label>Enterprise Telecom</label>
+            </value>
+            <value>
+                <fullName>EIS Security Deployment Retail</fullName>
+                <default>false</default>
+                <label>EIS Security Deployment Retail</label>
+            </value>
+            <value>
+                <fullName>EIPD - Engineering IP Deployment</fullName>
+                <default>false</default>
+                <label>EIPD - Engineering IP Deployment</label>
+            </value>
+            <value>
+                <fullName>Transport AAV Bandwidth UpgradesRAN Transport</fullName>
+                <default>false</default>
+                <label>Transport AAV Bandwidth UpgradesRAN Transport</label>
+            </value>
+            <value>
+                <fullName>Market</fullName>
+                <default>false</default>
+                <label>Market</label>
+            </value>
+            <value>
+                <fullName>OM</fullName>
+                <default>false</default>
+                <label>OM</label>
+            </value>
+            <value>
+                <fullName>OM Market</fullName>
+                <default>false</default>
+                <label>OM Market</label>
+            </value>
+            <value>
+                <fullName>OM Transport</fullName>
+                <default>false</default>
+                <label>OM Transport</label>
+            </value>
+            <value>
+                <fullName>OM Vendor</fullName>
+                <default>false</default>
+                <label>OM Vendor</label>
+            </value>
+            <value>
+                <fullName>Operations</fullName>
+                <default>false</default>
+                <label>Operations</label>
+            </value>
+            <value>
+                <fullName>PMO</fullName>
+                <default>false</default>
+                <label>PMO</label>
+            </value>
+            <value>
+                <fullName>Transport</fullName>
+                <default>false</default>
+                <label>Transport</label>
+            </value>
+            <value>
+                <fullName>Advanced RAN Transmission</fullName>
+                <default>false</default>
+                <label>Advanced RAN Transmission</label>
+            </value>
+            <value>
+                <fullName>Core Network Design &amp; Hardening</fullName>
+                <default>false</default>
+                <label>Core Network Design &amp; Hardening</label>
+            </value>
+            <value>
+                <fullName>Enterprise Transmission Design</fullName>
+                <default>false</default>
+                <label>Enterprise Transmission Design</label>
+            </value>
+            <value>
+                <fullName>IP Transmission &amp; Backhaul Engineering</fullName>
+                <default>false</default>
+                <label>IP Transmission &amp; Backhaul Engineering</label>
+            </value>
+            <value>
+                <fullName>Backhaul Planning &amp; Implementation</fullName>
+                <default>false</default>
+                <label>Backhaul Planning &amp; Implementation</label>
+            </value>
+            <value>
+                <fullName>IP Deployment &amp; Optimization</fullName>
+                <default>false</default>
+                <label>IP Deployment &amp; Optimization</label>
+            </value>
+            <value>
+                <fullName>AL-Transport FOPS</fullName>
+                <default>false</default>
+                <label>AL-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>AL-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>AL-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>AR - Transport FOPS</fullName>
+                <default>false</default>
+                <label>AR - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>AR - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>AR - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>AT - Transport FOPS</fullName>
+                <default>false</default>
+                <label>AT - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>AT - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>AT - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>AU-Transport FOPS</fullName>
+                <default>false</default>
+                <label>AU-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>AU-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>AU-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>BH - Transport FOPS</fullName>
+                <default>false</default>
+                <label>BH - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>BH - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>BH - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>CPA-Transport FOPS</fullName>
+                <default>false</default>
+                <label>CPA-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>PH -TRANSPORT SWOPS</fullName>
+                <default>false</default>
+                <label>PH -TRANSPORT SWOPS</label>
+            </value>
+            <value>
+                <fullName>CH - Transport FOPS</fullName>
+                <default>false</default>
+                <label>CH - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>CH - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>CH - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>CI - Transport FOPS</fullName>
+                <default>false</default>
+                <label>CI - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>CI - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>CI - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>CL - Transport FOPS</fullName>
+                <default>false</default>
+                <label>CL - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>CL - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>CL - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>CB - Transport FOPS</fullName>
+                <default>false</default>
+                <label>CB - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>CB - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>CB - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>CT-Transport FOPS</fullName>
+                <default>false</default>
+                <label>CT-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>CT - TRANSPORT SWOPS</fullName>
+                <default>false</default>
+                <label>CT - TRANSPORT SWOPS</label>
+            </value>
+            <value>
+                <fullName>DO - Transport FOPS</fullName>
+                <default>false</default>
+                <label>DO - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>DO - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>DO - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>DA- Transport FOPS</fullName>
+                <default>false</default>
+                <label>DA- Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>DA-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>DA-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>DN - Transport FOPS</fullName>
+                <default>false</default>
+                <label>DN - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>DN - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>DN - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>DM - Transport FOPS</fullName>
+                <default>false</default>
+                <label>DM - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>DM - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>DM - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>DE - Transport FOPS</fullName>
+                <default>false</default>
+                <label>DE - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>DE - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>DE - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>EP-Transport FOPS</fullName>
+                <default>false</default>
+                <label>EP-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>EP-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>EP-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>HI -Transport FOPS</fullName>
+                <default>false</default>
+                <label>HI -Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>HI-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>HI-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>HN - Transport OPS</fullName>
+                <default>false</default>
+                <label>HN - Transport OPS</label>
+            </value>
+            <value>
+                <fullName>HN - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>HN - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>IN - Transport FOPS</fullName>
+                <default>false</default>
+                <label>IN - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>IN - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>IN - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>JV - Transport FOPS</fullName>
+                <default>false</default>
+                <label>JV - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>JV - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>JV - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>KC - Transport FOPS</fullName>
+                <default>false</default>
+                <label>KC - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>KC - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>KC - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>KX - Transport FOPS</fullName>
+                <default>false</default>
+                <label>KX - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>KX - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>KX - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>SV-Transport FOPS</fullName>
+                <default>false</default>
+                <label>SV-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>SV-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>SV-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>VG-Transport FOPS</fullName>
+                <default>false</default>
+                <label>VG-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>VG-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>VG-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>LI-Transport FOPS</fullName>
+                <default>false</default>
+                <label>LI-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>NY-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>NY-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>LA_ELM-Transport FOPS</fullName>
+                <default>false</default>
+                <label>LA_ELM-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>LA_ELM-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>LA_ELM-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>LA_TRN-Transport FOPS</fullName>
+                <default>false</default>
+                <label>LA_TRN-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>LA_TRN-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>LA_TRN-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>LU - Transport FOPS</fullName>
+                <default>false</default>
+                <label>LU - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>LU - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>LU - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>MP - Transport FOPS</fullName>
+                <default>false</default>
+                <label>MP - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>MP-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>MP-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>FL- TRANSPORT FOPS</fullName>
+                <default>false</default>
+                <label>FL- TRANSPORT FOPS</label>
+            </value>
+            <value>
+                <fullName>FL-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>FL-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>ML - Transport FOPS</fullName>
+                <default>false</default>
+                <label>ML - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>ML - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>ML - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>MN - Transport FOPS</fullName>
+                <default>false</default>
+                <label>MN - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>MN - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>MN - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>MO - Transport FOPS</fullName>
+                <default>false</default>
+                <label>MO - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>MO - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>MO - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>MT-Transport FOPS</fullName>
+                <default>false</default>
+                <label>MT-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>MT-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>MT-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>NA - Transport FOPS</fullName>
+                <default>false</default>
+                <label>NA - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>NA - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>NA - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>NE-Transport FOPS</fullName>
+                <default>false</default>
+                <label>NE-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>NE_EPR - TRANSPORT SWOPS</fullName>
+                <default>false</default>
+                <label>NE_EPR - TRANSPORT SWOPS</label>
+            </value>
+            <value>
+                <fullName>NE_NRT - TRANSPORT SWOPS</fullName>
+                <default>false</default>
+                <label>NE_NRT - TRANSPORT SWOPS</label>
+            </value>
+            <value>
+                <fullName>NJ-Transport FOPS</fullName>
+                <default>false</default>
+                <label>NJ-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>NJ - TRANSPORT SWOPS</fullName>
+                <default>false</default>
+                <label>NJ - TRANSPORT SWOPS</label>
+            </value>
+            <value>
+                <fullName>NY-Transport FOPS</fullName>
+                <default>false</default>
+                <label>NY-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>NC-Transport FOPS</fullName>
+                <default>false</default>
+                <label>NC-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>NC-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>NC-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>UP-Transport FOPS</fullName>
+                <default>false</default>
+                <label>UP-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>UP-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>UP-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>OK - Transport FOPS</fullName>
+                <default>false</default>
+                <label>OK - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>OK - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>OK - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>ON - Transport FOPS</fullName>
+                <default>false</default>
+                <label>ON - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>ON - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>ON - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>OR-Transport FOPS</fullName>
+                <default>false</default>
+                <label>OR-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>OR - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>OR - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>PH-Transport FOPS</fullName>
+                <default>false</default>
+                <label>PH-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>PX-Transport FOPS</fullName>
+                <default>false</default>
+                <label>PX-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>PX-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>PX-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>PB - Transport FOPS</fullName>
+                <default>false</default>
+                <label>PB - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>PB - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>PB - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>PT-Transport FOPS</fullName>
+                <default>false</default>
+                <label>PT-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>PT-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>PT-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>PR-Transport FOPS</fullName>
+                <default>false</default>
+                <label>PR-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>PR-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>PR-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>SC_FRS-Transport FOPS</fullName>
+                <default>false</default>
+                <label>SC_FRS-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>SC_FRS-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>SC_FRS-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>SC_SKT-Transport FOPS</fullName>
+                <default>false</default>
+                <label>SC_SKT-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>SC_SKT-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>SC_SKT-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>SC_WSC-Transport FOPS</fullName>
+                <default>false</default>
+                <label>SC_WSC-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>SC_WSC-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>SC_WSC-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>UT_BOI-Transport FOPS</fullName>
+                <default>false</default>
+                <label>UT_BOI-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>UT_BOI-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>UT_BOI-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>UT_SLC-Transport FOPS</fullName>
+                <default>false</default>
+                <label>UT_SLC-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>UT_SLC-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>UT_SLC-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>SD-Transport FOPS</fullName>
+                <default>false</default>
+                <label>SD-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>SD-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>SD-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>SF_Transport FOPS</fullName>
+                <default>false</default>
+                <label>SF_Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>SF_OKLE-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>SF_OKLE-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>SF_SNFC-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>SF_SNFC-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>SF_SNTD-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>SF_SNTD-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>SE - Transport FOPS</fullName>
+                <default>false</default>
+                <label>SE - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>SE - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>SE - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>CR-Transport FOPS</fullName>
+                <default>false</default>
+                <label>CR-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>CR - TRANSPORT SWOPS</fullName>
+                <default>false</default>
+                <label>CR - TRANSPORT SWOPS</label>
+            </value>
+            <value>
+                <fullName>IE_IRV-Transport FOPS</fullName>
+                <default>false</default>
+                <label>IE_IRV-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>IE_IRV-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>IE_IRV-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>IE_RVS-Transport FOPS</fullName>
+                <default>false</default>
+                <label>IE_RVS-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>IE_RVS-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>IE_RVS-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>SP-Transport FOPS</fullName>
+                <default>false</default>
+                <label>SP-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>SP-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>SP-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>SL - Transport FOPS</fullName>
+                <default>false</default>
+                <label>SL - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>SL - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>SL - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>TP-Transport FOPS</fullName>
+                <default>false</default>
+                <label>TP-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>TP-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>TP-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>TU - Transport FOPS</fullName>
+                <default>false</default>
+                <label>TU - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>TU - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>TU - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>VA-Transport FOPS</fullName>
+                <default>false</default>
+                <label>VA-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>VA-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>VA-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>DC-Transport FOPS</fullName>
+                <default>false</default>
+                <label>DC-Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>DC-Transport SWOPS</fullName>
+                <default>false</default>
+                <label>DC-Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>WV - Transport FOPS</fullName>
+                <default>false</default>
+                <label>WV - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>WV - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>WV - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>WI - Transport FOPS</fullName>
+                <default>false</default>
+                <label>WI - Transport FOPS</label>
+            </value>
+            <value>
+                <fullName>WI - Transport SWOPS</fullName>
+                <default>false</default>
+                <label>WI - Transport SWOPS</label>
+            </value>
+            <value>
+                <fullName>CCT Operations</fullName>
+                <default>false</default>
+                <label>CCT Operations</label>
+            </value>
+            <value>
+                <fullName>AAV Design &amp; Implementation</fullName>
+                <default>false</default>
+                <label>AAV Design &amp; Implementation</label>
+            </value>
+            <value>
+                <fullName>CMG – OM Support</fullName>
+                <default>false</default>
+                <label>CMG – OM Support</label>
+            </value>
+            <value>
+                <fullName>Backhaul Optimization</fullName>
+                <default>false</default>
+                <label>Backhaul Optimization</label>
+            </value>
+            <value>
+                <fullName>Transmission Deployment_Clubine</fullName>
+                <default>false</default>
+                <label>Transmission Deployment_Clubine</label>
+            </value>
+            <value>
+                <fullName>Transmission Deployment_Walker</fullName>
+                <default>false</default>
+                <label>Transmission Deployment_Walker</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

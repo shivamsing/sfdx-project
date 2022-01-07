@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phase_Completion_Date_original__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Phase Completion Date initially assigned to the station.  Used to keep Broadcaster deals showing accurate months early calculation once phase change has occurred.</inlineHelpText>
+    <label>Phase Completion Date(original)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

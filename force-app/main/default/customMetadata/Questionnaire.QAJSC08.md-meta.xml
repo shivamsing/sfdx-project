@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QAJSC08</label>
+    <protected>false</protected>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Job Site Conditions</value>
+    </values>
+    <values>
+        <field>Comment_API_Name__c</field>
+        <value xsi:type="xsd:string">QAJSC08_Comments__c</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Documented inspection of tower structure and climbing facilities is required. This process must include foundation(s) and anchorage hardware, tower assembly hardware, bent members, structural metal deterioration and properly mounted appurtenances. Check the climbing facilities for missing or deterioration of ladder, step bolts, pegs, or rungs. Check the ladder safety system for proper anchorage of top and bottom brackets, and any corrosion or broken strands of the cable.                 ANSI A10.48 (12.2)</value>
+    </values>
+    <values>
+        <field>Disable_Picklist__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Field_API_Name__c</field>
+        <value xsi:type="xsd:string">QAJSC08__c</value>
+    </values>
+    <values>
+        <field>Question__c</field>
+        <value xsi:type="xsd:string">Has the tower&apos;s structural integrity and climbing facilities been inspected and documented prior to climbing?</value>
+    </values>
+</CustomMetadata>
