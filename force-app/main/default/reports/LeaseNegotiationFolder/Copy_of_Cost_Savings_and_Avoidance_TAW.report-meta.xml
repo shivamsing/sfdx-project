@@ -4,7 +4,6 @@
         <field>FK_$Lease_Negotiation__c.Lease_Negotiation_Manager__c</field>
     </columns>
     <columns>
-        <aggregateTypes>Sum</aggregateTypes>
         <field>FK_$Lease_Negotiation__c.Cost_Savings_Tracker_Updated__c</field>
     </columns>
     <columns>

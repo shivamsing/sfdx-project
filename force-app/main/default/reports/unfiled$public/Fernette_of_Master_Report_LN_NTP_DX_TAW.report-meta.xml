@@ -120,7 +120,6 @@
         <field>Lease_Negotiation__c.If_LTA_Cost_Avoidance_for_P_W__c</field>
     </columns>
     <columns>
-        <aggregateTypes>Sum</aggregateTypes>
         <field>Lease_Negotiation__c.Cost_Savings_Tracker_Updated__c</field>
     </columns>
     <columns>

@@ -221,7 +221,6 @@
             <field>Lease_Negotiation__c.Lease_Termination_Effective_Date__c</field>
         </columns>
         <columns>
-            <aggregateTypes>Sum</aggregateTypes>
             <field>Lease_Negotiation__c.Cost_Savings_Tracker_Updated__c</field>
         </columns>
         <columns>

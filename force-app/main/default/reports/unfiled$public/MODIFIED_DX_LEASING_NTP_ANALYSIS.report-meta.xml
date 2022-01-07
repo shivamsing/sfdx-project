@@ -96,7 +96,6 @@
         <field>Lease_Negotiation__c.Confirmed_Termination_Sent_to_Prop_Mgmt__c</field>
     </columns>
     <columns>
-        <aggregateTypes>Sum</aggregateTypes>
         <field>Lease_Negotiation__c.Cost_Savings_Tracker_Updated__c</field>
     </columns>
     <columns>
